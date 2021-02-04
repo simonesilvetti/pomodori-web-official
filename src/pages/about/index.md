@@ -1,19 +1,16 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: Chi Siamo
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Calabresi di nascita, liguri e friuliani di adozione. 
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+La nostra cucina è contaminata da profumi della tradizione. Siamo cresciute tra mare e campagna, tra mulingiani ‘mbuttanati e susumelle: questi sono solo alcune delle pietanze che coloravano la nostra tavola.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Il nome della nostra pagina nasce da un ricordo: nonna Antonia che si prodiga ad essiccare al caldo sole dell’estate dei pomodori. Pomodori rigorosamante del suo orto.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Noi proviamo a portare avanti un’idea di cucina genuina e stagionale, senza mai dimenticare di divertirci ai fornelli!
+<br>
+<br>
+<br>
+Claudia, Katia (ed i sisetti)
