@@ -43,7 +43,6 @@ const Navbar = class extends React.Component {
           className="navbar is-primary"
           role="navigation"
           aria-label="main-navigation"
-          id = "bar"
         >
           <div className="container">
             <div className="navbar-brand">
@@ -65,7 +64,7 @@ const Navbar = class extends React.Component {
               id="navMenu"
               className={`navbar-menu ${this.state.navBarActiveClass}`}
             >
-              <div className="navbar-end has-text-centerd">
+              <div className="navbar-end">
                 <Link className="navbar-item" to="/">
                   Home
               </Link>

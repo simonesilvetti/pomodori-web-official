@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import RecipeRoll from '../components/RecipeRoll'
 
 export const IndexPageTemplate = ({
   heading,
@@ -12,7 +12,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-    <div>
+    <div className="container">
       <div>
         <div
           style={{
@@ -58,11 +58,11 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
+                      Ultime Ricette
                   </h3>
-                    <BlogRoll />
+                    <RecipeRoll />
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
+                      <Link className="btn" to="/recipes">
                         Read more
                     </Link>
                     </div>
@@ -112,21 +112,21 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        heading
+              markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+              frontmatter {
+              heading
         mainpitch {
-          title
+              title
           description
         }
         description
         intro {
-          blurbs {
-            image {
+              blurbs {
+              image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
+              fluid(maxWidth: 240, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
               }
             }
             text
