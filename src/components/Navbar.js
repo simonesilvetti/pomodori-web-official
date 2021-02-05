@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
     return ( 
       <div>
         <div className ="nav-bar-logo" >
-            <img class="nav-bar-logo-img" src={logo} alt="Kaldi"  />
+            <img className="nav-bar-logo-img" src={logo} alt="Kaldi"  />
         </div>
         <div>
         <nav

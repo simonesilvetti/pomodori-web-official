@@ -5,6 +5,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import RecipeRoll from '../components/RecipeRoll'
+import  DemoCarousel  from '../components/DemoCarousel';
+
 
 export const IndexPageTemplate = ({
   heading,
@@ -25,6 +27,9 @@ export const IndexPageTemplate = ({
           }}
         >
         </div>
+        <div className="container">
+        <DemoCarousel/>
+      </div>
       </div>
       <section className="section section--gradient">
         <div className="container">
