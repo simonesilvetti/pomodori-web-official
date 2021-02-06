@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import RecipeRoll from '../components/RecipeRoll'
-import  DemoCarousel  from '../components/DemoCarousel';
+import DemoCarousel from '../components/DemoCarousel';
 
 
 export const IndexPageTemplate = ({
@@ -16,20 +16,6 @@ export const IndexPageTemplate = ({
 }) => (
     <div className="container">
       <div>
-        <div
-          style={{
-            display: 'flex',
-            height: '250px',
-            lineHeight: '1',
-            justifyContent: 'space-around',
-            alignItems: 'left',
-            flexDirection: 'column',
-          }}
-        >
-        </div>
-        <div className="container">
-        <DemoCarousel/>
-      </div>
       </div>
       <section className="section section--gradient">
         <div className="container">
@@ -37,6 +23,42 @@ export const IndexPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
+                  <div class="tile is-ancestor">
+                    <div class="tile is-vertical">
+                    <div className="tile">
+                    <div class="tile is-parent">
+                          <div class="tile is-child">
+                          <DemoCarousel />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="tile">
+                      <div class="tile is-parent">
+                          <article class="tile is-child box">
+                            <figure class="image is-4by3">
+                              <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                            </figure>
+                          </article>
+                        </div>
+                        <div class="tile is-parent">
+                          <article class="tile is-child box">
+                            <figure class="image is-4by3">
+                              <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                            </figure>
+                            <p class="title">Titolo</p>
+                          </article>
+                        </div>
+                        <div class="tile is-parent">
+                          <article class="tile is-child box">
+                            <figure class="image image is-4by3 has-ratio">
+                              <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                            </figure>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>

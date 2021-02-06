@@ -10,43 +10,44 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 
 class DemoCarousel extends Component {
-    render() {
-        const { data } = this.props
-        const { edges: posts } = data.allMarkdownRemark
+  render() {
+    const { data } = this.props
+    const { edges: posts } = data.allMarkdownRemark
+    return (
 
-        return (
-            <div className="demo-carousel container is-fluid">
-                <Carousel >
-                    {posts &&
-                        posts.map(({ node: post }) => (
-                            <div key="{post}">
-                                <div>
-                                    <img src={post.frontmatter.featuredimage.childImageSharp.original.src} />
-                                    <p className="legend">{post.frontmatter.title}</p>
-                                </div>
-                            </div>
-                        ))}
-                </Carousel>
-            </div>
+      <div className="is-fluid " >
+        <Carousel >
+          {posts &&
+            posts.map(({ node: post }) => (
+              <div key="{post}">
+                <div>
+                  <img src={post.frontmatter.featuredimage.childImageSharp.original.src} />
+                  <p className="legend">{post.frontmatter.title}</p>
+                </div>
+              </div>
+            ))}
+        </Carousel>
+      </div>
 
-        );
-    }
+
+    );
+  }
 }
 
 DemoCarousel.propTypes = {
-    data: PropTypes.shape({
-        allMarkdownRemark: PropTypes.shape({
-            edges: PropTypes.array,
-        }),
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
     }),
+  }),
 }
 
 
 // export default DemoCarousel
 
 export default () => (
-    <StaticQuery
-        query={graphql`
+  <StaticQuery
+    query={graphql`
         query DemoCarouselQuery {
             allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {frontmatter: {templateKey: {eq: "recipe-post"}}}) {
               edges {
@@ -66,6 +67,6 @@ export default () => (
             }
           }
       `}
-        render={(data, count) => <DemoCarousel data={data} count={count} />}
-    />
+    render={(data, count) => <DemoCarousel data={data} count={count} />}
+  />
 )

@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.png'
+import Logo from './Logo'
+import { FaSearch } from "react-icons/fa";
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -33,66 +36,71 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    return ( 
+    return (
       <div>
-        <div className ="nav-bar-logo" >
-            <img className="nav-bar-logo-img" src={logo} alt="Kaldi"  />
+        <div className="nav-bar-logo" >
+          <img className="nav-bar-logo-img" src={logo} alt="Kaldi" />
         </div>
         <div>
-        <nav
-          className="navbar is-primary"
-          role="navigation"
-          aria-label="main-navigation"
-        >
-          <div className="container">
-            <div className="navbar-brand">
-              {/* <Link to="/" className="navbar-item" title="Logo">
-                <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-              </Link> */}
-              {/* Hamburger menu */}
-              <div
-                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-                data-target="navMenu"
-                onClick={() => this.toggleHamburger()}
-              >
-                <span />
-                <span />
-                <span />
+          <nav
+            className="navbar is-primary"
+            role="navigation"
+            aria-label="main-navigation"
+          >
+            <div className="container">
+              <div className="navbar-brand">
+                <Link to="/" className="navbar-item" title="Logo">
+                  <Logo />
+                </Link>
+                {/* Hamburger menu */}
+                <div
+                  className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                  data-target="navMenu"
+                  onClick={() => this.toggleHamburger()}
+                >
+                  <span />
+                  <span />
+                  <span />
+                </div>
               </div>
-            </div>
-            <div
-              id="navMenu"
-              className={`navbar-menu ${this.state.navBarActiveClass}`}
-            >
-              <div className="navbar-end">
-                <Link className="navbar-item" to="/">
-                  Home
-              </Link>
-                <Link className="navbar-item" to="/recipes">
-                  Ricette
-              </Link>
-                <Link className="navbar-item" to="/">
-                  Orto
-              </Link>
-                <Link className="navbar-item" to="/about">
-                  About
-              </Link>
-                {/* <Link className="navbar-item" to="/products">
+              <div
+                id="navMenu"
+                className={`navbar-menu ${this.state.navBarActiveClass}`}
+              >
+                <div className="navbar-start has-text-centered">
+                  <Link className="navbar-item" to="/">
+                    Home
+                  </Link>
+                  <Link className="navbar-item" to="/recipes">
+                    Ricette
+                  </Link>
+                  <Link className="navbar-item" to="/">
+                    Orto
+                  </Link>
+                  <Link className="navbar-item" to="/about">
+                    About
+                  </Link>
+                  {/* <Link className="navbar-item" to="/products">
                   Products
-              </Link>
-                <Link className="navbar-item" to="/blog">
+                 </Link>
+                  <Link className="navbar-item" to="/blog">
                   Blog
-              </Link>
-                <Link className="navbar-item" to="/contact">
+                 </Link>
+                  <Link className="navbar-item" to="/contact">
                   Contact
-              </Link>
+                 </Link>
                 <Link className="navbar-item" to="/contact/examples">
                   Form Examples
-              </Link> */}
+                </Link> */}
+                </div>
+                <div className="navbar-end has-text-centered">
+                  <Link className="navbar-item" to="/about">
+                    <FaSearch />
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        </nav>
+          </nav>
         </div>
       </div>
     )
