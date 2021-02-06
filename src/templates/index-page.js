@@ -6,6 +6,10 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import RecipeRoll from '../components/RecipeRoll'
 import DemoCarousel from '../components/DemoCarousel';
+import tradizioni from '../img/tradizioni.png'
+import stagioni from '../img/stagioni.jpg'
+import pomodori from '../img/pomodoro_tutte_salse.png'
+ 
 
 
 export const IndexPageTemplate = ({
@@ -23,43 +27,54 @@ export const IndexPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div class="tile is-ancestor">
-                    <div class="tile is-vertical">
+                  <div className="tile is-ancestor">
+                    <div className="tile is-vertical">
                     <div className="tile">
-                    <div class="tile is-parent">
-                          <div class="tile is-child">
+                    <div className="tile is-parent">
+                          <div className="tile is-child">
                           <DemoCarousel />
                           </div>
                         </div>
                       </div>
                       <div className="tile">
-                      <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <figure class="image is-4by3">
-                              <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                        <div className="tile is-parent">
+                          <article className="tile is-child box">
+                            <figure className="image is-4by3">
+                              <img src={stagioni}></img>
                             </figure>
+                            <p className="title is-4 has-text-centered">Stagioni</p>
+                            <span/>
+                            <p className="subtitle is-6 has-text-justified">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
                           </article>
                         </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <figure class="image is-4by3">
-                              <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                        <div className="tile is-parent">
+                          <article className="tile is-child box">
+                            <figure className="image is-4by3">
+                              <img src={tradizioni}></img>
                             </figure>
-                            <p class="title">Titolo</p>
+                            <p className="title is-4 has-text-centered">Tradizioni</p>
+                            <span/>
+                            <p className="subtitle is-6 has-text-justified">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the </p>
+
                           </article>
                         </div>
-                        <div class="tile is-parent">
-                          <article class="tile is-child box">
-                            <figure class="image image is-4by3 has-ratio">
-                              <img src="https://bulma.io/images/placeholders/640x480.png"></img>
+                        <div className="tile is-parent">
+                          <article className="tile is-child box">
+                            <figure className="image is-4by3">
+                              <img src={pomodori}></img>
                             </figure>
+                            <p className="title is-4 has-text-centered">Pomodoro.. in tutte le salse</p>
+                            <span/>
+                            <p className="subtitle is-6 has-text-justified">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+
                           </article>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="content">
+
+                  {/* <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
@@ -82,11 +97,11 @@ export const IndexPageTemplate = ({
                         See all products
                     </Link>
                     </div>
-                  </div>
+                  </div> */}
+
+
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Ultime Ricette
-                  </h3>
+                      <p className="section title has-text-centered">Ultime Ricette</p>
                     <RecipeRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/recipes">

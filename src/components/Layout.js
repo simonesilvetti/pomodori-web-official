@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import "@fontsource/seaweed-script" // Defaults to weight 400.
+import "@fontsource/roboto-condensed" // Defaults to weight 400.
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
