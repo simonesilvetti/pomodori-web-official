@@ -4,6 +4,10 @@ title: Pomodori alla Bolognese
 date: 2016-12-17T15:04:10.000Z
 description: Una roba speciale!!!
 featuredimage: /img/flavor_wheel.jpg
+ingredients: |-
+  ### Per l'impasto
+  * uova 125mg
+  * burro 45g
 tags:
   - flavor
   - tasting
