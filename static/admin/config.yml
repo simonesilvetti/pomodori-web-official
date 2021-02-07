@@ -20,8 +20,11 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe-post"}
+      - {label: "Blogger", name: "blogger", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Difficulty", name: "difficulty", widget: "number", default: 2, value_type: "int", min: 1, max: 5, step: 1}
+      - {label: "Time", name: "time", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Ingredients", name: "ingredients", widget: "markdown"}
