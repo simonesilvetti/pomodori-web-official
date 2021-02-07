@@ -1161,6 +1161,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/roboto-condensed/-/roboto-condensed-4.1.0.tgz#a18f087efd33d4f660d0e506cd3afd823fdfcb09"
   integrity sha512-ZTiDr6ukblzIWXnlu8dhPVsCAiy1noIdJFZis9h2bx0wNzHes5XmentfR3r/zmROoH4jur9Fjaot0FME5t0pxg==
 
+"@fontsource/roboto@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.1.0.tgz#28e0fb775013959df3a6b6d2c4ba0aad437f8d32"
+  integrity sha512-I4CIw73eJC/Oh83tPoRVKkySCLDwUQ2aK7O9wR5tRYc5APbsd3MrN6JhAvylIIwzn8eHQEMVoSjNGY9/sPLzyA==
+
 "@fontsource/seaweed-script@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@fontsource/seaweed-script/-/seaweed-script-4.1.0.tgz#606bda0d7f2a7b2de1f8209f08c3b6b8ba7c1515"
@@ -6533,11 +6538,6 @@ follow-redirects@^1.0.0:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
   integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
-
-fontsource-roboto-condensed@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/fontsource-roboto-condensed/-/fontsource-roboto-condensed-4.0.0.tgz#cad749a55aabf3a4dca35964c57d6fbc41bc2547"
-  integrity sha512-ETdONoGr3ioa/yjr6pw77kiXOAUoIec1TpKZIFyEUKJ/eMQEbt+Yi5jONAzGCm1Pe7zxnlXJkQjZ5mhKDSb2BA==
 
 for-each@^0.3.3:
   version "0.3.3"
