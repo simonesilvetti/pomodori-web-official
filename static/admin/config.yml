@@ -27,8 +27,9 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Images", name: "images", widget: list, fields: [{label: "Image", name: "image", widget: image}]}
-      - {label: Ingredients, name: ingredients, widget: list, fields: [{label: Section, name: section, widget: string}, {label: Ingredients, name: ingredients, widget: list}]}
-      - {label: Preparation, name: preparation, widget: list, fields: [{label: "Step", name: "step", widget: markdown}]}
+      - {label: "Dose", name: "dose", widget: "number", default: 1, value_type: "int", min: 1, max: 20, step: 1}
+      - {label: Ingredients Sections, name: ingredientsSections, widget: list, fields: [{label: Section, name: section, widget: string}, {label: Ingredients, name: ingredients, widget: list}]}
+      - {label: Preparation Steps, name: preparationSteps, widget: list, fields: [{label: "Step", name: "step", widget: markdown}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Blogger", name: "blogger", widget: "string"}
