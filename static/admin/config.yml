@@ -26,13 +26,12 @@ collections:
       - {label: "Time", name: "time", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Ingredients", name: "ingredients", widget: "markdown"}
-      - {label: Ingredients2, name: ingredients2, widget: list, fields: [{label: Name, name: name, widget: string}, {label: "Quantity", name: "quantity", widget: string}]}
+      - {label: "Images", name: "images", widget: list, fields: [{label: "Image", name: "image", widget: image}]}
+      - {label: Ingredients, name: ingredients, widget: list, fields: [{label: Section, name: section, widget: string}, {label: Ingredients, name: section, widget: list}]}
       - {label: Steps, name: Steps, widget: list, fields: [{label: "Step", name: "step", widget: markdown}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Blogger", name: "blogger", widget: "string"}
-
 
   - name: "blog"
     label: "Blog"
