@@ -9,6 +9,7 @@
     "@fontsource/roboto": "^4.1.0",
     "@fontsource/roboto-condensed": "^4.1.0",
     "@fontsource/seaweed-script": "^4.1.0",
+    "@fontsource/shadows-into-light": "^4.2.0",
     "bulma": "^0.9.0",
     "bulma-carousel": "^4.0.4",
     "gatsby": "^2.20.35",
