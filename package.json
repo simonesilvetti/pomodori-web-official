@@ -5,6 +5,7 @@
   "author": "Austin Green",
   "dependencies": {
     "@fontsource/amatic-sc": "^4.2.0",
+    "@fontsource/lato": "^4.2.0",
     "@fontsource/roboto": "^4.1.0",
     "@fontsource/roboto-condensed": "^4.1.0",
     "@fontsource/seaweed-script": "^4.1.0",

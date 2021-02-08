@@ -1161,6 +1161,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/amatic-sc/-/amatic-sc-4.2.0.tgz#6fc29d4db7ce11564faa891ba5ddbd8919f5cc65"
   integrity sha512-bYmOhkrUcz8QUZfPgI2lsde5vqZHVn3HQJvnxOgOy3i+3MwxUHhbW+86rFwLkyoe8MA0rW3riyFsgH+Efhvzjw==
 
+"@fontsource/lato@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/lato/-/lato-4.2.0.tgz#74abc326d146d97591fae7dfe8b57a8c02723125"
+  integrity sha512-A2i1yAnqBEpfHro+0RYG/gYnds+H8LinkxebUdv86GCkDom/i6nnOlgzXuvzBjaM4FgTPvEZRDmz0S5lnO6KQQ==
+
 "@fontsource/roboto-condensed@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@fontsource/roboto-condensed/-/roboto-condensed-4.1.0.tgz#a18f087efd33d4f660d0e506cd3afd823fdfcb09"
