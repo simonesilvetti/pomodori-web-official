@@ -16,7 +16,7 @@ class DemoCarousel extends Component {
     return (
 
       <div className="is-fluid " >
-        <Carousel >
+        <Carousel showThumbs={false} >
           {posts &&
             posts.map(({ node: post }) => (
               <div key="{post}">
