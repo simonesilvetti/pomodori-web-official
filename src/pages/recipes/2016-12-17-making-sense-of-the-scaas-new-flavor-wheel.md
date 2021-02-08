@@ -7,17 +7,6 @@ difficulty: 4
 time: 123h
 description: Una roba speciale!!!
 featuredimage: /img/flavor_wheel.jpg
-ingredients: |-
-  Per l'impasto
-  * uova 125mg
-  * burro 45g
-  * burro 45g
-  * burro 45g
-  * burro 45g
-  * burro 45g
-  * burro 45g
-  * burro 45g
-  * burro 45g
 tags:
   - flavor
   - tasting
