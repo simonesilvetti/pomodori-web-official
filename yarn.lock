@@ -1156,6 +1156,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
+"@fontsource/amatic-sc@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/amatic-sc/-/amatic-sc-4.2.0.tgz#6fc29d4db7ce11564faa891ba5ddbd8919f5cc65"
+  integrity sha512-bYmOhkrUcz8QUZfPgI2lsde5vqZHVn3HQJvnxOgOy3i+3MwxUHhbW+86rFwLkyoe8MA0rW3riyFsgH+Efhvzjw==
+
 "@fontsource/roboto-condensed@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@fontsource/roboto-condensed/-/roboto-condensed-4.1.0.tgz#a18f087efd33d4f660d0e506cd3afd823fdfcb09"
