@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import PreparationSteps from '../components/recipe/PreparationSteps'
+import DifficultyBadge from '../components/recipe/DifficultyBadge'
 import { GiTomato } from "react-icons/gi";
 import ReactMarkdown from 'react-markdown'
 
@@ -13,16 +15,33 @@ import ReactMarkdown from 'react-markdown'
 export const RecipePostTemplate = ({
   content,
   contentComponent,
-  ingredients,
-  title,
-  featuredImage,
   helmet,
+  title,
+  difficulty,
+  time,
+  featuredImage,
+  image,
+  dose,
+  ingredients,
+  preparationSteps,
+  tags,
+  blogger
 }) => {
   const PostContent = contentComponent || Content
   const PostIngredients = contentComponent || Content
 
   return (
+
     <section className="section">
+      {console.log(difficulty)}
+      {console.log(time)}
+      {console.log(featuredImage)}
+      {console.log(image)}
+      {console.log(dose)}
+      {console.log(ingredients)}
+      {console.log(preparationSteps)}
+      {console.log(tags)}
+      {console.log(blogger)}
       {helmet || ''}
       <div className="container content">
         <div className="tile is-ancestor">
@@ -38,24 +57,21 @@ export const RecipePostTemplate = ({
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <div>
                   <p className="title" style={{ fontFamily: 'Amatic SC' }} >{title}</p>
-                  <p className="subtitle pr-10">Katia</p>
+                  <p className="subtitle pr-10">{blogger}</p>
                 </div>
                 <button className="button is-rounded">Salva la ricetta</button>
               </div>
               <article className="tile is-child">
-                <p className="pt-10">DIFFICOLTA:
-                <GiTomato style={{ fill: '#DE3E2D' }} />
-                  <GiTomato style={{ fill: '#DE3E2D7D' }} />
-                  <GiTomato style={{ fill: '#DE3E2D7D' }} />
-                </p>
-                <p className="subtitle pr-2">TEMPO: 20min</p>
+                <DifficultyBadge level={difficulty} />
+                <p className="pt-10">TEMPO: {time}</p>
                 {/* <ReactMarkdown>{ingredients}</ReactMarkdown> */}
               </article>
             </article>
 
           </div>
         </div>
-        <PostContent content={content} />
+        {/* <PostContent content={content} /> */}
+        <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
       </div>
 
       {/* <div className="container content">
@@ -109,10 +125,16 @@ const RecipePost = ({ data }) => {
             />
           </Helmet>
         }
-        ingredients={post.frontmatter.ingredients}
-        tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        difficulty={post.frontmatter.difficulty}
+        time={post.frontmatter.time}
         featuredImage={post.frontmatter.featuredimage.childImageSharp.original.src}
+        image={post.frontmatter.image}
+        dose={post.frontmatter.dose}
+        ingredients={post.frontmatter.ingredientsSections}
+        preparationSteps={post.frontmatter.preparationSteps}
+        tags={post.frontmatter.tags}
+        blogger={post.frontmatter.blogger}
       />
     </Layout>
   )
@@ -134,8 +156,8 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
-          description
-          tags
+          difficulty
+          time
           featuredimage {
             childImageSharp {
               original {
@@ -143,6 +165,23 @@ export const pageQuery = graphql`
               }
             }
           }
+          image {
+            childImageSharp {
+              original {
+                src
+              }
+            }
+          }
+          dose
+          ingredientsSections {
+            section
+            ingredients
+          }
+          preparationSteps {
+            step
+          }
+          tags
+          blogger
         }
       }
     }
