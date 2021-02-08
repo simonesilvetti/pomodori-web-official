@@ -27,6 +27,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Ingredients", name: "ingredients", widget: "markdown"}
+      - {label: Ingredients2, name: ingredients2, widget: list, fields: [{label: Name, name: name, widget: string}, {label: "Quantity", name: "quantity", widget: string}]}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Blogger", name: "blogger", widget: "string"}
