@@ -8,8 +8,15 @@ time: 123h
 description: Una roba speciale!!!
 featuredimage: /img/flavor_wheel.jpg
 ingredients: |-
-  ### Per l'impasto
+  Per l'impasto
   * uova 125mg
+  * burro 45g
+  * burro 45g
+  * burro 45g
+  * burro 45g
+  * burro 45g
+  * burro 45g
+  * burro 45g
   * burro 45g
 tags:
   - flavor
@@ -21,6 +28,10 @@ tags:
 * passo 1 dfsdfsdf 
 * passo 2 sdfsdfsdf 
 * passo 3 sdfsdfsdf
+
 #### per il condimento
+* passo 1 dfsdfsdf 
+* passo 2 sdfsdfsdf 
+* passo 3 sdfsdfsdf
 
 

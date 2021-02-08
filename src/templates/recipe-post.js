@@ -6,18 +6,20 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { GiTomato } from "react-icons/gi";
+import ReactMarkdown from 'react-markdown'
+
 
 
 export const RecipePostTemplate = ({
   content,
   contentComponent,
-  description,
-  tags,
+  ingredients,
   title,
   featuredImage,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+  const PostIngredients = contentComponent || Content
 
   return (
     <section className="section">
@@ -31,21 +33,23 @@ export const RecipePostTemplate = ({
               </figure>
             </article>
           </div>
-          <div className="tile is-parent is-vertical">
+          <div className="tile is-parent is-vertical box notification">
             <article className="tile is-child">
-              <div className="title " style={{ display: "flex", justifyContent: "space-between" }}>
-                {title}
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <div>
+                  <p className="title" style={{ fontFamily: 'Amatic SC' }} >{title}</p>
+                  <p className="subtitle pr-10">Katia</p>
+                </div>
                 <button className="button is-rounded">Salva la ricetta</button>
               </div>
               <article className="tile is-child">
-                <a className="subtitle px-2">Difficoltà:</a>
+                <p className="pt-10">DIFFICOLTA:
                 <GiTomato style={{ fill: '#DE3E2D' }} />
-                <GiTomato style={{ fill: '#DE3E2D' }} />
-                <GiTomato style={{ fill: '#DE3E2D' }} />
-                <GiTomato style={{ fill: '#DE3E2D7D' }} />
-                <GiTomato style={{ fill: '#DE3E2D7D' }} />
-                <p className="subtitle px-2">Tempo: 20min</p>
-
+                  <GiTomato style={{ fill: '#DE3E2D7D' }} />
+                  <GiTomato style={{ fill: '#DE3E2D7D' }} />
+                </p>
+                <p className="subtitle pr-2">TEMPO: 20min</p>
+                <ReactMarkdown>{ingredients}</ReactMarkdown>
               </article>
             </article>
 
@@ -90,10 +94,12 @@ const RecipePost = ({ data }) => {
 
   return (
     <Layout>
+      {console.log(post.frontmatter.id)}
+      {console.log(post)}
+
       <RecipePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Recipe">
             <title>{`${post.frontmatter.title}`}</title>
@@ -103,6 +109,7 @@ const RecipePost = ({ data }) => {
             />
           </Helmet>
         }
+        ingredients={post.frontmatter.ingredients}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         featuredImage={post.frontmatter.featuredimage.childImageSharp.original.src}
@@ -127,6 +134,7 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
+          ingredients
           description
           tags
           featuredimage {

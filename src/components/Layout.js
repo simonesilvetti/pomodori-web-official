@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
-import "@fontsource/seaweed-script" // Defaults to weight 400.
-import "@fontsource/roboto-condensed" // Defaults to weight 400.
-import "@fontsource/roboto" // Defaults to weight 400.
+import "@fontsource/lato" //all text
+import "@fontsource/shadows-into-light" //Logo
+import "@fontsource/amatic-sc" //recipe title
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
