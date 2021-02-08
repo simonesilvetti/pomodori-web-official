@@ -49,7 +49,7 @@ export const RecipePostTemplate = ({
                   <GiTomato style={{ fill: '#DE3E2D7D' }} />
                 </p>
                 <p className="subtitle pr-2">TEMPO: 20min</p>
-                <ReactMarkdown>{ingredients}</ReactMarkdown>
+                {/* <ReactMarkdown>{ingredients}</ReactMarkdown> */}
               </article>
             </article>
 
@@ -134,7 +134,6 @@ export const pageQuery = graphql`
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
-          ingredients
           description
           tags
           featuredimage {
