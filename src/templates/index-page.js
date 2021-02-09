@@ -38,7 +38,7 @@ export const IndexPageTemplate = ({
                       </div>
                       <div className="tile">
                         <div className="tile is-parent">
-                          <article className="tile is-child box">
+                          <article className="tile is-child">
                             <figure className="image is-4by3">
                               <img src={stagioni}></img>
                             </figure>
@@ -48,7 +48,7 @@ export const IndexPageTemplate = ({
                           </article>
                         </div>
                         <div className="tile is-parent">
-                          <article className="tile is-child box">
+                          <article className="tile is-child">
                             <figure className="image is-4by3">
                               <img src={tradizioni}></img>
                             </figure>
@@ -59,7 +59,7 @@ export const IndexPageTemplate = ({
                           </article>
                         </div>
                         <div className="tile is-parent">
-                          <article className="tile is-child box">
+                          <article className="tile is-child">
                             <figure className="image is-4by3">
                               <img src={pomodori}></img>
                             </figure>

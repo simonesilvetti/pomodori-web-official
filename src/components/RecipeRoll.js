@@ -46,7 +46,7 @@ class RecipeRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Continua a leggere →
                   </Link>
                 </p>
               </article>

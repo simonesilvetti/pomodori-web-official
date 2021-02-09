@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import PreparationSteps from '../components/recipe/PreparationSteps'
 import DifficultyBadge from '../components/recipe/DifficultyBadge'
+import RecipeInfo from '../components/recipe/RecipeInfo'
 import { GiTomato } from "react-icons/gi";
 import ReactMarkdown from 'react-markdown'
 
@@ -33,43 +34,21 @@ export const RecipePostTemplate = ({
   return (
 
     <section className="section">
-      {console.log(difficulty)}
-      {console.log(time)}
-      {console.log(featuredImage)}
-      {console.log(image)}
-      {console.log(dose)}
-      {console.log(ingredients)}
-      {console.log(preparationSteps)}
-      {console.log(tags)}
-      {console.log(blogger)}
       {helmet || ''}
       <div className="container content">
         <div className="tile is-ancestor">
           <div className="tile is-parent">
-            <article className="tile is-child box">
+            <article className="tile is-child">
               <figure className="image is-4by3">
                 <img src={featuredImage}></img>
               </figure>
             </article>
           </div>
-          <div className="tile is-parent is-vertical box notification">
-            <article className="tile is-child">
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <div>
-                  <p className="title" style={{ fontFamily: 'Amatic SC' }} >{title}</p>
-                  <p className="subtitle pr-10">{blogger}</p>
-                </div>
-                <button className="button is-rounded">Salva la ricetta</button>
-              </div>
-              <article className="tile is-child">
-                <DifficultyBadge level={difficulty} />
-                <p className="pt-10">TEMPO: {time}</p>
-                {/* <ReactMarkdown>{ingredients}</ReactMarkdown> */}
-              </article>
-            </article>
-
+          <div className="tile is-parent is-vertical">
+              <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose = {dose} ingredients={ingredients} />
           </div>
-        </div>
+        </div> 
+        <div className="subtitle is-size-3" style={{ fontFamily: 'Amatic SC' }}>PROCEDURA</div>
         {/* <PostContent content={content} /> */}
         <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
       </div>

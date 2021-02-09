@@ -10,7 +10,7 @@ const RecipePostPagePreview = ({ entry, widgetFor }) => {
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}
       title={entry.getIn(['data', 'title'])}
-      preparationSteps = {entry.getIn(['data', 'preparationSteps'])}
+      preparationSteps={entry.getIn(['data', 'preparationSteps'])}
     />
   )
 }

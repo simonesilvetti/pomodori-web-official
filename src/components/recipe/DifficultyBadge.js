@@ -6,15 +6,15 @@ import { v4 } from 'uuid'
 
 
 const DifficultyBadge = ({ level }) => (
-    <p className="pt-10">DIFFICOLTA:
-        {[1,2].map(_ =>
-            <GiTomato key={v4()} style={{ fill: '#DE3E2D' }} />
+    <div><span>DIFFICOLTA:  </span>
+        {[...Array(level)].map(_ =>
+            <GiTomato key={v4()} style={{ fill: '#D62F05' }} />
         )}
-        {[1].map(_ =>
-                <GiTomato key={v4()} style={{ fill: '#DE3E2D7D' }} />
-            )
-            }
-    </p>
+        {[...Array(3 - level)].map(_ =>
+            <GiTomato key={v4()} style={{ fill: '#DE3E2D7D' }} />
+        )
+        }
+    </div>
 )
 
 DifficultyBadge.propTypes = {

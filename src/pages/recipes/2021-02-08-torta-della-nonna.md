@@ -11,19 +11,25 @@ images:
   - image: /img/img_4872_mark.jpg
 dose: 4
 ingredientsSections:
-  - section: Pasta frolla
+  - section: PASTA FROLLA
     ingredients:
       - farina:300g
       - burro:150g
       - zucchero:120g
       - uova:2
-  - section: Farcitura
+  - section: FARCITURA
     ingredients:
       - zucchero:100g
       - farina:30g
       - tuorlo:3
       - uovo:1
       - latte:300g
+  - section: PASTA SFROLLA
+    ingredients:
+      - farina:300g
+      - burro:150g
+      - zucchero:120g
+      - uova:2
 preparationSteps:
   - step: 1. Versare l'olio.
   - step: "2. Nel frattempo realizzate la crema pasticcera: in un pentolino ponete
