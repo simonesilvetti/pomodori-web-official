@@ -6,7 +6,9 @@ difficulty: 2
 time: 2h
 description: "[XY]"
 featuredimage: /img/img_4889_mark.jpg
-images: []
+images:
+  - image: /img/img_4877_mark.jpg
+  - image: /img/img_4872_mark.jpg
 dose: 4
 ingredientsSections:
   - section: Pasta frolla
