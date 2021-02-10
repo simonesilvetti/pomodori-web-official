@@ -1,15 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import PreparationSteps from '../components/recipe/PreparationSteps'
-import DifficultyBadge from '../components/recipe/DifficultyBadge'
 import RecipeInfo from '../components/recipe/RecipeInfo'
-import { GiTomato } from "react-icons/gi";
-import ReactMarkdown from 'react-markdown'
 
 
 
@@ -28,8 +24,8 @@ export const RecipePostTemplate = ({
   tags,
   blogger
 }) => {
-  const PostContent = contentComponent || Content
-  const PostIngredients = contentComponent || Content
+  //const PostContent = contentComponent || Content
+  //const PostIngredients = contentComponent || Content
 
   return (
 
@@ -40,7 +36,7 @@ export const RecipePostTemplate = ({
           <div className="tile is-parent">
             <article className="tile is-child">
               <figure className="image is-4by3">
-                <img src={featuredImage}></img>
+                <img src={featuredImage} alt = "Recipe"></img>
               </figure>
             </article>
           </div>
@@ -48,8 +44,7 @@ export const RecipePostTemplate = ({
               <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose = {dose} ingredients={ingredients} />
           </div>
         </div> 
-        <div className="subtitle is-size-3" style={{ fontFamily: 'Amatic SC' }}>PROCEDURA</div>
-        {/* <PostContent content={content} /> */}
+        Link        {/* <PostConLinktent content={content} /> */}
         <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
       </div>
 

@@ -1,15 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import RecipeRoll from '../components/RecipeRoll'
-import DemoCarousel from '../components/DemoCarousel';
 import tradizioni from '../img/tradizioni.png'
 import stagioni from '../img/stagioni.jpg'
 import pomodori from '../img/pomodoro_tutte_salse.png'
- 
+
 
 
 export const IndexPageTemplate = ({
@@ -19,7 +16,12 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div className="container">
-      <div>
+      <div
+        className="full-width-image-container margin-top-0"
+        style={{
+          backgroundColor: "lightblue"
+        }}
+      >
       </div>
       <section className="section section--gradient">
         <div className="container">
@@ -29,43 +31,43 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="tile is-ancestor">
                     <div className="tile is-vertical">
-                    <div className="tile">
-                    <div className="tile is-parent">
+                      {/* <div className="tile">
+                        <div className="tile is-parent">
                           <div className="tile is-child">
-                          <DemoCarousel />
+                            <DemoCarousel />
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="tile">
                         <div className="tile is-parent">
                           <article className="tile is-child">
                             <figure className="image is-4by3">
-                              <img src={stagioni}></img>
+                              <img src={stagioni} alt = "Stagioni"></img>
                             </figure>
                             <p className="title is-4 has-text-centered">Stagioni</p>
-                            <span/>
-                            <p className="subtitle is-6 has-text-justified">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+                            <span />
+                            <p className="subtitle is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
                           </article>
                         </div>
                         <div className="tile is-parent">
                           <article className="tile is-child">
                             <figure className="image is-4by3">
-                              <img src={tradizioni}></img>
+                              <img src={tradizioni} alt="Tradizioni"></img>
                             </figure>
                             <p className="title is-4 has-text-centered">Tradizioni</p>
-                            <span/>
-                            <p className="subtitle is-6 has-text-justified">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the </p>
+                            <span />
+                            <p className="subtitle is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the </p>
 
                           </article>
                         </div>
                         <div className="tile is-parent">
                           <article className="tile is-child">
                             <figure className="image is-4by3">
-                              <img src={pomodori}></img>
+                              <img src={pomodori} alt="Pomodori"></img>
                             </figure>
                             <p className="title is-4 has-text-centered">Pomodoro.. in tutte le salse</p>
-                            <span/>
-                            <p className="subtitle is-6 has-text-justified">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+                            <span />
+                            <p className="subtitle is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
 
                           </article>
                         </div>
@@ -101,11 +103,11 @@ export const IndexPageTemplate = ({
 
 
                   <div className="column is-12">
-                      <p className="section title has-text-centered">Ultime Ricette</p>
+                    <p className="section title has-text-centered">Ultime Ricette</p>
                     <RecipeRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/recipes">
-                        Read more
+                        Visualizza le altre  ricette
                     </Link>
                     </div>
                   </div>

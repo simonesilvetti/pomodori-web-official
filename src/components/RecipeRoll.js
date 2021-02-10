@@ -14,10 +14,10 @@ class RecipeRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box  ${post.frontmatter.featuredpost ? 'is-featured' : ''
-                  }`}
+                className='blog-list-item tile is-child box'
               >
                 <header>
+                <div className="tile is-child">
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -28,23 +28,21 @@ class RecipeRoll extends React.Component {
                       />
                     </div>
                   ) : null}
+                  </div>
+                  <div className="tile is-child">
                   <p className="post-meta">
                     <Link
-                      className="title has-text-black is-size-4"
+                      className="title has-text-black is-size-3"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span></span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
-                </header>
-                <p>
+                  <span></span>
                   {post.excerpt}
-                  <br />
-                  <br />
+                  </div>
+                </header>
+                <p> 
                   <Link className="button" to={post.fields.slug}>
                     Continua a leggere →
                   </Link>
@@ -75,7 +73,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 200)
               id
               fields {
                 slug

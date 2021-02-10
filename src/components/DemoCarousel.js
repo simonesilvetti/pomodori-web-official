@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import ReactDOM from 'react-dom';
+import {graphql, StaticQuery } from 'gatsby'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import logo from '../img/logo.png'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 
 
@@ -14,8 +11,8 @@ class DemoCarousel extends Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
     return (
-
       <div className="is-fluid " >
+        {console.log(posts)}
         <Carousel showThumbs={false} >
           {posts &&
             posts.map(({ node: post }) => (
