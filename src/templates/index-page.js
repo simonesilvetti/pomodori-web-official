@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({
                             </figure>
                             <p className="title is-4 has-text-centered">Stagioni</p>
                             <span />
-                            <p className="subtitle is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+                            <p className="is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
                           </article>
                         </div>
                         <div className="tile is-parent">
@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
                             </figure>
                             <p className="title is-4 has-text-centered">Tradizioni</p>
                             <span />
-                            <p className="subtitle is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the </p>
+                            <p className="is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the </p>
 
                           </article>
                         </div>
@@ -61,7 +61,7 @@ export const IndexPageTemplate = ({
                             </figure>
                             <p className="title is-4 has-text-centered">Pomodoro.. in tutte le salse</p>
                             <span />
-                            <p className="subtitle is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+                            <p className="is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
 
                           </article>
                         </div>

@@ -35,15 +35,16 @@ export const RecipePostTemplate = ({
           <div className="tile is-parent">
             <article className="tile is-child">
               <figure className="image is-4by3">
-                <img src={featuredImage} alt = "Recipe"></img>
+                <img src={featuredImage} alt="Recipe"></img>
               </figure>
             </article>
           </div>
           <div className="tile is-parent is-vertical">
-              <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose = {dose} ingredients={ingredients} />
+            <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose={dose} ingredients={ingredients} />
           </div>
-        </div> 
-        Link        {/* <PostConLinktent content={content} /> */}
+        </div>
+        <div className="subtitle is-size-3">PROCEDURA</div>
+        {/* <PostConLinktent content={content} /> */}
         <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
       </div>
 
@@ -80,7 +81,7 @@ RecipePostTemplate.propTypes = {
 
 const RecipePost = ({ data }) => {
   const { markdownRemark: post } = data
-  
+
   return (
     <Layout>
       <RecipePostTemplate

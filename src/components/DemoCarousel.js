@@ -24,8 +24,6 @@ class DemoCarousel extends Component {
             ))}
         </Carousel>
       </div>
-
-
     );
   }
 }

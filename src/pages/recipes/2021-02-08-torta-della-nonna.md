@@ -9,7 +9,7 @@ featuredimage: /img/img_4889_mark.jpg
 images:
   - image: /img/img_4877_mark.jpg
   - image: /img/img_4872_mark.jpg
-dose: 4
+dose: 4 persone
 ingredientsSections:
   - section: PASTA FROLLA
     ingredients:
