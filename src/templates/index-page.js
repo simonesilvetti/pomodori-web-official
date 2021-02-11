@@ -6,6 +6,7 @@ import RecipeRoll from '../components/RecipeRoll'
 import tradizioni from '../img/tradizioni.png'
 import stagioni from '../img/stagioni.jpg'
 import pomodori from '../img/pomodoro_tutte_salse.png'
+import mainImange from '../img/jumbotron.jpg'
 
 
 
@@ -19,7 +20,7 @@ export const IndexPageTemplate = ({
       <div
         className="full-width-image-container margin-top-0"
         style={{
-          backgroundColor: "lightblue"
+          backgroundImage: "url(" + mainImange + ")"
         }}
       >
       </div>
@@ -31,18 +32,11 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="tile is-ancestor">
                     <div className="tile is-vertical">
-                      {/* <div className="tile">
-                        <div className="tile is-parent">
-                          <div className="tile is-child">
-                            <DemoCarousel />
-                          </div>
-                        </div>
-                      </div> */}
                       <div className="tile">
                         <div className="tile is-parent">
                           <article className="tile is-child">
                             <figure className="image is-4by3">
-                              <img src={stagioni} alt = "Stagioni"></img>
+                              <img src={stagioni} alt="Stagioni"></img>
                             </figure>
                             <p className="title is-4 has-text-centered">Stagioni</p>
                             <span />

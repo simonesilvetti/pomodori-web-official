@@ -13,17 +13,14 @@ export default class RecipeIndexPage extends React.Component {
             backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-1"
+          <div
+            className="title has-text-weight-bold is-size-1"
             style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
+              backgroundColor: 'rgba(255, 255, 255, 0.8)',
               padding: '1rem',
-            }}
-          >
+            }}>
             Latest Recipes
-          </h1>
+          </div>
         </div>
         <section className="section">
           <div className="container">
@@ -32,7 +29,7 @@ export default class RecipeIndexPage extends React.Component {
             </div>
           </div>
         </section>
-      </Layout>
+      </Layout >
     )
   }
 }

@@ -28,7 +28,6 @@ export const RecipePostTemplate = ({
   //const PostIngredients = contentComponent || Content
 
   return (
-
     <section className="section">
       {helmet || ''}
       <div className="container content">
@@ -81,12 +80,9 @@ RecipePostTemplate.propTypes = {
 
 const RecipePost = ({ data }) => {
   const { markdownRemark: post } = data
-
+  
   return (
     <Layout>
-      {console.log(post.frontmatter.id)}
-      {console.log(post)}
-
       <RecipePostTemplate
         content={post.html}
         contentComponent={HTMLContent}

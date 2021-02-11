@@ -12,7 +12,6 @@ class DemoCarousel extends Component {
     const { edges: posts } = data.allMarkdownRemark
     return (
       <div className="is-fluid " >
-        {console.log(posts)}
         <Carousel showThumbs={false} >
           {posts &&
             posts.map(({ node: post }) => (
