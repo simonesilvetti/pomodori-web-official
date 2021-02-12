@@ -30,7 +30,6 @@ export const RecipePostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
-      {console.log(helmet)}
       <div className="container content">
         <div className="tile is-ancestor">
           <div className="tile is-parent">
@@ -92,12 +91,16 @@ const RecipePost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
-          <Helmet titleTemplate="%s | Recipe">
+          <Helmet titleTemplate="%s | Pomodori al sole">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${post.html}`}
             />
+            <meta property="og:title" content={post.frontmatter.title} />
+            <meta property="og:type" content="article" />
+            <meta property="og:description" content={post.html} />
+            <meta property="og:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
           </Helmet>
         }
         title={post.frontmatter.title}
@@ -137,6 +140,9 @@ export const pageQuery = graphql`
             childImageSharp {
               original {
                 src
+              }
+              fluid(maxWidth: 120, quality: 100) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
