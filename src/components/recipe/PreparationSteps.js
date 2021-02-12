@@ -6,10 +6,14 @@ import ReactMarkdown from 'react-markdown'
 
 const PreparationSteps = ({ preparationSteps }) => (
   <div>
-    {preparationSteps.map((preparationStep) => (
+    {preparationSteps.map((preparationStep, index) => (
       <article key={v4()} className="message">
         <div className="message-body">
-        <ReactMarkdown>{preparationStep.step}</ReactMarkdown>
+          <div className="numberSquared" style={{
+            position: "relative",
+            top: "-15px", left: "-20px"
+          }}>{index+1}</div>
+          <ReactMarkdown>{preparationStep.step}</ReactMarkdown>
         </div>
       </article>
     ))}

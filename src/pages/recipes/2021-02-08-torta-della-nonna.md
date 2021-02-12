@@ -31,15 +31,15 @@ ingredientsSections:
       - zucchero:120g
       - uova:2
 preparationSteps:
-  - step: 1. Versare l'olio.
-  - step: "2. Nel frattempo realizzate la crema pasticcera: in un pentolino ponete
+  - step: "Versare l'olio"
+  - step: "Nel frattempo realizzate la crema pasticcera: in un pentolino ponete
       il latte 7, poi ricavate la scorza di 1 limone con un pelaverdure, facendo
       attenzione a non prelevare anche la parte bianca amarognola 8; unite la
       scorza al latte e fatelo scaldare a fuoco basso (dovrà sfiorare il
-      bollore) 9."
-  - step: 3. Continuate a cuocere lentamente e mescolare sempre con una frusta la
+      bollore) 9"
+  - step: "Continuate a cuocere lentamente e mescolare sempre con una frusta la
       crema, perchè si addensi (16-17), ci vorranno circa 10-15 minuti. Una
-      volta pronta, trasferitela in una pirofila bassa e ampia
+      volta pronta, trasferitela in una pirofila bassa e ampia"
 tags:
   - biscotti
   - dolce

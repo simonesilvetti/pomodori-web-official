@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 import PreparationSteps from '../components/recipe/PreparationSteps'
+import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
 
 
@@ -17,7 +18,7 @@ export const RecipePostTemplate = ({
   difficulty,
   time,
   featuredImage,
-  image,
+  images,
   dose,
   ingredients,
   preparationSteps,
@@ -43,11 +44,14 @@ export const RecipePostTemplate = ({
             <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose={dose} ingredients={ingredients} />
           </div>
         </div>
-        <div className="subtitle is-size-3">PROCEDURA</div>
-        {/* <PostConLinktent content={content} /> */}
-        <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
-      </div>
 
+        <div className="section">
+          <div className="subtitle is-size-3">PROCEDURA</div>
+          {/* <PostConLinktent content={content} /> */}
+          <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
+        </div>
+        <ImagesSection images={images}></ImagesSection>
+      </div>
       {/* <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -100,7 +104,7 @@ const RecipePost = ({ data }) => {
         difficulty={post.frontmatter.difficulty}
         time={post.frontmatter.time}
         featuredImage={post.frontmatter.featuredimage.childImageSharp.original.src}
-        image={post.frontmatter.image}
+        images={post.frontmatter.images}
         dose={post.frontmatter.dose}
         ingredients={post.frontmatter.ingredientsSections}
         preparationSteps={post.frontmatter.preparationSteps}
@@ -136,13 +140,15 @@ export const pageQuery = graphql`
               }
             }
           }
-          image {
-            childImageSharp {
-              original {
-                src
+          images {
+            image{
+              childImageSharp{
+                original{
+                  src
+                }
               }
             }
-          }
+          }    
           dose
           ingredientsSections {
             section
