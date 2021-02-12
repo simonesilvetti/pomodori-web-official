@@ -9,7 +9,6 @@ import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
 
 
-
 export const RecipePostTemplate = ({
   content,
   contentComponent,
@@ -31,6 +30,7 @@ export const RecipePostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
+      {console.log(helmet)}
       <div className="container content">
         <div className="tile is-ancestor">
           <div className="tile is-parent">

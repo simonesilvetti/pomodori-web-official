@@ -2,7 +2,7 @@ import React from 'react'
 import DifficultyBadge from './DifficultyBadge'
 import { v4 } from 'uuid'
 import IngredientList from './IngredientList'
-import { IoShareSocial } from "react-icons/io5";
+import ShareBadge from '../ShareBadge'
 
 class RecipeInfo extends React.Component {
     render() {
@@ -14,7 +14,7 @@ class RecipeInfo extends React.Component {
                         <h1 className="title is-size-1" >{data.title}</h1>
                         <div className="subtitle is-4">di {data.blogger}</div>
                     </div>
-                    <IoShareSocial size="30" />
+                    <ShareBadge url="https://www.pomodorialsole.com/recipes/2021-02-08-torta-della-nonna/" content={data.title} />
                 </div>
                 <br></br>
                 <DifficultyBadge className="tile is-child" level={data.difficulty} />

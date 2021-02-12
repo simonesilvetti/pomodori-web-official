@@ -19,7 +19,7 @@ export default class RecipeIndexPage extends React.Component {
               backgroundColor: 'rgba(255, 255, 255, 0.8)',
               padding: '1rem',
             }}>
-            Latest Recipes
+            Ricette
           </div>
         </div>
         <section className="section">
