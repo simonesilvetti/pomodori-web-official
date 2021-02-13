@@ -7,15 +7,15 @@ time: 40 minuti
 description: Una vellutata delicata arricchita dal sapore più deciso dei pomodori secchi.
 featuredimage: /img/photo_2021-02-13_21-12-30.jpg
 images:
-  image: /img/chemex.jpg
-dose: per 2 persone
+dose: 2 persone
 ingredientsSections:
   - ingredients:
       - 150g patate
       - 350g topinambur
       - 1/2 scalogno
-      - olio e.v.o
       - 5 pomodori secchi
+      - olio e.v.o
+      - sale
     section: INGREDIENTI
 preparationSteps:
   - step: >-
