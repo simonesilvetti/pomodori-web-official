@@ -98,7 +98,7 @@ preparationSteps:
       eventualmente con dello zucchero a velo.
 tags:
   - biscotti
-  - dolce
+  - dolci
 blogger: Claudia
 ---
 Una merenda perfetta da preparare la domenica.

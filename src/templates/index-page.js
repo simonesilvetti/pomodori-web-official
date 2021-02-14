@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({
                             </figure>
                             <p className="title is-4 has-text-centered">Stagioni</p>
                             <span />
-                            <p className="is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+                            <p className="is-6 has-text-justified px-3"> Il susseguirsi delle stagioni ci permette di poter gustare frutta e verdura, nonchè pescato di vario tipo, che cambiano in sapore, colore e proprietà nutritive. In questa sezione troverete una serie di ricette in cui gli accostamenti tra le materie prime rispettano i ritmi della natura.</p>
                           </article>
                         </div>
                         <div className="tile is-parent">
@@ -61,7 +61,7 @@ export const IndexPageTemplate = ({
                             </figure>
                             <p className="title is-4 has-text-centered">Pomodoro.. in tutte le salse</p>
                             <span />
-                            <p className="is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the</p>
+                            <p className="is-6 has-text-justified px-3">Ciliegino, San Marzano, cuore di bue... giallo, verde, rosso... da insalata, da salsa, da essiccare..il pomodoro è forse l’emblema della cucina italiana! Vi proponiamo una serie di ricette, alcune classiche ed altre più innovative, che lo vedono protagonista.</p>
 
                           </article>
                         </div>

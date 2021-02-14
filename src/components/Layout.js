@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content={siteUrl} />
+        <meta property="og:url" content="/" />
         <meta property="og:locale" content="it_IT" />
         <meta property="og:image" content={siteUrl + '/img/logo_new.svg'} />
         <meta property="og:image:alt" content={title} />

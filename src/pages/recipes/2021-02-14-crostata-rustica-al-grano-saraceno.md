@@ -31,9 +31,7 @@ preparationSteps:
       coprite con la marmellata di ciliegie. Ricavate delle strisce dalla
       restante parte di impasto e ponetele sulla marmellata.
   - step: |-
-      Infornate in forno già caldo per circa 30 minuti a 180°C.
-
-      Infine spolverizzate con zucchero a velo.
+      Infornate in forno già caldo per circa 30 minuti a 180°C. Infine spolverizzate con zucchero a velo.
 tags:
   - dolci
   - crostata
