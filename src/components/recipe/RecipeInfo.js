@@ -6,6 +6,7 @@ import ShareBadge from '../ShareBadge'
 
 class RecipeInfo extends React.Component {
     render() {
+        console.log(this.props)
         const data = this.props
         return (
             <div>
