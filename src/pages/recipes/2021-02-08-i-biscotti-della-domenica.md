@@ -19,7 +19,7 @@ ingredientsSections:
       - 1 uovo
       - 150g  burro a t. ambiente
       - scorza di due limoni
-      - succo di un limone
+      - 2 cucchiai marmellata di limone
       - 1/2 bustina di lievito per dolci
   - section: ALLA MELA
     ingredients:
@@ -49,7 +49,7 @@ preparationSteps:
       **Iniziamo con la preparazione del panetto al limone**.
 
 
-      * In una ciotola unite le farine, il sale, il lievito setacciato, lo zucchero e la scorza grattugiata dei limoni. Aggiungete un cucchiaio di succo di limone e mescolate.
+      * In una ciotola unite le farine, il sale, il lievito setacciato, lo zucchero e la scorza grattugiata dei limoni. Aggiungete la marmellata di limone e mescolate.
 
       * Unite l’uovo ed il burro a pezzettini. Impastate fino a quando il burro non si sarà sciolto con il calore delle mani.
 

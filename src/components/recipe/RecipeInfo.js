@@ -9,6 +9,7 @@ class RecipeInfo extends React.Component {
         console.log(this.props)
         console.log(this.props.location ? this.props.location : "NO!")
         const data = this.props
+        const url = typeof window !== 'undefined' ? window.location.href : 'https://pomodorialsole.com/';
         return (
             <div>
                 <div className="tile is-child" style={{ display: "flex", justifyContent: "space-between" }}>
@@ -16,7 +17,7 @@ class RecipeInfo extends React.Component {
                         <h1 className="title is-size-1" >{data.title}</h1>
                         <div className="subtitle is-4">di {data.blogger}</div>
                     </div>
-                    <ShareBadge url="https://www.pomodorialsole.com/recipes/2021-02-08-torta-della-nonna/" content={data.title} />
+                    <ShareBadge url={url} content={data.title} />
                 </div>
                 <br></br>
                 <DifficultyBadge className="tile is-child" level={data.difficulty} />

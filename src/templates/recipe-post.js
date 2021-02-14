@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { graphql } from 'gatsby'
+import { kebabCase } from 'lodash'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 import PreparationSteps from '../components/recipe/PreparationSteps'
@@ -34,7 +35,7 @@ export const RecipePostTemplate = ({
         <div className="tile is-ancestor">
           <div className="tile is-parent">
             <article className="tile is-child">
-              <figure className="image is-4by3">
+              <figure className="image is-square">
                 <img src={featuredImage} alt="Recipe"></img>
               </figure>
             </article>
@@ -45,16 +46,27 @@ export const RecipePostTemplate = ({
         </div>
 
         <div className="section">
-          <div className="subtitle is-size-3">PROCEDURA</div>
+          <div className="title is-size-3">PROCEDURA</div>
           {/* <PostConLinktent content={content} /> */}
           <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
         </div>
         <ImagesSection images={images}></ImagesSection>
+        <div className="section">
+          <div className="title is-size-3">Tags</div>
+          <ul className="taglist">
+            {tags.map((tag) => (
+              <li key={tag + `tag`}>
+                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+              </li>
+            ))}
+          </ul>
+
+        </div>
       </div>
+
       {/* <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -95,12 +107,12 @@ const RecipePost = ({ data }) => {
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.html}`}
+              content={`${post.frontmatter.description}`}
             />
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
             <meta property="og:description" content={post.frontmatter.description} />
-            <meta property="og:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
+            <meta property="og:image" content={"https://pomodorialsole.com" + post.frontmatter.featuredimage.childImageSharp.original.src} />
           </Helmet>
         }
         title={post.frontmatter.title}
@@ -136,6 +148,7 @@ export const pageQuery = graphql`
           title
           difficulty
           time
+          description
           featuredimage {
             childImageSharp {
               original {
