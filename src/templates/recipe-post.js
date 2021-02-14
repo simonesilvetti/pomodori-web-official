@@ -8,7 +8,7 @@ import { HTMLContent } from '../components/Content'
 import PreparationSteps from '../components/recipe/PreparationSteps'
 import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
-
+import useSiteMetadata from '../components/SiteMetadata'
 
 export const RecipePostTemplate = ({
   content,
@@ -56,7 +56,11 @@ export const RecipePostTemplate = ({
           <ul className="taglist">
             {tags.map((tag) => (
               <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link to={`/tags/${kebabCase(tag)}/`}>
+                  <div className="tag is-primary is-medium">
+                    {tag}
+                  </div>
+                </Link>
               </li>
             ))}
           </ul>
@@ -96,6 +100,7 @@ RecipePostTemplate.propTypes = {
 
 const RecipePost = ({ data }) => {
   const { markdownRemark: post } = data
+  const { siteUrl } = useSiteMetadata()
 
   return (
     <Layout>
@@ -112,7 +117,7 @@ const RecipePost = ({ data }) => {
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
             <meta property="og:description" content={post.frontmatter.description} />
-            <meta property="og:image" content={"https://pomodorialsole.com" + post.frontmatter.featuredimage.childImageSharp.original.src} />
+            <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.original.src} />
           </Helmet>
         }
         title={post.frontmatter.title}

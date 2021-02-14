@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Cheesecake al te matcha e cioccolato bianco
+title: Cheesecake al tè matcha e cioccolato bianco
 date: 2021-02-14T16:39:06.523Z
 difficulty: 1
 time: 1h + 8h

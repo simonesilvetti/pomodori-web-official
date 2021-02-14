@@ -10,18 +10,18 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description, siteUrl } = useSiteMetadata()
   return (
     <div>
       <Helmet>
-        <html lang="en" />
+        <html lang="it" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
-        <link
+        {/* <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
+          href={siteUrl + '/img/apple-touch-icon.png'}
         />
         <link
           rel="icon"
@@ -40,16 +40,30 @@ const TemplateWrapper = ({ children }) => {
           rel="mask-icon"
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
+        /> */}
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href={`${withPrefix('/')}img/logo_new.svg`}
         />
+        <link rel="alternate icon"
+          href={`${withPrefix('/')}img/logo_new.ico`}
+        />
+
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta property="og:locale" content="it" />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={siteUrl} />
+        <meta property="og:locale" content="it_IT" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix('/')}img/logo_new.svg`}
+        />
+        <meta
+          property="fb:app_id"
+          content="891391494955515"
         />
       </Helmet>
       <Navbar />

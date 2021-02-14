@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Pomodori al Sole',
+    siteUrl: 'https://pomodorialsole.com',
     description:
       'Passione per la cucina',
   },
