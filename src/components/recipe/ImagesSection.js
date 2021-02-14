@@ -8,7 +8,7 @@ const ImagesSection = ({ images }) => (images ?
         {images.map((image) => (
             <div className="tile is-parent is-4" key={v4()}>
                 <div className="tile is-child">
-                    <img src={image.image.childImageSharp.original.src} alt="Recipe Shot"></img>
+                    <img src={image.image.childImageSharp.fluid.src} alt="Recipe Shot"></img>
                 </div>
             </div>
         ))}

@@ -57,14 +57,9 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:description" content={description} />
         <meta property="og:url" content={siteUrl} />
         <meta property="og:locale" content="it_IT" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/logo_new.svg`}
-        />
-        <meta
-          property="fb:app_id"
-          content="891391494955515"
-        />
+        <meta property="og:image" content={siteUrl + '/img/logo_new.svg'} />
+        <meta property="og:image:alt" content={title} />
+        <meta property="fb:app_id" content="891391494955515" />
       </Helmet>
       <Navbar />
       <div>{children}</div>

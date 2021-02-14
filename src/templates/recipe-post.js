@@ -117,13 +117,14 @@ const RecipePost = ({ data }) => {
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
             <meta property="og:description" content={post.frontmatter.description} />
-            <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.original.src} />
+            <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid.src} />
+            <meta property="og:image:alt" content={post.frontmatter.title} />
           </Helmet>
         }
         title={post.frontmatter.title}
         difficulty={post.frontmatter.difficulty}
         time={post.frontmatter.time}
-        featuredImage={post.frontmatter.featuredimage.childImageSharp.original.src}
+        featuredImage={post.frontmatter.featuredimage.childImageSharp.fluid.src}
         images={post.frontmatter.images}
         dose={post.frontmatter.dose}
         ingredients={post.frontmatter.ingredientsSections}
@@ -156,10 +157,7 @@ export const pageQuery = graphql`
           description
           featuredimage {
             childImageSharp {
-              original {
-                src
-              }
-              fluid(maxWidth: 120, quality: 100) {
+              fluid(maxWidth: 1000, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -167,8 +165,8 @@ export const pageQuery = graphql`
           images {
             image{
               childImageSharp{
-                original{
-                  src
+                fluid(maxWidth: 1000, quality: 100) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
