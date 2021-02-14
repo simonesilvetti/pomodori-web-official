@@ -4,7 +4,7 @@ title: I biscotti della domenica
 date: 2021-02-08T18:12:37.047Z
 difficulty: 2
 time: 2.30h
-description: "[XY]"
+description: "Una merenda perfetta da preparare la domenica."
 featuredimage: /img/img_4889_mark.jpg
 images:
   - image: /img/img_4877_mark.jpg

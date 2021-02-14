@@ -99,7 +99,7 @@ const RecipePost = ({ data }) => {
             />
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
-            <meta property="og:description" content={post.html} />
+            <meta property="og:description" content={post.frontmatter.description} />
             <meta property="og:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
           </Helmet>
         }

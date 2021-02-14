@@ -17,13 +17,13 @@ const RecipePostPagePreview = ({ entry, collection, widgetFor, getAsset, fieldsM
       title={entry.getIn(['data', 'title'])}
       difficulty={entry.getIn(['data', 'difficulty'])}
       time={entry.getIn(['data', 'time'])}
-      featuredImage={entry.getIn(['data', 'featuredImage'])}
-      images={entry.getIn(['data', 'images'])}
+      featuredImage={getAsset(entry.getIn(['data', 'featuredImage'])) }
+      //images={entry.getIn(['data', 'images'])}
       dose={entry.getIn(['data', 'dose'])}
       ingredients={entry.getIn(['data', 'ingredients'])}
       preparationSteps={entry.getIn(['data', 'preparationSteps'])}
       description={entry.getIn(['data', 'description'])}
-      tags={entry.getIn(['data', 'tags'])}
+      //tags={entry.getIn(['data', 'tags'])}
       blogger={entry.getIn(['data', 'blogger'])}
     />
   )
