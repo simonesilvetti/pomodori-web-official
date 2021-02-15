@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
+import Img from "gatsby-image"
+
 
 
 const ImagesSection = ({ images }) => (images ?
@@ -8,7 +10,11 @@ const ImagesSection = ({ images }) => (images ?
         {images.map((image) => (
             <div className="tile is-parent is-4" key={v4()}>
                 <div className="tile is-child">
-                    <img src={image.image.childImageSharp.fluid.src} alt="Recipe Shot"></img>
+                    <Img className=" is-square"
+                        fluid={image.image.childImageSharp.fluid}
+                        alt="Recipe Shot"
+                    />
+                    {/* <img src={image.image.childImageSharp.fluid.src} alt="Recipe Shot"></img> */}
                 </div>
             </div>
         ))}

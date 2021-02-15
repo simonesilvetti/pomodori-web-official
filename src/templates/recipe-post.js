@@ -9,6 +9,8 @@ import PreparationSteps from '../components/recipe/PreparationSteps'
 import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
 import useSiteMetadata from '../components/SiteMetadata'
+import Img from "gatsby-image"
+
 
 export const RecipePostTemplate = ({
   content,
@@ -36,7 +38,11 @@ export const RecipePostTemplate = ({
           <div className="tile is-parent">
             <article className="tile is-child">
               <figure className="image">
-                <img className=" is-square" src={featuredImage} alt="Recipe"></img>
+                <Img className=" is-square"
+                  fluid={featuredImage}
+                  alt="Recipe"
+                />
+                {/* <img className=" is-square" src={featuredImage} alt="Recipe"></img> */}
               </figure>
             </article>
           </div>
@@ -117,6 +123,7 @@ const RecipePost = ({ data }) => {
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
             <meta property="og:description" content={post.frontmatter.description} />
+            {console.log(siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid)}
             <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid.src} />
             <meta property="og:image:alt" content={post.frontmatter.title} />
           </Helmet>
@@ -124,7 +131,7 @@ const RecipePost = ({ data }) => {
         title={post.frontmatter.title}
         difficulty={post.frontmatter.difficulty}
         time={post.frontmatter.time}
-        featuredImage={post.frontmatter.featuredimage.childImageSharp.fluid.src}
+        featuredImage={post.frontmatter.featuredimage.childImageSharp.fluid}
         images={post.frontmatter.images}
         dose={post.frontmatter.dose}
         ingredients={post.frontmatter.ingredientsSections}
@@ -157,16 +164,16 @@ export const pageQuery = graphql`
           description
           featuredimage {
             childImageSharp {
-              fluid(maxWidth: 1000, quality: 100) {
-                ...GatsbyImageSharpFluid
+              fluid(maxWidth: 650, quality: 100) {
+                ...GatsbyImageSharpFluid_withWebp_noBase64
               }
             }
           }
           images {
             image{
               childImageSharp{
-                fluid(maxWidth: 1000, quality: 100) {
-                  ...GatsbyImageSharpFluid
+                fluid(maxWidth: 650, quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
                 }
               }
             }
