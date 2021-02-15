@@ -50,8 +50,7 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix('/')}img/logo_new.ico`}
         />
 
-        <meta name="theme-color" content="#fff" />
-
+        <meta name="theme-color" content="#CFB9B9" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
