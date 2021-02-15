@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import RecipeRoll from '../components/RecipeRoll'
 import tradizioni from '../img/tradizioni.png'
@@ -124,15 +124,15 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  //const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <IndexPageTemplate
-        heading={frontmatter.heading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+      // heading={frontmatter.heading}
+      // mainpitch={frontmatter.mainpitch}
+      // description={frontmatter.description}
+      // intro={frontmatter.intro}
       />
     </Layout>
   )
@@ -148,31 +148,31 @@ IndexPage.propTypes = {
 
 export default IndexPage
 
-export const pageQuery = graphql`
-  query IndexPageTemplate {
-              markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
-              frontmatter {
-              heading
-        mainpitch {
-              title
-          description
-        }
-        description
-        intro {
-              blurbs {
-              image {
-              childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
-            }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
-      }
-    }
-  }
-`
+// export const pageQuery = graphql`
+//   query IndexPageTemplate {
+//               markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+//               frontmatter {
+//               heading
+//         mainpitch {
+//               title
+//           description
+//         }
+//         description
+//         intro {
+//               blurbs {
+//               image {
+//               childImageSharp {
+//               fluid(maxWidth: 240, quality: 64) {
+//               ...GatsbyImageSharpFluid_withWebp_noBase64
+//             }
+//               }
+//             }
+//             text
+//           }
+//           heading
+//           description
+//         }
+//       }
+//     }
+//   }
+// `
