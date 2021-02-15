@@ -35,8 +35,8 @@ export const RecipePostTemplate = ({
         <div className="tile is-ancestor">
           <div className="tile is-parent">
             <article className="tile is-child">
-              <figure className="image is-square">
-                <img src={featuredImage} alt="Recipe"></img>
+              <figure className="image">
+                <img className=" is-square" src={featuredImage} alt="Recipe"></img>
               </figure>
             </article>
           </div>
@@ -57,7 +57,7 @@ export const RecipePostTemplate = ({
             {tags.map((tag) => (
               <li key={tag + `tag`}>
                 <Link to={`/tags/${kebabCase(tag)}/`}>
-                  <div className="tag is-primary is-medium">
+                  <div className="tag is-medium ">
                     {tag}
                   </div>
                 </Link>

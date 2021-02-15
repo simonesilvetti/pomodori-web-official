@@ -31,8 +31,9 @@ preparationSteps:
       Tagliuzzate i pomodori secchi e soffriggeteli leggermente.\
       Servite la vostra vellutata accompagnata con i pomodori secchi.
 tags:
+  - inverno
+  - primi
   - vellutata
-  - pomodori
   - topinambur
 blogger: Katia
 ---
