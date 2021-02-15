@@ -35,6 +35,7 @@ tags:
   - primi
   - vellutata
   - topinambur
+  - vegetariano
 blogger: Katia
 ---
 Una vellutata delicata arricchita dal sapore più deciso dei pomodori secchi.

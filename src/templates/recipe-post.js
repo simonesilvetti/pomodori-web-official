@@ -47,7 +47,7 @@ export const RecipePostTemplate = ({
             </article>
           </div>
           <div className="tile is-parent is-vertical">
-            <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose={dose} ingredients={ingredients} />
+            <RecipeInfo title={title} blogger={blogger} difficulty={difficulty} time={time} dose={dose} ingredients={ingredients} vegetarian={tags.includes("vegetariano")} />
           </div>
         </div>
 

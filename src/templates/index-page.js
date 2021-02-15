@@ -3,11 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import RecipeRoll from '../components/RecipeRoll'
-import tradizioni from '../img/tradizioni.png'
-import stagioni from '../img/stagioni.jpg'
-import pomodori from '../img/pomodoro_tutte_salse.png'
 import mainImange from '../img/jumbotron.jpg'
-
+import Img from "gatsby-image"
 
 
 export const IndexPageTemplate = ({
@@ -34,8 +31,11 @@ export const IndexPageTemplate = ({
                       <div className="tile">
                         <div className="tile is-parent">
                           <article className="tile is-child">
-                            <figure className="image is-4by3">
-                              <img src={stagioni} alt="Stagioni"></img>
+                            <figure className="is-4by3">
+                              <Img
+                                fluid={firstColumn.image.childImageSharp.fluid}
+                                alt="First Image"
+                              />
                             </figure>
                             <p className="title is-4 has-text-centered">Stagioni</p>
                             <span />
@@ -44,8 +44,11 @@ export const IndexPageTemplate = ({
                         </div>
                         <div className="tile is-parent">
                           <article className="tile is-child">
-                            <figure className="image is-4by3">
-                              <img src={tradizioni} alt="Tradizioni"></img>
+                            <figure className="is-4by3">
+                              <Img
+                                fluid={secondColumn.image.childImageSharp.fluid}
+                                alt="Second Image"
+                              />
                             </figure>
                             <p className="title is-4 has-text-centered">Tradizioni</p>
                             <span />
@@ -55,8 +58,11 @@ export const IndexPageTemplate = ({
                         </div>
                         <div className="tile is-parent">
                           <article className="tile is-child">
-                            <figure className="image is-4by3">
-                              <img src={pomodori} alt="Pomodori"></img>
+                            <figure className="is-4by3">
+                              <Img
+                                fluid={thirdColumn.image.childImageSharp.fluid}
+                                alt="Third Image"
+                              />
                             </figure>
                             <p className="title is-4 has-text-centered">Pomodoro.. in tutte le salse</p>
                             <span />
@@ -151,16 +157,34 @@ query IndexPageTemplate {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     frontmatter {
       firstColumn {
-        image
+        image{
+          childImageSharp{
+            fluid(maxWidth: 240, quality: 80) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
+            }
+          }
+        }
         text
       }
       secondColumn {
-        image
+        image{
+          childImageSharp{
+            fluid(maxWidth: 240, quality: 80) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
+            }
+          }
+        }
         text
       }
       thirdColumn {
         text
-        image
+        image{
+          childImageSharp{
+            fluid(maxWidth: 240, quality: 80) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
+            }
+          }
+        }
       }
     }
   }
