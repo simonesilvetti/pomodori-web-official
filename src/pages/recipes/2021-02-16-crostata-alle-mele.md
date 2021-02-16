@@ -54,6 +54,7 @@ preparationSteps:
 tags:
   - dolci
   - crostata
+  - vegetariano
 blogger: Claudia
 ---
 Una crostata di marmellata arricchita da granella di mandorle ed uno strato di mele al Grand Marnier.
