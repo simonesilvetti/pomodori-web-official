@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Crostata alle mele
+title: Crostata con granella di mandorle e mele al Grand Marnier
 date: 2021-02-16T16:04:54.357Z
 difficulty: 2
 time: 1h
