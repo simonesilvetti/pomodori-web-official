@@ -44,10 +44,10 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="icon"
           type="image/svg+xml"
-          href={`${withPrefix('/')}img/logo_new.svg`}
+          href={`${withPrefix('/')}img/icon_new.svg`}
         />
         <link rel="alternate icon"
-          href={`${withPrefix('/')}img/logo_new.ico`}
+          href={`${withPrefix('/')}img/icon_new.ico`}
         />
 
         <meta name="theme-color" content="#CFB9B9" />
@@ -56,7 +56,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:description" content={description} />
         <meta property="og:url" content="/" />
         <meta property="og:locale" content="it_IT" />
-        <meta property="og:image" content={siteUrl + '/img/logo_new.svg'} />
+        <meta property="og:image" content={siteUrl + '/img/logo_white.jpg'} />
         <meta property="og:image:alt" content={title} />
         <meta property="fb:app_id" content="891391494955515" />
       </Helmet>
