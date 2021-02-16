@@ -35,6 +35,7 @@ preparationSteps:
 tags:
   - dolci
   - crostata
+  - vegetariano
 blogger: Katia
 ---
 Una crostata rivisitata al grano saraceno accompagnata da una dolce marmellata di ciliegie.

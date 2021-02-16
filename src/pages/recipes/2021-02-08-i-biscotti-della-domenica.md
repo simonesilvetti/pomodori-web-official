@@ -99,6 +99,7 @@ preparationSteps:
 tags:
   - biscotti
   - dolci
+  - vegetariano
 blogger: Claudia
 ---
 Una merenda perfetta da preparare la domenica.
