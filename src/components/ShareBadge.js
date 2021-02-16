@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaFacebook, FaWhatsapp, FaTelegram,FaInstagram } from "react-icons/fa"
+import { FaFacebook, FaWhatsapp, FaTelegram, FaTwitter } from "react-icons/fa"
 import {
     FacebookShareButton,
     TelegramShareButton,
     WhatsappShareButton,
+    TwitterShareButton
 } from "react-share";
 
 class ShareBadge extends React.Component {
@@ -13,10 +14,10 @@ class ShareBadge extends React.Component {
         const size = 25
         return (
             <div className="badgeShare">
-                <i><FacebookShareButton url={url} quote={content} hashtag="#PomodoriAlSole"><FaInstagram size={size} /></FacebookShareButton></i>
                 <FacebookShareButton url={url} quote={content} hashtag="#PomodoriAlSole"><FaFacebook size={size} /></FacebookShareButton>
-                <WhatsappShareButton url={url}><FaWhatsapp size={size} /></WhatsappShareButton>
-                <TelegramShareButton url={url}><FaTelegram size={size} /></TelegramShareButton>
+                <TwitterShareButton title={content} url={url} hashtag="#PomodoriAlSole"><FaTwitter size={size} /></TwitterShareButton>
+                <WhatsappShareButton url={url} ><FaWhatsapp size={size} /></WhatsappShareButton>
+                <TelegramShareButton url={url} ><FaTelegram size={size} /></TelegramShareButton>
             </div>
         );
     }

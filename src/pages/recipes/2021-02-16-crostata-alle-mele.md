@@ -17,7 +17,7 @@ ingredientsSections:
       - 150g burro a t. ambiente
       - scorza di un limone
       - 1/2 bustina di lievito per dolci
-      - sale
+      - un pizzico di sale
   - section: GUARNIZIONE
     ingredients:
       - marmellata di prugne

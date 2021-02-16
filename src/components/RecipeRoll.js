@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { ImLeaf } from "react-icons/im"
+
 
 class RecipeRoll extends React.Component {
   render() {
@@ -17,32 +19,32 @@ class RecipeRoll extends React.Component {
                 className='blog-list-item tile is-child box'
               >
                 <header>
-                <div className="tile is-child">
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
+                  <div className="tile is-child">
+                    {post.frontmatter.featuredimage ? (
+                      <div className="featured-thumbnail">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          }}
+                        />
+                      </div>
+                    ) : null}
                   </div>
                   <div className="tile is-child">
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-black is-size-3"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                  </p>
-                  <span></span>
-                  {post.excerpt}
+                    <p className="post-meta">
+                      <Link
+                        className="title has-text-black is-size-3"
+                        to={post.fields.slug}
+                      >
+                        {post.frontmatter.title}{post.frontmatter.tags.includes("vegetariano") ? <a title="vegetariano"><ImLeaf className="vegetarian-leaf" size={15} color="#508b41" /></a> : null}
+                      </Link>
+                    </p>
+                    <span></span>
+                    {post.excerpt}
                   </div>
                 </header>
-                <p> 
+                <p>
                   <Link className="button" to={post.fields.slug}>
                     Continua a leggere →
                   </Link>
@@ -83,6 +85,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                tags
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 240, quality: 100) {
