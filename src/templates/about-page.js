@@ -24,7 +24,7 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
           <div className="column is-4">
             <div className="section">
               <figure className="image">
-                <Img className=" is-square"
+                <Img className="is-square box"
                   fluid={image}
                   alt="Nonna"
                 />
@@ -52,7 +52,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        image={post.frontmatter.image}
+        image={post.frontmatter.image.childImageSharp.fluid}
         content={post.html}
       />
     </Layout>
