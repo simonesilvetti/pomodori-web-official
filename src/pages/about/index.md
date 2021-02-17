@@ -2,6 +2,7 @@
 templateKey: about-page
 path: /about
 title: Chi Siamo
+image: /img/nonna.jpg
 ---
 Calabresi di nascita, liguri e friuliani di adozione. 
 

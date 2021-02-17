@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { ImLeaf } from "react-icons/im"
+import VegetarianToolTip from './recipe/VegetarianToolTip'
 
 
 class RecipeRoll extends React.Component {
@@ -37,7 +37,7 @@ class RecipeRoll extends React.Component {
                         className="title has-text-black is-size-3"
                         to={post.fields.slug}
                       >
-                        {post.frontmatter.title}{post.frontmatter.tags.includes("vegetariano") ? <a title="vegetariano"><ImLeaf className="vegetarian-leaf" size={15} color="#508b41" /></a> : null}
+                        {post.frontmatter.title}{post.frontmatter.tags.includes("vegetariano") ? <VegetarianToolTip /> : null}
                       </Link>
                     </p>
                     <span></span>
