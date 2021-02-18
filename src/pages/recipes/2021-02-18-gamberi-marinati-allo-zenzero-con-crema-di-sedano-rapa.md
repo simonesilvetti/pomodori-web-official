@@ -32,6 +32,7 @@ tags:
   - inverno
   - antipasti
   - sedanorapa
+  - pesce
 blogger: Claudia
 ---
 Gamberi speziati adagiati su una crema delicata al sedano rapa.
