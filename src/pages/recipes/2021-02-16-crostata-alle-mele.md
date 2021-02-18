@@ -18,7 +18,7 @@ ingredientsSections:
       - scorza di un limone
       - 1/2 bustina di lievito per dolci
       - un pizzico di sale
-  - section: GUARNIZIONE
+  - section: FARCITURA
     ingredients:
       - marmellata di prugne
       - granella di mardorle
