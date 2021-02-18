@@ -30,10 +30,10 @@ preparationSteps:
   - step: Sbucciate le mele e privatele del torsolo.  Affettate le mele,
       spolverizzate con la cannella e bagnatele con un bicchierino di Grand
       Marnier.  Lasciate riposare.
-  - step: In una ciotola unite le farine, il sale, il lievito setacciato, lo
-      zucchero e la scorza grattugiata dei limoni. Aggiungete la marmellata di
-      limone e mescolate.  Unite l’uovo ed il burro a pezzettini. Impastate fino
-      a quando il burro non si sarà sciolto con il calore delle mani.
+  - step: In una ciotola unite la farina, il sale, il lievito setacciato, lo
+      zucchero e la scorza grattugiata del limone.  Unite l’uovo ed il burro a
+      pezzettini. Impastate fino a quando il burro non si sarà sciolto con il
+      calore delle mani.
   - step: |-
       
 
