@@ -11,7 +11,7 @@ dose: 8 persone
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 190g farina 1
+      - 190g farina tipo 1
       - 45g zucchero bianco
       - 1 uovo
       - 150g burro a t. ambiente
