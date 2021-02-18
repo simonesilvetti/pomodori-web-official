@@ -10,7 +10,7 @@ dose: 10 calzoni
 ingredientsSections:
   - section: IMPASTO
     ingredients:
-      - 250g farina 0
+      - 250g farina tipo 0
       - 230g patate
       - 1 uovo
       - 3g lievito di birra liofilizzato
@@ -51,8 +51,9 @@ preparationSteps:
   - step: >-
       Trascorse le due ore di lievitazione, trasferite il panetto su una
       spianatoia infarinata e ricavate piccole palline di circa 50g. Stendete
-      ogni pallina con l'aiuto di un mattarello, ricavando così dei dischi di circa 8 cm di diametro. Ponete il condimento al centro
-      di ognuno di essi e richiudetelo a forma di mezzaluna. 
+      ogni pallina con l'aiuto di un mattarello, ricavando così dei dischi di
+      circa 8 cm di diametro. Ponete il condimento al centro di ognuno di essi e
+      richiudetelo a forma di mezzaluna. 
 
 
       Nel mio caso ho preparato:
@@ -62,8 +63,8 @@ preparationSteps:
       * 4 calzoni pomodoro, mozzarella e melanzana
 
       * 4 calzoni pomodoro, mozzarella e funghi
-  - step: >-
-      A questo punto potete scegliere se infornarli per 25 minuti a 180 gradi oppure se friggerli.
+  - step: A questo punto potete scegliere se infornarli per 25 minuti a 180 gradi
+      oppure se friggerli.
 tags:
   - antipasti
   - calzone
