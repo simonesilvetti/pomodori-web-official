@@ -3,21 +3,12 @@ import PropTypes from 'prop-types'
 import { RecipePostTemplate } from '../../templates/recipe-post'
 
 const RecipePostPagePreview = ({ entry, collection, widgetFor, getAsset, fieldsMetaData, config, fields }) => {
-  console.log(entry)
-  console.log(collection)
-  console.log(widgetFor)
-  console.log(getAsset)
-  console.log(fieldsMetaData)
-  console.log(config)
-  console.log(fields)
-
   return (
-
     <RecipePostTemplate
       title={entry.getIn(['data', 'title'])}
       difficulty={entry.getIn(['data', 'difficulty'])}
       time={entry.getIn(['data', 'time'])}
-      featuredImage={getAsset(entry.getIn(['data', 'featuredImage'])) }
+      featuredImage={getAsset(entry.getIn(['data', 'featuredImage']))}
       //images={entry.getIn(['data', 'images'])}
       dose={entry.getIn(['data', 'dose'])}
       ingredients={entry.getIn(['data', 'ingredients'])}

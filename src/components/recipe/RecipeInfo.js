@@ -14,7 +14,7 @@ class RecipeInfo extends React.Component {
             <div>
                 <div className="tile is-child" style={{ display: "flex", justifyContent: "space-between" }}>
                     <div>
-                        <h1 className="title is-size-1" >{data.title} {data.vegetarian ? <VegetarianToolTip /> : null}</h1>
+                        <div className="title is-size-1" >{data.title} {data.vegetarian ? <VegetarianToolTip /> : null}</div>
                         <div className="subtitle is-4">di {data.blogger}</div>
                     </div>
                     <ShareBadge url={url} content={data.title} />

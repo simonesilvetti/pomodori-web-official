@@ -9,6 +9,7 @@ import PreparationSteps from '../components/recipe/PreparationSteps'
 import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
 import useSiteMetadata from '../components/SiteMetadata'
+import richResult from '../components/recipe/RichResult'
 import Img from "gatsby-image"
 
 
@@ -33,6 +34,7 @@ export const RecipePostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
+
       <div className="container content">
         <div className="tile is-ancestor">
           <div className="tile is-parent">
@@ -123,10 +125,10 @@ const RecipePost = ({ data }) => {
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
             <meta property="og:description" content={post.frontmatter.description} />
-            {console.log(siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid)}
             <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid.src} />
             <meta property="og:image:alt" content={post.frontmatter.title} />
             <meta name="keywords" content={["ricetta", "cibo", "italia"].concat(post.frontmatter.tags.toString())} />
+            {richResult(post.frontmatter)}
           </Helmet>
         }
         title={post.frontmatter.title}

@@ -2,9 +2,9 @@ import React from 'react'
 import { ImLeaf } from "react-icons/im"
 
 const VegetarianToolTip = () => (
-  <div class="tooltip">
+  <div className="tooltip">
     <ImLeaf className="vegetarian-leaf" size={25} color="#508b41" />
-    <span class="tooltiptext subtitle is-5">vegetariano</span>
+    <span className="tooltiptext subtitle is-5">vegetariano</span>
   </div>
 )
 
