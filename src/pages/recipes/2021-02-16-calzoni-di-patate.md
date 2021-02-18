@@ -4,7 +4,7 @@ title: Calzoni di patate
 date: 2021-02-16T20:28:59.275Z
 difficulty: 2
 time: 1h +2h
-description: Calzoni morbidissimi di patate con ripieno a piacimento.
+description: Morbidissimi calzoni di patate con un gustoso ripieno a piacimento.
 featuredimage: /img/calzoni-di-patate.jpg
 dose: 10 calzoni
 ingredientsSections:
@@ -71,4 +71,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-Calzoni morbidissimi di patate con ripieno a piacimento.
+Morbidissimi calzoni di patate con un gustoso ripieno a piacimento.
