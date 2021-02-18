@@ -126,6 +126,7 @@ const RecipePost = ({ data }) => {
             {console.log(siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid)}
             <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid.src} />
             <meta property="og:image:alt" content={post.frontmatter.title} />
+            <meta name="keywords" content={["ricetta", "cibo", "italia"].concat(post.frontmatter.tags.toString())} />
           </Helmet>
         }
         title={post.frontmatter.title}

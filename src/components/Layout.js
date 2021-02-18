@@ -49,8 +49,15 @@ const TemplateWrapper = ({ children }) => {
         <link rel="alternate icon"
           href={`${withPrefix('/')}img/icon_new.ico`}
         />
+        <link rel="shortcut icon"
+          href={`${withPrefix('/')}img/icon_new.ico`}
+        />
+        <link rel="apple-touch-icon"
+          href={`${withPrefix('/')}img/icon_new.ico`}
+        />
 
         <meta name="theme-color" content="#CFB9B9" />
+        <meta name="keywords" content="Ricette, Cibo, Tradizione, Italia" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
