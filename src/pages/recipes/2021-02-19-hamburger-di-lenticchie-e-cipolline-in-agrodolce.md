@@ -53,6 +53,8 @@ preparationSteps:
       agrodolce.
 tags:
   - secondi
+  - lenticchie
+  - cipolle
   - vegetariano
 blogger: Katia
 ---
