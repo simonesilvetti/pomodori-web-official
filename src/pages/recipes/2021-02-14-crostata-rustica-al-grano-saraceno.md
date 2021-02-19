@@ -12,7 +12,7 @@ ingredientsSections:
   - section: INGREDIENTI
     ingredients:
       - 200g farina di grano saraceno
-      - 100g farina 0
+      - 100g farina tipo 0
       - 80g zucchero
       - 1 uovo
       - 80ml olio e.v.o
@@ -30,8 +30,8 @@ preparationSteps:
   - step: Stendete la base direttamente in una tortiera da 20 cm di diametro e
       coprite con la marmellata di ciliegie. Ricavate delle strisce dalla
       restante parte di impasto e ponetele sulla marmellata.
-  - step: |-
-      Infornate in forno già caldo per circa 30 minuti a 180°C. Infine spolverizzate con zucchero a velo.
+  - step: Infornate in forno già caldo per circa 30 minuti a 180°C. Infine
+      spolverizzate con zucchero a velo.
 tags:
   - dolci
   - crostata

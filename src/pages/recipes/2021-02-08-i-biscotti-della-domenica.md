@@ -4,7 +4,7 @@ title: I biscotti della domenica
 date: 2021-02-08T18:12:37.047Z
 difficulty: 2
 time: 2.30h
-description: "Una merenda perfetta da preparare la domenica."
+description: Una merenda perfetta da preparare la domenica.
 featuredimage: /img/img_4889_mark.jpg
 images:
   - image: /img/img_4877_mark.jpg
@@ -13,7 +13,7 @@ dose: 40 biscotti (misti)
 ingredientsSections:
   - section: AL LIMONE
     ingredients:
-      - 150g farina 1
+      - 150g farina tipo 1
       - 35g farina di mais
       - 45g zucchero bianco
       - 1 uovo
@@ -24,7 +24,7 @@ ingredientsSections:
   - section: ALLA MELA
     ingredients:
       - 1 mela
-      - 225g farina 1
+      - 225g farina tipo 1
       - 50g zucchero a velo
       - 25gr zucchero integrale di canna
       - 1 uovo
@@ -37,7 +37,7 @@ ingredientsSections:
     ingredients:
       - 25g zenzero
       - 35g mandorle sgusciate
-      - 150g farina1
+      - 150g farina tipo 1
       - 30g zucchero integrale di canna
       - 25g zucchero bianco
       - 1 uovo
@@ -75,15 +75,15 @@ preparationSteps:
   - step: Preriscaldate il forno.
   - step: >-
       **Lavorate il panetto al limone.**  Stendete il panetto con l'aiuto di un
-      mattarello. Se il composto risulta appiccicoso, aiutatevi con della farina.
-      Componete i biscotti con formine a piacimento.
+      mattarello. Se il composto risulta appiccicoso, aiutatevi con della
+      farina. Componete i biscotti con formine a piacimento.
 
 
       Infornate a 185 gradi in forno statico per 25 minuti.
   - step: >-
       **Lavorate il panetto alla mela.**  Stendete il panetto con l'aiuto di un
-      mattarello. Se il composto risulta appiccicoso, aiutatevi con della farina.
-      Componete i biscotti con formine a piacimento.
+      mattarello. Se il composto risulta appiccicoso, aiutatevi con della
+      farina. Componete i biscotti con formine a piacimento.
 
 
       Spolverizzate i biscotti con la cannella in polvere. Infornate a 180 gradi in forno statico per 20 minuti.
