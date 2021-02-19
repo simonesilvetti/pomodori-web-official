@@ -7,18 +7,18 @@ time: 1h
 description: Una crostata di marmellata arricchita da granella di mandorle ed
   uno strato di mele al Grand Marnier.
 featuredimage: /img/crostata_mele_mark.jpg
-dose: 10 porzioni
+dose: 8 persone
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 190g farina 1
+      - 190g farina tipo 1
       - 45g zucchero bianco
       - 1 uovo
       - 150g burro a t. ambiente
       - scorza di un limone
       - 1/2 bustina di lievito per dolci
       - un pizzico di sale
-  - section: GUARNIZIONE
+  - section: FARCITURA
     ingredients:
       - marmellata di prugne
       - granella di mardorle
@@ -30,10 +30,10 @@ preparationSteps:
   - step: Sbucciate le mele e privatele del torsolo.  Affettate le mele,
       spolverizzate con la cannella e bagnatele con un bicchierino di Grand
       Marnier.  Lasciate riposare.
-  - step: In una ciotola unite le farine, il sale, il lievito setacciato, lo
-      zucchero e la scorza grattugiata dei limoni. Aggiungete la marmellata di
-      limone e mescolate.  Unite l’uovo ed il burro a pezzettini. Impastate fino
-      a quando il burro non si sarà sciolto con il calore delle mani.
+  - step: In una ciotola unite la farina, il sale, il lievito setacciato, lo
+      zucchero e la scorza grattugiata del limone.  Unite l’uovo ed il burro a
+      pezzettini. Impastate fino a quando il burro non si sarà sciolto con il
+      calore delle mani.
   - step: |-
       
 
