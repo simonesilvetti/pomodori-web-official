@@ -8,16 +8,18 @@ const PreparationSteps = ({ preparationSteps }) => (
   <div>
     {preparationSteps.map((preparationStep, index) => (
       <article key={v4()} className="message">
-        <div className="message-body">
-          <div className="numberSquared" style={{
-            position: "relative",
-            top: "-15px", left: "-20px"
-          }}>{index+1}</div>
-          <ReactMarkdown>{preparationStep.step}</ReactMarkdown>
-        </div>
+        <a href={"#step" + index} style={{ textDecoration: "none", pointerEvents: "none", cursor: "default" }}>
+          <div className="message-body" >
+            <div className="numberSquared" style={{
+              position: "relative",
+              top: "-15px", left: "-20px"
+            }}>{index + 1}</div>
+            <ReactMarkdown>{preparationStep.step}</ReactMarkdown>
+          </div>
+        </a>
       </article>
     ))}
-  </div>
+  </div >
 )
 
 PreparationSteps.propTypes = {

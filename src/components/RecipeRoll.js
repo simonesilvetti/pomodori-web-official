@@ -32,14 +32,14 @@ class RecipeRoll extends React.Component {
                     ) : null}
                   </div>
                   <div className="tile is-child">
-                    <p className="post-meta">
+                    <div className="post-meta">
                       <Link
                         className="title has-text-black is-size-3"
                         to={post.fields.slug}
                       >
                         {post.frontmatter.title}{post.frontmatter.tags.includes("vegetariano") ? <VegetarianToolTip /> : null}
                       </Link>
-                    </p>
+                    </div>
                     <span></span>
                     {post.excerpt}
                   </div>

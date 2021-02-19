@@ -22,8 +22,8 @@ export default (recipe) => {
         // "totalTime": "PT50M",
         "keywords": recipe.tags.toString(),
         //"recipeYield": "10",
-        //"recipeCategory": "Dessert",
-        "recipeCuisine": "Italian",
+        "recipeCategory": recipe.tags[0].toString(),
+        "recipeCuisine": "italiana",
         // "nutrition": {
         //     "@type": "NutritionInformation",
         //     "calories": "270 calories"
