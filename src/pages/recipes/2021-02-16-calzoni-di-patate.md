@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Calzoni di patate
+title: Calzoni soffici di patate
 date: 2021-02-16T20:28:59.275Z
 difficulty: 2
 time: 1h +2h

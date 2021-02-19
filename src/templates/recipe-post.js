@@ -34,7 +34,6 @@ export const RecipePostTemplate = ({
   return (
     <section className="section">
       {helmet || ''}
-
       <div className="container content">
         <div className="tile is-ancestor">
           <div className="tile is-parent">

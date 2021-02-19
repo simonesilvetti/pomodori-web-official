@@ -78,7 +78,7 @@ const Navbar = class extends React.Component {
                     Orto
                   </Link> */}
                   <Link className="navbar-item" to="/about">
-                    About
+                    Chi Siamo
                   </Link>
                   {/* <Link className="navbar-item" to="/products">
                   Products

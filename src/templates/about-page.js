@@ -4,6 +4,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
+import { Helmet } from 'react-helmet'
+
 
 
 export const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
@@ -11,6 +13,9 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
 
   return (
     <section className="section section--gradient">
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
       <div className="container">
         <div className="columns">
           <div className="column is-7 is-offset-1">
@@ -28,7 +33,6 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
                   fluid={image}
                   alt="Nonna"
                 />
-                {/* <img className=" is-square" src={featuredImage} alt="Recipe"></img> */}
               </figure>
             </div>
           </div>
