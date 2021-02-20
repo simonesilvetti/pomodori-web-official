@@ -8,9 +8,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-primary has-text-white-ter">
         <div className="content has-text-centered">
-
           <Logo />
-
         </div>
         <div className="content has-text-centered has-background-primary has-text-white-ter">
           <div className="container has-background-primary has-text-white-ter">

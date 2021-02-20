@@ -5,12 +5,27 @@ import Layout from '../components/Layout'
 import RecipeRoll from '../components/RecipeRoll'
 import mainImange from '../img/jumbotron.jpg'
 import Img from "gatsby-image"
+import { v4 } from 'uuid'
+
+const Column = ({column}) => (
+  <div className="tile is-parent">
+    <article className="tile is-child">
+      <figure className="is-4by3">
+        <Img
+          fixed={column.image.childImageSharp.fixed}
+          alt={column.title}
+        />
+      </figure>
+      <p className="title is-4 has-text-centered">{column.title}</p>
+      <span />
+      <p className="is-6 has-text-justified px-3">{column.text}</p>
+    </article>
+  </div>
+);
 
 
 export const IndexPageTemplate = ({
-  firstColumn,
-  secondColumn,
-  thirdColumn,
+  columns
 }) => (
     <div className="container">
       <div
@@ -29,47 +44,7 @@ export const IndexPageTemplate = ({
                   <div className="tile is-ancestor">
                     <div className="tile is-vertical">
                       <div className="tile">
-                        <div className="tile is-parent">
-                          <article className="tile is-child">
-                            <figure className="is-4by3">
-                              <Img
-                                fixed={firstColumn.image.childImageSharp.fixed}
-                                alt="First Image"
-                              />
-                            </figure>
-                            <p className="title is-4 has-text-centered">Stagioni</p>
-                            <span />
-                            <p className="is-6 has-text-justified px-3"> Il susseguirsi delle stagioni ci permette di poter gustare frutta e verdura, nonchè pescato di vario tipo, che cambiano in sapore, colore e proprietà nutritive. In questa sezione troverete una serie di ricette in cui gli accostamenti tra le materie prime rispettano i ritmi della natura.</p>
-                          </article>
-                        </div>
-                        <div className="tile is-parent">
-                          <article className="tile is-child">
-                            <figure className="is-4by3">
-                              <Img
-                                fixed={secondColumn.image.childImageSharp.fixed}
-                                alt="Second Image"
-                              />
-                            </figure>
-                            <p className="title is-4 has-text-centered">Tradizioni</p>
-                            <span />
-                            <p className="is-6 has-text-justified px-3">Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the </p>
-
-                          </article>
-                        </div>
-                        <div className="tile is-parent">
-                          <article className="tile is-child">
-                            <figure className="is-4by3">
-                              <Img
-                                fixed={thirdColumn.image.childImageSharp.fixed}
-                                alt="Third Image"
-                              />
-                            </figure>
-                            <p className="title is-4 has-text-centered">Pomodoro.. in tutte le salse</p>
-                            <span />
-                            <p className="is-6 has-text-justified px-3">Ciliegino, San Marzano, cuore di bue... giallo, verde, rosso... da insalata, da salsa, da essiccare..il pomodoro è forse l’emblema della cucina italiana! Vi proponiamo una serie di ricette, alcune classiche ed altre più innovative, che lo vedono protagonista.</p>
-
-                          </article>
-                        </div>
+                        {columns.map(column => <Column key={v4()} column={column} />)}
                       </div>
                     </div>
                   </div>
@@ -105,9 +80,9 @@ export const IndexPageTemplate = ({
                     <p className="section title has-text-centered">Ultime Ricette</p>
                     <RecipeRoll />
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/recipes">
-                        Visualizza le altre  ricette
-                    </Link>
+                      <Link to="/recipes">
+                        <button className="button is-link is-outlined">Visualizza le altre  ricette</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -134,9 +109,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        firstColumn={frontmatter.firstColumn}
-        secondColumn={frontmatter.secondColumn}
-        thirdColumn={frontmatter.thirdColumn}
+        columns={frontmatter.columns}
       />
     </Layout>
   )
@@ -156,7 +129,7 @@ export const pageQuery = graphql`
 query IndexPageTemplate {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
     frontmatter {
-      firstColumn {
+      columns {
         image{
           childImageSharp{
             fixed(width: 240, height: 240,quality:80) {
@@ -165,26 +138,7 @@ query IndexPageTemplate {
           }
         }
         text
-      }
-      secondColumn {
-        image{
-          childImageSharp{
-            fixed(width: 240, height: 240,quality:80) {
-              ...GatsbyImageSharpFixed_withWebp_noBase64
-            }
-          }
-        }
-        text
-      }
-      thirdColumn {
-        text
-        image{
-          childImageSharp{
-            fixed(width: 240, height: 240,quality:80) {
-              ...GatsbyImageSharpFixed_withWebp_noBase64
-            }
-          }
-        }
+        title
       }
     }
   }

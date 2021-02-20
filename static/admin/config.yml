@@ -58,9 +58,7 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: "First Column", name: "firstColumn", widget: "object", fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Text, name: text, widget: string},{label: Hidden Tags, name: hiddenTags, widget: list}]}
-          - {label: "Second Column", name: "secondColumn", widget: "object", fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Text, name: text, widget: string},{label: Hidden Tags, name: hiddenTags, widget: list}]}
-          - {label: "Third Column", name: "thirdColumn", widget: "object", fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}, {label: Text, name: text, widget: string},{label: Hidden Tags, name: hiddenTags, widget: list}]}
+          - {label: Columns, name: columns, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string},{label: Text, name: text, widget: string}, {label: Tags, name: tags, widget: list}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"

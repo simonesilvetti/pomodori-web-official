@@ -3,7 +3,7 @@
 // Config vars
 // Kaldi logo brand color: #FD461E
 $pomodoro-red: #D62F05
-$pomodoro-red-invert: #d62f0514
+$pomodoro-red-invert: #fff
 
 $kaldi-red: #CFB9B9
 $kaldi-red-invert: #fff
@@ -15,7 +15,9 @@ $body-color: #333
 $black: #2b2523
 $box-radius: 0px
 $tag-color: $pomodoro-red
-$tag-background-color: $pomodoro-red-invert
+$tag-background-color: #d62f0514
+$link: $pomodoro-red
+$link-invert: $pomodoro-red-invert
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -179,9 +181,9 @@ $menu-label-color: $white-ter
 
   // Vegetarian tooltip
   /* Tooltip container */
-.tooltip 
-  position: relative;
-  display: inline-block;
+.tooltip
+  position: relative
+  display: inline-block
   //border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 
 /* Tooltip text */
@@ -190,17 +192,15 @@ $menu-label-color: $white-ter
   width: 100px
   //background-color: white
   //color: #fff
-  color: rgb(80, 139, 65);
+  color: rgb(80, 139, 65)
   text-align: center
   padding: 5px 0
   border-radius: 6px
- 
+
   /* Position the tooltip text - see examples below! */
   position: absolute
   z-index: 1
 
-
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext 
+.tooltip:hover .tooltiptext
   visibility: visible
-

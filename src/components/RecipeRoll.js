@@ -41,14 +41,15 @@ class RecipeRoll extends React.Component {
                       </Link>
                     </div>
                     <span></span>
+                    <br></br>
                     {post.excerpt}
                   </div>
                 </header>
-                <p>
+                {/* <p>
                   <Link className="button" to={post.fields.slug}>
                     Continua a leggere →
                   </Link>
-                </p>
+                </p> */}
               </article>
             </div>
           ))}
