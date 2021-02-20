@@ -33,7 +33,7 @@ export const IndexPageTemplate = ({
                           <article className="tile is-child">
                             <figure className="is-4by3">
                               <Img
-                                fluid={firstColumn.image.childImageSharp.fluid}
+                                fixed={firstColumn.image.childImageSharp.fixed}
                                 alt="First Image"
                               />
                             </figure>
@@ -46,7 +46,7 @@ export const IndexPageTemplate = ({
                           <article className="tile is-child">
                             <figure className="is-4by3">
                               <Img
-                                fluid={secondColumn.image.childImageSharp.fluid}
+                                fixed={secondColumn.image.childImageSharp.fixed}
                                 alt="Second Image"
                               />
                             </figure>
@@ -60,7 +60,7 @@ export const IndexPageTemplate = ({
                           <article className="tile is-child">
                             <figure className="is-4by3">
                               <Img
-                                fluid={thirdColumn.image.childImageSharp.fluid}
+                                fixed={thirdColumn.image.childImageSharp.fixed}
                                 alt="Third Image"
                               />
                             </figure>
@@ -159,8 +159,8 @@ query IndexPageTemplate {
       firstColumn {
         image{
           childImageSharp{
-            fluid(maxWidth: 240, quality: 80) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
+            fixed(width: 240, height: 240,quality:80) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
@@ -169,8 +169,8 @@ query IndexPageTemplate {
       secondColumn {
         image{
           childImageSharp{
-            fluid(maxWidth: 240, quality: 80) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
+            fixed(width: 240, height: 240,quality:80) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
@@ -180,8 +180,8 @@ query IndexPageTemplate {
         text
         image{
           childImageSharp{
-            fluid(maxWidth: 240, quality: 80) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
+            fixed(width: 240, height: 240,quality:80) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
