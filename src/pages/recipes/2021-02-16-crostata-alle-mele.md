@@ -51,6 +51,7 @@ preparationSteps:
       rombo.
   - step: Infornate a 200 gradi in forno statico per 30 minuti.
   - step: Fate raffreddare la crostata e spolverizzate  con zucchero a velo.
+card:
 tags:
   - dolci
   - crostata

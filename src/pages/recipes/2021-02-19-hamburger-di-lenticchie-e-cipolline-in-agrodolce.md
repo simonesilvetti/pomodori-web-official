@@ -51,6 +51,7 @@ preparationSteps:
       Le cipolline saranno pronte dopo circa 15 minuti.
   - step: Trasferite in un piatto l'hamburger ed accompagnate con le cipolle in
       agrodolce.
+card:
 tags:
   - secondi
   - lenticchie

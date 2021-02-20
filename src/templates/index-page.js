@@ -6,8 +6,10 @@ import RecipeRoll from '../components/RecipeRoll'
 import mainImange from '../img/jumbotron.jpg'
 import Img from "gatsby-image"
 import { v4 } from 'uuid'
+import { kebabCase } from 'lodash'
 
-const Column = ({column}) => (
+
+const Column = ({ column }) => (
   <div className="tile is-parent">
     <article className="tile is-child">
       <figure className="is-4by3">
@@ -16,9 +18,16 @@ const Column = ({column}) => (
           alt={column.title}
         />
       </figure>
-      <p className="title is-4 has-text-centered">{column.title}</p>
+      <p className="title is-4 has-text-centered">
+        {column.title}
+      </p>
       <span />
       <p className="is-6 has-text-justified px-3">{column.text}</p>
+      <div className="has-text-centered">
+        <Link to={`/cards/${kebabCase(column.card)}/`}>
+          <button className="button is-link is-outlined is-small">Ricette</button>
+        </Link>
+      </div>
     </article>
   </div>
 );
@@ -81,7 +90,7 @@ export const IndexPageTemplate = ({
                     <RecipeRoll />
                     <div className="column is-12 has-text-centered">
                       <Link to="/recipes">
-                        <button className="button is-link is-outlined">Visualizza le altre  ricette</button>
+                        <button className="button is-link is-outlined">Visualizza le altre ricette</button>
                       </Link>
                     </div>
                   </div>
@@ -139,6 +148,7 @@ query IndexPageTemplate {
         }
         text
         title
+        card
       }
     }
   }

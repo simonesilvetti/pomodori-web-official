@@ -18,7 +18,15 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
+              card
             }
+          }
+        }
+      }
+      markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+        frontmatter {
+          columns {
+            card
           }
         }
       }
@@ -30,6 +38,7 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+    const indexPageColumns = result.data.markdownRemark.frontmatter.columns
 
     posts.forEach((edge) => {
       const id = edge.node.id
@@ -46,16 +55,25 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
-    // Tag pages:
+    // Tag/Cards pages:
     let tags = []
+    let cards = []
     // Iterate through each post, putting all found tags into `tags`
     posts.forEach((edge) => {
       if (_.get(edge, `node.frontmatter.tags`)) {
         tags = tags.concat(edge.node.frontmatter.tags)
       }
     })
-    // Eliminate duplicate tags
+
+    // Iterate through each post, putting all found cards into `cards`
+    indexPageColumns.forEach((column) => {
+      if (_.get(column, `card`)) {
+        cards.push(column.card)
+      }
+    })
+    // Eliminate duplicate tags and cards
     tags = _.uniq(tags)
+    cards = _.uniq(cards)
 
     // Make tag pages
     tags.forEach((tag) => {
@@ -69,6 +87,19 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
     })
+
+    cards.forEach((tag) => {
+      const tagPath = `/cards/${_.kebabCase(tag)}/`
+
+      createPage({
+        path: tagPath,
+        component: path.resolve(`src/templates/cards.js`),
+        context: {
+          tag,
+        },
+      })
+    })
+
   })
 }
 

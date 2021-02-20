@@ -64,6 +64,7 @@ preparationSteps:
 
 
       Versate la guarnizione al centro della cheesecake e aggiungete la restante metà dei frutti di bosco freschi.  Spolverizzate con dello zucchero a velo per completare il piatto.
+card:
 tags:
   - dolci
   - cheesecake

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
-class TagRoute extends React.Component {
+class CardRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map((post) => (
@@ -17,7 +17,7 @@ class TagRoute extends React.Component {
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const finalLetter = totalCount === 1 ? 'a' : 'e';
-    const tagHeader = `${totalCount} ricett${finalLetter} taggat${finalLetter} “${tag}”`
+    const tagHeader = `${totalCount} ricett${finalLetter}`
 
     return (
       <Layout>
@@ -31,11 +31,6 @@ class TagRoute extends React.Component {
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">
-                    <button className="button is-link is-outlined is-small">Visualizza tutti i tag</button>
-                  </Link>
-                </p>
               </div>
             </div>
           </div>
@@ -45,10 +40,10 @@ class TagRoute extends React.Component {
   }
 }
 
-export default TagRoute
+export default CardRoute
 
-export const tagPageQuery = graphql`
-  query TagPage($tag: String) {
+export const cardPageQuery = graphql`
+  query CardPage($tag: String) {
     site {
       siteMetadata {
         title
@@ -57,7 +52,7 @@ export const tagPageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { card: { in: [$tag] } } }
     ) {
       totalCount
       edges {

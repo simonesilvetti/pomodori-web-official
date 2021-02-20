@@ -31,7 +31,8 @@ collections:
       - {label: "Dose", name: "dose", widget: "string"}
       - {label: Ingredients Sections, name: ingredientsSections, widget: list, fields: [{label: Section, name: section, widget: string}, {label: Ingredients, name: ingredients, widget: list}]}
       - {label: Preparation Steps, name: preparationSteps, widget: list, fields: [{label: "Step", name: "step", widget: markdown}]}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Bodystagioni", name: "body", widget: "markdown"}
+      - {label: Card, name: card, widget: select, options: [{label: "Stagioni", value: "stagioni"},{label: "Tradizioni", value: "tradizioni"},{label: "Pomodoro", value: "pomodoro"}]}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Blogger", name: "blogger", widget: "string"}
 
@@ -58,7 +59,7 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Columns, name: columns, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string},{label: Text, name: text, widget: string}, {label: Tags, name: tags, widget: list}]}
+          - {label: Columns, name: columns, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string},{label: Text, name: text, widget: string},{label: Card, name: card, widget: select, options: [{label: "Stagioni", value: "stagioni"},{label: "Tradizioni", value: "tradizioni"},{label: "Pomodoro", value: "pomodoro"}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"

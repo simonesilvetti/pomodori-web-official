@@ -65,6 +65,7 @@ preparationSteps:
       * 4 calzoni pomodoro, mozzarella e funghi
   - step: A questo punto potete scegliere se infornarli per 25 minuti a 180 gradi
       oppure se friggerli.
+card:
 tags:
   - antipasti
   - calzone
