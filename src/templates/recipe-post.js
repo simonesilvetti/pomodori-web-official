@@ -9,6 +9,7 @@ import PreparationSteps from '../components/recipe/PreparationSteps'
 import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
 import useSiteMetadata from '../components/SiteMetadata'
+import ShareGlovesBadge from '../components/ShareGlovesBadge'
 import richResult from '../components/recipe/RichResult'
 import Img from "gatsby-image"
 
@@ -59,18 +60,27 @@ export const RecipePostTemplate = ({
         </div>
         <ImagesSection images={images}></ImagesSection>
         <div className="section">
-          <div className="title is-size-3">Tags</div>
-          <ul className="taglist">
-            {tags.map((tag) => (
-              <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>
-                  <div className="tag is-medium ">
-                    {tag}
-                  </div>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div class="columns">
+            <div class="column is-two-thirds">
+              <div className="title is-size-3">Tags</div>
+              <ul className="taglist">
+                {tags.map((tag) => (
+                  <li key={tag + `tag`}>
+                    <Link to={`/tags/${kebabCase(tag)}/`}>
+                      <div className="tag is-medium ">
+                        {tag}
+                      </div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div class="column">
+              <ShareGlovesBadge />
+            </div>
+          </div>
+
+
 
         </div>
       </div>
