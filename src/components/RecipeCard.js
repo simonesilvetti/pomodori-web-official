@@ -5,23 +5,24 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 import VegetarianToolTip from './recipe/VegetarianToolTip'
 
 
-class RecipeRoll extends React.Component {
+class RecipeCard extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className='blog-list-item tile is-child box'
-              >
-                <header>
+      <div className="container.is-max-desktop">
+        <div className="columns is-multiline">
+          {posts &&
+            posts.map(({ node: post }) => (
+              <div className="is-parent column is-4" key={post.id}>
+                <article
+                  className='blog-list-item tile is-child is-vertical box'
+                >
+
                   <div className="tile is-child">
                     {post.frontmatter.featuredimage ? (
-                      <div className="featured-thumbnail">
+                      <div>
                         <PreviewCompatibleImage
                           imageInfo={{
                             image: post.frontmatter.featuredimage,
@@ -41,24 +42,24 @@ class RecipeRoll extends React.Component {
                       </Link>
                     </div>
                     <span></span>
-                    <br></br>
                     {post.excerpt}
                   </div>
-                </header>
-                {/* <p>
-                  <Link className="button" to={post.fields.slug}>
-                    Continua a leggere →
-                  </Link>
-                </p> */}
-              </article>
-            </div>
-          ))}
+
+                  {/* <p>
+                <Link className="button" to={post.fields.slug}>
+                  Continua a leggere →
+                </Link>
+              </p> */}
+                </article>
+              </div>
+            ))}
+        </div>
       </div>
     )
   }
 }
 
-RecipeRoll.propTypes = {
+RecipeCard.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -69,11 +70,10 @@ RecipeRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query RecipeRollQuery {
+      query RecipeCardQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "recipe-post" } } }
-          limit: 4
         ) {
           edges {
             node {
@@ -90,7 +90,7 @@ export default () => (
                 tags
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 240, quality: 100) {
+                    fluid(maxWidth: 400, quality: 100) {
                       ...GatsbyImageSharpFluid_withWebp_noBase64
                     }
                   }
@@ -101,6 +101,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <RecipeRoll data={data} count={count} />}
+    render={(data, count) => <RecipeCard data={data} count={count} />}
   />
 )
