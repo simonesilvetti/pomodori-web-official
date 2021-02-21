@@ -41,7 +41,6 @@ class RecipeRoll extends React.Component {
                       </Link>
                     </div>
                     <span></span>
-                    <br></br>
                     {post.excerpt}
                   </div>
                 </header>

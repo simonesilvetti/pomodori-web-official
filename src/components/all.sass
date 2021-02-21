@@ -6,15 +6,19 @@ $family-primary: 'Lato', sans-serif
 $pomodoro-red: #be5f49
 $pomodoro-red-invert: #fff
 
-$primary: #CFB9B9
+$primary: #bf968c
 $primary-invert: #fff
 $body-color: #333
 $black: #2b2523
 $box-radius: 0px
+
 $tag-color: $pomodoro-red
 $tag-background-color: #d62f0514
 $link: $pomodoro-red
 $link-invert: $pomodoro-red-invert
+
+//$blog-list-item-color: #c7c9d1
+$blog-list-item-color: #cdd3dd94
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -43,10 +47,14 @@ $link-invert: $pomodoro-red-invert
   right: 50%
   margin: 2em -50vw
   background-size: cover
-  background-position: bottom
+  //background-position: bottom
   display: flex
   justify-content: center
   align-items: center
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 
 .full-width-image
   width: 100vw
@@ -56,6 +64,7 @@ $link-invert: $pomodoro-red-invert
   display: flex
   justify-content: center
   align-items: center
+
 
 .btn
   display: inline-block
@@ -154,7 +163,7 @@ $menu-label-color: $white-ter
 
 .blog-list-item.tile
   //background-color: #DEE9F7
-  background-color: #e2e8d8
+  background-color: $blog-list-item-color
 
 .title
   font-family: 'Amatic SC'

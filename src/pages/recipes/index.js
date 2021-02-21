@@ -10,13 +10,13 @@ export default class RecipeIndexPage extends React.Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
+            backgroundImage: `url('/img/recipe-background.jpg')`,
           }}
         >
           <div
             className="title has-text-weight-bold is-size-1"
             style={{
-              backgroundColor: 'rgba(255, 255, 255, 0.8)',
+              backgroundColor: 'rgba(255, 255, 255)',
               padding: '1rem',
             }}>
             Ricette

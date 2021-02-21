@@ -4,16 +4,16 @@ columns:
   - image: /img/stagioni_card.png
     title: Stagioni
     text: >
-      Il susseguirsi delle stagioni ci permette di poter gustare frutta e verdura, nonchè pescato di vario tipo, che cambiano in sapore, colore e proprietà nutritive. In questa sezione troverete una serie di ricette in cui gli accostamenti tra le materie prime rispettano i ritmi della natura.
+      Crediamo nella stagionalità di frutta e verdura. Nei colori e nei sapori che evolvono con le stagioni. Negli accostamenti tra materie prime che rispettano i ritmi della natura. In questa sezione gli ingredienti stagionali esaltano ed arricchiscono il sapore delle nostre ricette.
     card: stagioni
   - image: /img/tradizioni_card.png
     title: Tradizioni
     text: >
-      Crediamo nella stagionalità di frutta e verdura. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+      Preparare un piatto della tradizione per noi è molto più che cucinare. E’ rivivere ricordi e sapori che non devono essere dimenticati. In questa sezione abbiamo raccolto alcune delle ricette che hanno accompagnato la nostra infanzia, le nostre domeniche e le nostre feste in famiglia.
     card: tradizioni
   - image: /img/pomodori_card.png
     title: Pomodoro... in tutte le salse
     text: >
-      Ciliegino, San Marzano, cuore di bue... giallo, verde, rosso... da insalata, da salsa, da essiccare..il pomodoro è forse l’emblema della cucina italiana! Vi proponiamo una serie di ricette, alcune classiche ed altre più innovative, che lo vedono protagonista.
+      Ciliegino, San Marzano, cuore di bue... giallo, verde, rosso... da insalata, da salsa, da essiccare... il pomodoro è il file rouge che unisce ed intreccia tutte le nostre preparazioni. Vi proponiamo una serie di ricette, classiche ed innovative, dove il pomodoro esalta il gusto del piatto.
     card: pomodoro
 ---

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.png'
+import logo from '../img/logo_mattone.png'
 import Logo from './Logo'
 import { FaSearch } from "react-icons/fa";
 
