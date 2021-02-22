@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import RecipeRoll from '../components/RecipeRoll'
-import mainImange from '../img/jumbotron.jpg'
+import mainImange from '../img/index-background.jpg'
 import Img from "gatsby-image"
 import { v4 } from 'uuid'
 import { kebabCase } from 'lodash'
