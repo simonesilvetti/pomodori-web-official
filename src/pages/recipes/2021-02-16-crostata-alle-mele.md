@@ -49,9 +49,9 @@ preparationSteps:
       granella di mandorle.  Iniziate a disporre a raggiera le vostre fettine di
       mele.  Terminate disponendo delle strisce di pasta con la classica trama a
       rombo.
-  - step: Infornate a 200 gradi in forno statico per 30 minuti.
+  - step: Infornate a 200°C in forno statico per 30 minuti.
   - step: Fate raffreddare la crostata e spolverizzate  con zucchero a velo.
-card:
+card: tradizioni
 tags:
   - dolci
   - crostata
