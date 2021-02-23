@@ -38,7 +38,7 @@ preparationSteps:
       Create le vostre susumelle utilizzando una coppapasta.
   - step: Cuocete in forno preriscaldato, a 180 gradi per 10 minuti.
   - step: Fate raffreddare su una gratella per dolci. Ricoprite con il cioccolato
-      fondente precedentemente sciolto a bagnomaria. a copertura ultimata,
+      fondente precedentemente sciolto a bagnomaria. A copertura ultimata,
       aspettate che il cioccolato rassodi.
 card: tradizioni
 tags:
