@@ -79,24 +79,24 @@ preparationSteps:
       farina. Componete i biscotti con formine a piacimento.
 
 
-      Infornate a 185 gradi in forno statico per 25 minuti.
+      Infornate a 185°C in forno statico per 25 minuti.
   - step: >-
       **Lavorate il panetto alla mela.**  Stendete il panetto con l'aiuto di un
       mattarello. Se il composto risulta appiccicoso, aiutatevi con della
       farina. Componete i biscotti con formine a piacimento.
 
 
-      Spolverizzate i biscotti con la cannella in polvere. Infornate a 180 gradi in forno statico per 20 minuti.
+      Spolverizzate i biscotti con la cannella in polvere. Infornate a 180°C in forno statico per 20 minuti.
   - step: >-
       **Lavorate il panetto allo zenzero**. Stendete il panetto con l'aiuto di
       un mattarello. Se il composto risulta appiccicoso, aiutatevi con della
       farina. Componete i biscotti con formine a piacimento.
 
 
-      Infornate a 185 gradi in forno statico per 25 minuti.
+      Infornate a 185°C in forno statico per 25 minuti.
   - step: Fate raffreddare i biscotti su una gratella per dolci. Spolverizzate
       eventualmente con dello zucchero a velo.
-card:
+card: tradizioni
 tags:
   - biscotti
   - dolci
