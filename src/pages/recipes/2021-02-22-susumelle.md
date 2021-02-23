@@ -36,9 +36,7 @@ preparationSteps:
   - step: Stendete il panetto con il mattarello mantenendo all'incirca uno spessore
       di 1 cm.  Se il composto risulta appiccicoso, aiutatevi con della farina.
       Create le vostre susumelle utilizzando una coppapasta.
-  - step: Cuocete in forno preriscaldato, a
-      180[](https://www.pomodorialsole.com/recipes/2021-02-22-ciambellone-di-carote-e-mandorle/#step3)[](https://www.pomodorialsole.com/recipes/2021-02-22-ciambellone-di-carote-e-mandorle/#step3)°C
-      per 10 minuti.
+  - step: Cuocete in forno preriscaldato, a 180°C per 10 minuti.
   - step: Fate raffreddare su una gratella per dolci. Ricoprite con il cioccolato
       fondente precedentemente sciolto a bagnomaria. A copertura ultimata,
       aspettate che il cioccolato rassodi.
