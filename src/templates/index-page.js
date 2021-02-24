@@ -11,22 +11,22 @@ import { kebabCase } from 'lodash'
 
 const Column = ({ column }) => (
   <div className="tile is-parent">
+
     <article className="tile is-child">
-      <figure className="is-4by3">
-        <Img
-          fixed={column.image.childImageSharp.fixed}
-          alt={column.title}
-        />
-      </figure>
-      <p className="title is-4 has-text-centered">
-        {column.title}
-      </p>
-      <span />
+      <Link to={`/cards/${kebabCase(column.card)}/`}>
+        <figure className="is-4by3">
+          <Img
+            fixed={column.image.childImageSharp.fixed}
+            alt={column.title}
+          />
+        </figure>
+        <p className="title is-4 has-text-centered">
+          {column.title}
+        </p>
+        <span />
+      </Link>
       <p className="is-6 has-text-justified px-3">{column.text}</p>
       <div className="has-text-centered">
-        <Link to={`/cards/${kebabCase(column.card)}/`}>
-          <button className="button is-link is-outlined is-small">Ricette</button>
-        </Link>
       </div>
     </article>
   </div>

@@ -24,6 +24,20 @@ export default class RecipeIndexPage extends React.Component {
         </div>
         <section className="section">
           <div className="container">
+            <div class="columns">
+              <div class="column is-offset-1">
+                <div className="content recipe-citation">
+                  “Lo sai perché mi piace cucinare?”<br />
+                  “No, perché?”<br />
+                  “Perché dopo una giornata in cui niente è sicuro, e quando dico niente voglio dire n-i-e-n-t-e, una torna a casa e sa con certezza che aggiungendo al cioccolato rossi d’uovo, zucchero e latte l’impasto si addensa: è un tale conforto!”<br />
+                  <div style={{ textAlign: "right", fontStyle: "italic" }}>(Julia Child)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section">
+          <div className="container">
             <div className="content">
               <RecipeCard />
             </div>
