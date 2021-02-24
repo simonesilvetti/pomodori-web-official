@@ -6,7 +6,7 @@ difficulty: 2
 time: 1h
 description: Una crostata di marmellata arricchita da granella di mandorle ed
   uno strato di mele al Grand Marnier.
-featuredimage: /img/crostata_mele_mark.jpg
+featuredimage: /img/crostata.png
 dose: 8 persone
 ingredientsSections:
   - section: INGREDIENTI
