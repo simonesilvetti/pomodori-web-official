@@ -5,7 +5,7 @@ date: 2021-02-18T22:18:50.780Z
 difficulty: 2
 time: "1"
 description: Il sapore rustico della fregola sarda incontra il sapore delicato dei lupini.
-featuredimage: /img/fregola.jpeg
+featuredimage: /img/fregola.png
 dose: 2 persone
 ingredientsSections:
   - section: INGREDIENTI
@@ -31,7 +31,7 @@ preparationSteps:
   - step: Lasciate cuocere fino a quando la fregola non sarà cotta, aggiungendo se
       necessario altra acqua in cottura.
   - step: A fine cottura, insaporite con il prezzemolo tritato.
-card:
+card: none
 tags:
   - primi
   - fregola

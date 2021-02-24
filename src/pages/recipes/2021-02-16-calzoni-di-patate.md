@@ -5,7 +5,7 @@ date: 2021-02-16T20:28:59.275Z
 difficulty: 2
 time: 1h +2h
 description: Morbidissimi calzoni di patate con un gustoso ripieno a piacimento.
-featuredimage: /img/calzoni-di-patate.jpg
+featuredimage: /img/calzoni_patate.png
 dose: 10 calzoni
 ingredientsSections:
   - section: IMPASTO
@@ -63,9 +63,9 @@ preparationSteps:
       * 4 calzoni pomodoro, mozzarella e melanzana
 
       * 4 calzoni pomodoro, mozzarella e funghi
-  - step: A questo punto potete scegliere se infornarli per 25 minuti a 180 gradi
-      oppure se friggerli.
-card:
+  - step: A questo punto potete scegliere se infornarli per 25 minuti a 180°C oppure
+      se friggerli.
+card: none
 tags:
   - antipasti
   - calzone

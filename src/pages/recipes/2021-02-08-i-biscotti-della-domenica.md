@@ -5,7 +5,7 @@ date: 2021-02-08T18:12:37.047Z
 difficulty: 2
 time: 2.30h
 description: Una merenda perfetta da preparare la domenica.
-featuredimage: /img/img_4889_mark.jpg
+featuredimage: /img/biscotti_domenica.png
 images:
   - image: /img/img_4877_mark.jpg
   - image: /img/img_4872_mark.jpg

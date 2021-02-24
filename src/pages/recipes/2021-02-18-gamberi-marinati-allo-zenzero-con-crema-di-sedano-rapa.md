@@ -5,7 +5,7 @@ date: 2021-02-18T21:18:53.230Z
 difficulty: 1
 time: 40 minuti
 description: Gamberi speziati adagiati su una crema delicata al sedano rapa.
-featuredimage: /img/sedanorapa.jpg
+featuredimage: /img/gamberi_sedanorapa.png
 dose: 2 persone
 ingredientsSections:
   - section: INGREDIENTI

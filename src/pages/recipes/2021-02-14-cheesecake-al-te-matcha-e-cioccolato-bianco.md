@@ -5,7 +5,7 @@ date: 2021-02-14T16:39:06.523Z
 difficulty: 1
 time: 1h + 8h
 description: Una cheesecake dal leggero sentore orientale.
-featuredimage: /img/matcha_main_mark.jpg
+featuredimage: /img/cheesecake.png
 images:
   - image: /img/matcha3_mark.jpg
 dose: 10 porzioni
@@ -64,7 +64,7 @@ preparationSteps:
 
 
       Versate la guarnizione al centro della cheesecake e aggiungete la restante metà dei frutti di bosco freschi.  Spolverizzate con dello zucchero a velo per completare il piatto.
-card:
+card: none
 tags:
   - dolci
   - cheesecake
