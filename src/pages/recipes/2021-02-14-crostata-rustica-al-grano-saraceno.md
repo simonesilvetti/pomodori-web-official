@@ -6,7 +6,7 @@ difficulty: 2
 time: 1.30 h
 description: Una crostata rivisitata al grano saraceno accompagnata da una dolce
   marmellata di ciliegie.
-featuredimage: /img/crostata-rustica-al-grano-saraceno.png
+featuredimage: /img/crostata_grano_saraceno.png
 dose: 8 persone
 ingredientsSections:
   - section: INGREDIENTI
@@ -32,7 +32,7 @@ preparationSteps:
       restante parte di impasto e ponetele sulla marmellata.
   - step: Infornate in forno già caldo per circa 30 minuti a 180°C. Infine
       spolverizzate con zucchero a velo.
-card:
+card: none
 tags:
   - dolci
   - crostata
