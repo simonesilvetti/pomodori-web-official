@@ -18,7 +18,7 @@ ingredientsSections:
       - 1/2 bustina di lievito per dolci
       - 2gr cannella in polvere
       - 4 chiodi di garofano
-      - acqua 30g (qb))
+      - acqua 30g (q.b.)
       - 100g cioccolato fondente
 preparationSteps:
   - step: In una terrina, unite la farina, il cacao amaro, lo zucchero ed il
@@ -35,10 +35,11 @@ preparationSteps:
       minuti.
   - step: Stendete il panetto con il mattarello mantenendo all'incirca uno spessore
       di 1 cm.  Se il composto risulta appiccicoso, aiutatevi con della farina.
-      Cretate le vostre susumelle utilizzando una coppapasta.
-  - step: Cuocete in forno preriscaldato, a 180 gradi per 10 minuti.
+      Create le vostre susumelle utilizzando una coppapasta.
+  - step: Cuocete in forno preriscaldato, a 180°C per 10 minuti.
   - step: Fate raffreddare su una gratella per dolci. Ricoprite con il cioccolato
-      fondente precedentemente sciolto a bagnomaria.
+      fondente precedentemente sciolto a bagnomaria. A copertura ultimata,
+      aspettate che il cioccolato rassodi.
 card: tradizioni
 tags:
   - dolci
