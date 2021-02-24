@@ -5,8 +5,8 @@ date: 2021-02-13T19:21:47.468Z
 difficulty: 1
 time: 40 minuti
 description: Una vellutata delicata arricchita dal sapore più deciso dei pomodori secchi.
-featuredimage: /img/photo_2021-02-13_21-12-30.jpg
-images:
+featuredimage: /img/vellutata_topinambur.png
+images: null
 dose: 2 persone
 ingredientsSections:
   - ingredients:
