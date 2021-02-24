@@ -29,7 +29,7 @@ preparationSteps:
       resto, strizzatele leggermente per eliminare l'eventuale acqua residua.
       Unitele al composto, aggiungete anche il lievito in polvere e mescolate.
   - step: Infornate per circa 40 minuti a 180°C.
-card: tradizioni
+card: none
 tags:
   - dolci
   - ciambellone
