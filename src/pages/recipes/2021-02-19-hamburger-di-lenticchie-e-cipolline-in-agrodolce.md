@@ -6,7 +6,7 @@ difficulty: 2
 time: 2h
 description: Un veggie burger di lenticchie insaporito con paprika ed
   accompagnato da cipolle borettane in agrodolce.
-featuredimage: /img/hamburger-di-lenticchie-con-cipolline-in-agrodolce.png
+featuredimage: /img/hamburger_lenticchie.png
 dose: 5 hamburger
 ingredientsSections:
   - section: HAMBURGER
@@ -51,7 +51,7 @@ preparationSteps:
       Le cipolline saranno pronte dopo circa 15 minuti.
   - step: Trasferite in un piatto l'hamburger ed accompagnate con le cipolle in
       agrodolce.
-card:
+card: none
 tags:
   - secondi
   - lenticchie
