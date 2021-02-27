@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Grissini ai pomodori secchi
+title: Grissini integrali ai pomodori secchi
 date: 2021-02-27T11:22:34.044Z
 difficulty: 1
 time: 40 minuti
