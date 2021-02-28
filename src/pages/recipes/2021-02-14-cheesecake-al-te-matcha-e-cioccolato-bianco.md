@@ -21,6 +21,7 @@ ingredientsSections:
       - 1 barretta cioccolato bianco
       - 80g zucchero
       - 5 fogli di gelatina
+      - 2 cucchiaini di tè macha
   - section: GUARNIZIONE
     ingredients:
       - 250g frutti di bosco freschi

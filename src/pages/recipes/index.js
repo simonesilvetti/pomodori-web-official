@@ -1,27 +1,13 @@
 import React from 'react'
-
 import Layout from '../../components/Layout'
 import RecipeCard from '../../components/RecipeCard'
+import RecipeBackgroundImage from '../../components/background/RecipeBackgroundImage'
 
 export default class RecipeIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/recipe-background.jpg')`,
-          }}
-        >
-          <div
-            className="title has-text-weight-bold is-size-1"
-            style={{
-              backgroundColor: 'rgba(255, 255, 255)',
-              padding: '1rem',
-            }}>
-            Ricette
-          </div>
-        </div>
+        <RecipeBackgroundImage className="full-width-image-container margin-top-0" />
         <section className="section">
           <div className="container">
             <div class="columns">

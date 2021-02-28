@@ -13,7 +13,6 @@ import ShareGlovesBadge from '../components/ShareGlovesBadge'
 import richResult from '../components/recipe/RichResult'
 import Img from "gatsby-image"
 
-
 export const RecipePostTemplate = ({
   content,
   contentComponent,

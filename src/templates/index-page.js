@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import RecipeRoll from '../components/RecipeRoll'
-import mainImange from '../img/index-background.jpg'
+import IndexBackgroundImage from '../components/background/IndexBackgroundImage'
 import Img from "gatsby-image"
 import { v4 } from 'uuid'
 import { kebabCase } from 'lodash'
@@ -37,13 +37,7 @@ export const IndexPageTemplate = ({
   columns
 }) => (
     <div className="container">
-      <div
-        className="full-width-image-container margin-top-0"
-        style={{
-          backgroundImage: "url(" + mainImange + ")"
-        }}
-      >
-      </div>
+      <IndexBackgroundImage className="full-width-image-container margin-top-0" />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
