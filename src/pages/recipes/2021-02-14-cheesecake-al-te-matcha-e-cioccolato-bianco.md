@@ -17,11 +17,10 @@ ingredientsSections:
       - 250g formaggio tipo Philadelphia
       - 250g yogurt bianco magro
       - 200g panna liquida per dolci
-      - 1 cucchiaino te matcha in polvere
+      - 2 cucchiaini te matcha in polvere
       - 1 barretta cioccolato bianco
       - 80g zucchero
       - 5 fogli di gelatina
-      - 2 cucchiaini di tè macha
   - section: GUARNIZIONE
     ingredients:
       - 250g frutti di bosco freschi
