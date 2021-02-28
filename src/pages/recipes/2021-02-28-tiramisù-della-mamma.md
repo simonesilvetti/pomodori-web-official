@@ -32,8 +32,8 @@ preparationSteps:
 card: tradizioni
 tags:
   - dolci
-  - vegetariano
   - caffé
+  - vegetariano
 blogger: Katia
 ---
 Il tiramisù dell'infanzia e delle occasioni speciali.

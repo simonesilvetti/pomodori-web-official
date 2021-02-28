@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Fregola con lupini di mare
 date: 2021-02-18T22:18:50.780Z
 difficulty: 2
-time: "1"
+time: 1h
 description: Il sapore rustico della fregola sarda incontra il sapore delicato dei lupini.
 featuredimage: /img/fregola.png
 dose: 2 persone

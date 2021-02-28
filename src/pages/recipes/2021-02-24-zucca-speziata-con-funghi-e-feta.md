@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Zucca speziata con funghi e feta
 date: 2021-02-24T20:23:32.308Z
 difficulty: 1
-time: 1.30h
+time: 1h 30min
 description: Un secondo a base di zucca e funghi aromatizzato al cumino.
 featuredimage: /img/zucca_funghi.png
 dose: 4 persone

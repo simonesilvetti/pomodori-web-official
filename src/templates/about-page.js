@@ -6,7 +6,7 @@ import Content, { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
 
-export const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, image, content, contentComponent, backGroundImage }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -21,7 +21,7 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent }) =
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+                <PageContent className="content" content={content} />
             </div>
           </div>
           <div className="column is-4">
@@ -47,7 +47,7 @@ AboutPageTemplate.propTypes = {
 }
 
 const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post, file } = data
 
   return (
     <Layout>
@@ -56,6 +56,7 @@ const AboutPage = ({ data }) => {
         title={post.frontmatter.title}
         image={post.frontmatter.image.childImageSharp.fluid}
         content={post.html}
+        backGroundImage={file.childImageSharp.fluid}
       />
     </Layout>
   )
@@ -69,6 +70,15 @@ export default AboutPage
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
+    file(relativePath: { eq: "components/glove_instagram.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 300,maxHeight: 300) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

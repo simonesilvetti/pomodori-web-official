@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: I biscotti della domenica
 date: 2021-02-08T18:12:37.047Z
 difficulty: 2
-time: 2.30h
+time: 2h 30min
 description: Una merenda perfetta da preparare la domenica.
 featuredimage: /img/biscotti_domenica.png
 images:

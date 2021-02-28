@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Crostata rustica al grano saraceno
 date: 2021-02-14T20:46:47.207Z
 difficulty: 2
-time: 1.30h
+time: 1h 30min
 description: Una crostata rivisitata al grano saraceno accompagnata da una dolce
   marmellata di ciliegie.
 featuredimage: /img/crostata_grano_saraceno.png
