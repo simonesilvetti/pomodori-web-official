@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Gamberi marinati allo zenzero con crema di sedano rapa
 date: 2021-02-18T21:18:53.230Z
 difficulty: 1
-time: 40 minuti
+time: 40min
 description: Gamberi speziati adagiati su una crema delicata al sedano rapa.
 featuredimage: /img/gamberi_sedanorapa.png
 dose: 2 persone

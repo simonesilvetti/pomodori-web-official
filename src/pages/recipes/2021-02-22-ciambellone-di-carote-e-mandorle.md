@@ -16,7 +16,7 @@ ingredientsSections:
       - 2uova
       - 150g zucchero di canna
       - 1 vasetto di yogurt magro (125g)
-      - 60ml di olio e.v.o
+      - 60ml di olio evo
       - succo di un'arancia
       - 1 bustina di lievito per dolci
 preparationSteps:

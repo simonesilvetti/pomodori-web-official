@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Grissini integrali ai pomodori secchi
 date: 2021-02-27T11:22:34.044Z
 difficulty: 1
-time: 40 minuti
+time: 40min
 description: Quando un grissino rustico croccante incontra il sapore dolciastro
   del pomodoro secco.
 featuredimage: /img/grissini_pomodori.png

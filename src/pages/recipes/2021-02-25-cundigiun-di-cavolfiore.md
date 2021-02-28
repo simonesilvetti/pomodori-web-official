@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Cundigiun di cavolfiore
 date: 2021-02-25T13:17:25.775Z
 difficulty: 1
-time: 30 minuti
+time: 30min
 description: Un grande classico ligure rivisitato con il cavolfiore.
 featuredimage: /img/cundigiun.png
 dose: 2 persone

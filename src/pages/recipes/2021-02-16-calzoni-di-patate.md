@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Calzoni soffici di patate
 date: 2021-02-16T20:28:59.275Z
 difficulty: 2
-time: 1h +2h
+time: 1h + 2h
 description: Morbidissimi calzoni di patate con un gustoso ripieno a piacimento.
 featuredimage: /img/calzoni_patate.png
 dose: 10 calzoni
@@ -14,7 +14,7 @@ ingredientsSections:
       - 230g patate
       - 1 uovo
       - 3g lievito di birra liofilizzato
-      - 2 cucchiai di olio e.v.o
+      - 2 cucchiai di olio evo
       - sale
   - section: RIPIENO
     ingredients:

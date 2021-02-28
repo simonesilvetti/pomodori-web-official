@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Vellutata di topinambur con pomodori secchi
 date: 2021-02-13T19:21:47.468Z
 difficulty: 1
-time: 40 minuti
+time: 40min
 description: Una vellutata delicata arricchita dal sapore più deciso dei pomodori secchi.
 featuredimage: /img/vellutata_topinambur.png
 images: null
@@ -14,7 +14,7 @@ ingredientsSections:
       - 350g topinambur
       - 1/2 scalogno
       - 5 pomodori secchi
-      - olio e.v.o
+      - olio evo
       - sale
     section: INGREDIENTI
 preparationSteps:

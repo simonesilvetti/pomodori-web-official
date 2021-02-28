@@ -7,9 +7,10 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-primary has-text-white-ter">
-        <div className="content has-text-centered">
+        {/* <div className="content has-text-centered">
           <Logo />
-        </div>
+
+        </div> */}
         <div className="content has-text-centered has-background-primary has-text-white-ter">
           <div className="container has-background-primary has-text-white-ter">
             <div style={{ maxWidth: '100vw' }} className="columns">
@@ -21,7 +22,8 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a> */}
-                <a title="instagram" href="https://instagram.com">
+                <Logo />
+                <a title="instagram" href="https://www.instagram.com/pomodorialsole/">
                   <img
                     src={instagram}
                     alt="Instagram"

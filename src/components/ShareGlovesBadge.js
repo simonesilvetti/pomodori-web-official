@@ -8,13 +8,13 @@ class ShareGlovesBadge extends React.Component {
     render() {
         const { data } = this.props
         return (
-            <a href="https://www.instagram.com/pomodorialsole/">
+            <a href="https://www.instagram.com/explore/tags/conpomodorialsole/">
                 <div className="container">
                     <Img fluid={data.file.childImageSharp.fluid} />
-                    <div class="subtitle centered has-text-centered	">
+                    <div class="subtitle is-size-4	 centered has-text-centered has-text-weight-bold">
                         Condividi la tua esperienza
                     <br />
-                    @pomodorialsole
+                    #conpomodorialsole
                     <br />
                         <FaInstagram />
                     </div>
