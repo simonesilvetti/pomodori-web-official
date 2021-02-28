@@ -5,7 +5,7 @@ date: 2021-02-25T15:34:47.099Z
 difficulty: 1
 time: 30 minuti
 description: Un semplice contorno di patate dolci speziate al cajun.
-featuredimage: /img/img_5988.jpg
+featuredimage: /img/patate_dolci.jpg
 images: []
 dose: 4 persone
 ingredientsSections:
