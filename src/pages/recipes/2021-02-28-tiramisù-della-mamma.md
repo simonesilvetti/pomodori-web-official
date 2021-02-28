@@ -10,7 +10,7 @@ dose: 6 persone
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 200g Pavesini
+      - 200g pavesini
       - 3 uova
       - 250g mascarpone
       - 3 cucchiai di zucchero
@@ -20,11 +20,11 @@ ingredientsSections:
 preparationSteps:
   - step: Separate i tuorli dagli albumi e conservate 3 tuorli e 2 albumi. Unite i
       tuorli con lo zucchero. Aggiungete il mascarpone e mescolate.
-  - step: Montate a neve i due albumi ed aggiungeteli al composto. Per incorporare
+  - step: Montate a neve i 2 albumi e poi aggiungeteli al composto. Per incorporare
       gli albumi, mescolate dall'alto verso il basso in modo che non si
       smontino. La vostra crema è pronta.
   - step: Prendete una pirofila (circa 20cm x 15cm)  e disponete un primo strato di
-      Pavesini precedentemente bagnati nel caffé. Aggiungete la crema, quindi
+      pavesini precedentemente bagnati nel caffé. Aggiungete la crema, quindi
       continuate ad alternare gli strati di pavesini con quelli di crema fino al
       riempimento della pirofila.
   - step: Spolverizzate con cacao amaro e spargete le gocce di cioccolato. Mettete
