@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo_mattone.png'
 import Logo from './Logo'
-import { FaSearch } from "react-icons/fa";
+import SearchBarForm from "./SearchBarForm"
 
 
 const Navbar = class extends React.Component {
@@ -94,9 +94,7 @@ const Navbar = class extends React.Component {
                 </Link> */}
                 </div>
                 <div className="navbar-end has-text-centered">
-                  <Link className="navbar-item" to="/about">
-                    <FaSearch />
-                  </Link>
+                  <SearchBarForm />
                 </div>
               </div>
             </div>

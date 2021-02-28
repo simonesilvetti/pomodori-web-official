@@ -6,8 +6,6 @@ import Content, { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
 
-
-
 export const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
