@@ -4,7 +4,7 @@ title: Tiramisù della mamma
 date: 2021-02-28T15:37:12.816Z
 difficulty: 2
 time: 30min + 2h
-description: Il tiramisù dell'infanzia, dei compleanni,  e ...
+description: Il tiramisù dell'infanzia e delle occasioni speciali.
 featuredimage: /img/tiramisù_della_mamma.jpg
 dose: 6 persone
 ingredientsSections:
@@ -36,4 +36,4 @@ tags:
   - caffé
 blogger: Katia
 ---
-Il tiramisù dell'infanzia, dei compleanni,  e ...
+Il tiramisù dell'infanzia e delle occasioni speciali.
