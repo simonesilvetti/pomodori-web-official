@@ -1,12 +1,12 @@
 import React from 'react'
-import styled from 'styled-components'
+//import styled from 'styled-components'
 
 import BackgroundImage from 'gatsby-background-image'
 
 const BackgroundSection = ({ className, imageData, title }) => {
   return (
     <BackgroundImage
-      Tag="section"
+      //Tag="section"
       className={className}
       fluid={imageData}
       backgroundColor={`#040e18`}
@@ -25,10 +25,11 @@ const BackgroundSection = ({ className, imageData, title }) => {
   )
 }
 
-export const StyledBackgroundSection = styled(BackgroundSection)`
-  background-position: bottom center;
-  background-repeat: repeat-y;
-  background-size: cover;
-  background-attachment: scroll;
-`
+export const StyledBackgroundSection =  BackgroundSection
+
+// export const StyledBackgroundSection = styled(BackgroundSection)`
+//   background-position: bottom center;
+//   background-repeat: repeat-y;
+//   background-size: cover;
+// `
 

@@ -51,8 +51,12 @@ $blog-list-item-color: #dfe4ec73
   display: flex
   justify-content: center
   align-items: center
+  @supports (-webkit-touch-callout: none) 
+    background-attachment: scroll
+  @supports not (-webkit-touch-callout: none) 
+    background-attachment: fixed
 
-  background-attachment: fixed
+  //background-attachment: fixed
   background-position: center
   background-repeat: no-repeat
 
@@ -226,17 +230,17 @@ $menu-label-color: $white-ter
   top: 8px
   left: 16px
 
-  .image-container
+  .image-container 
     position: relative
     text-align: center
     color: white
 
 //ios devices 
-  @supports (-webkit-touch-callout: none)
+@supports (-webkit-overflow-scrolling: touch)
   .bg-mobile-fixed-auto
     background-attachment: scroll
 
 //all other devices    
-@supports not (-webkit-touch-callout: none)
+@supports not (-webkit-overflow-scrolling: touch)
   .bg-mobile-fixed-auto
     background-attachment: fixed 
