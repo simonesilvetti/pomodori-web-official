@@ -29,5 +29,6 @@ export const StyledBackgroundSection = styled(BackgroundSection)`
   background-position: bottom center;
   background-repeat: repeat-y;
   background-size: cover;
+  background-attachment: scroll;
 `
 

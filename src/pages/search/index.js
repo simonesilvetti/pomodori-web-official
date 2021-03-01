@@ -32,14 +32,15 @@ const SearchPage = ({ state, index, store }) => {
   } else {
     return (
       <Layout>
-        <div className="container content">
-          <div className="subtitle is-size-2"> Nessuna ricetta trovata :(</div>
-        </div>
+        <section className="section">
+          <div className="container content">
+            <div className="subtitle is-size-2"> Non ho trovato nulla :(</div>
+          </div>
+        </section>
       </Layout>)
   }
 
 }
-
 
 export default (info) => (
   <StaticQuery

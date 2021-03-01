@@ -10,8 +10,8 @@ export default class RecipeIndexPage extends React.Component {
         <RecipeBackgroundImage className="full-width-image-container margin-top-0" />
         <section className="section">
           <div className="container">
-            <div class="columns">
-              <div class="column is-offset-1">
+            <div className="columns">
+              <div className="column is-offset-1">
                 <div className="content recipe-citation">
                   “Lo sai perché mi piace cucinare?”<br />
                   “No, perché?”<br />

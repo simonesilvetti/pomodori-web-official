@@ -19,20 +19,24 @@ class SearchBarForm extends React.Component {
 
     handleSubmit(event) {
         //alert('A name was submitted: ' + this.state.value);
-        navigate("/search", { state:{content: this.state.value }})
+        navigate("/search", { state: { content: this.state.value } })
         event.preventDefault();
     }
 
     render() {
         return (
             <div className="navbar-item">
-                <div className="control has-icons-right">
-                    <form onSubmit={this.handleSubmit}>
-                        <input className="input" type="text" placeholder="Cerca" value={this.state.value} onChange={this.handleChange} />
-                        <span className="icon is-small is-right">
+                <div className="field has-addons has-addons-centered">
+                    <div className="control">
+                        <form onSubmit={this.handleSubmit}>
+                            <input className="input" type="text" placeholder="Cerca nel sito" value={this.state.value} onChange={this.handleChange} />
+                        </form>
+                    </div>
+                    <div className="control">
+                        <button className="button" onClick={this.handleSubmit} onKeyDown={this.handleSubmit}>
                             <FaSearch size="15px" />
-                        </span>
-                    </form>
+                        </button>
+                    </div>
                 </div>
             </div>
         );

@@ -37,7 +37,7 @@ export const IndexPageTemplate = ({
   columns
 }) => (
     <div className="container">
-      <IndexBackgroundImage className="full-width-image-container margin-top-0" />
+      <IndexBackgroundImage className="full-width-image-container margin-top-0 bg-mobile-fixed-auto" />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">

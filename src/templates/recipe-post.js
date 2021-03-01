@@ -59,8 +59,8 @@ export const RecipePostTemplate = ({
         </div>
         <ImagesSection images={images}></ImagesSection>
         <div className="section">
-          <div class="columns">
-            <div class="column is-two-thirds">
+          <div className="columns">
+            <div className="column is-two-thirds">
               <div className="title is-size-3">Tags</div>
               <ul className="taglist">
                 {tags.map((tag) => (
@@ -74,13 +74,10 @@ export const RecipePostTemplate = ({
                 ))}
               </ul>
             </div>
-            <div class="column">
+            <div className="column">
               <ShareGlovesBadge />
             </div>
           </div>
-
-
-
         </div>
       </div>
 
