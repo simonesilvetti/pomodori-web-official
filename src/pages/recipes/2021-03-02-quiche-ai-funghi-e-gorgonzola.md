@@ -15,7 +15,7 @@ ingredientsSections:
       - 140g farina 1
       - 60g acqua
       - sale
-      - olio evo
+      - 3 cucchiai olio evo
   - section: RIPIENO
     ingredients:
       - 150g funghi misti
@@ -26,7 +26,31 @@ ingredientsSections:
       - sale
       - olio evo
 preparationSteps:
-  - step: bla bla
+  - step: >-
+      **Iniziamo con preparazione della base, la cosiddetta pasta matta.**
+
+
+      Unite in una ciotola l'acqua, l'olio ed il sale. Aggiungete la farina ed amalgamate tutti gli ingredienti, con l'aiuto delle mani, fino ad ottenere un panetto liscio ed abbastanza morbido.
+
+
+      Avvolgete nella pellicola e lasciate riposare per 30 minuti.
+  - step: >-
+      **Procediamo con la preparazione del ripieno.**
+
+
+      Lavate i funghi e tagliateli e pezzetti. Cuoceteli in una padella con un filo d'olio ed insaporiteli a piacimento.
+
+
+      Pelate le patate e tagliatele a fettine alte circa 1/2 cm. Cuocetele a vapore finchè non saranno morbide. Alternativamente, potete anche portarle a bollore.
+
+
+      Sbattete in una ciotola le uova ed unite lo yogurt. Salate e pepate.
+  - step: Stendete la pasta con il mattarelo fino ad ottenere una disco di diametro
+      di circa 20/25 cm, alto pochi millimetri. Disponetelo in una pirofila e
+      bucherellate il fondo con una forchetta.
+  - step: Aggiungete in ordine le patate, i funghi e la crème di uova e yogurt.
+      Arricchite il tutto con dei pezzetti di gorgonzola.
+  - step: Ripiegate leggermente i bordi ed infornate per 25 minuti a 180°C.
 card: none
 tags:
   - secondi
