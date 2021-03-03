@@ -97,6 +97,7 @@ module.exports = {
 
         // GraphQL query used to fetch all data for the search index. This is
         // required.
+        //https://github.com/gatsbyjs/gatsby/blob/4638cd678b28f7a515df465be21d9d8bcdd71d9a/packages/gatsby-transformer-sharp/src/fragments.js
         query: `
         {
           allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "recipe-post"}}}) {
@@ -111,13 +112,22 @@ module.exports = {
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 240, quality: 100) {
-                      srcSetWebp
+                     ...GatsbyImageSharpFluid_withWebp
                     }
                   }
                 }
               }
             }
           }
+        }
+        fragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {
+          base64
+          aspectRatio
+          src
+          srcSet
+          srcWebp
+          srcSetWebp
+          sizes
         }
         `,
 
@@ -133,7 +143,7 @@ module.exports = {
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
         // Default: all fields
-        store: ['id', "slug", 'title', 'imageSrcSet'],
+        store: ['id', "slug", 'title', 'tags', 'featuredimage'],
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
@@ -145,7 +155,7 @@ module.exports = {
             slug: node.fields.slug,
             title: node.frontmatter.title,
             tags: node.frontmatter.tags,
-            imageSrcSet: node.frontmatter.featuredimage.childImageSharp.fluid.srcSetWebp,
+            featuredimage: node.frontmatter.featuredimage,
           })),
       },
     }

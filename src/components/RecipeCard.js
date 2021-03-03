@@ -19,7 +19,6 @@ class RecipeCard extends React.Component {
                 <article
                   className='blog-list-item tile is-child is-vertical box'
                 >
-
                   <div className="tile is-child">
                     {post.frontmatter.featuredimage ? (
                       <div>
