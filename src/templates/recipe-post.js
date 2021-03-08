@@ -6,6 +6,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 import PreparationSteps from '../components/recipe/PreparationSteps'
+import NoteCard from '../components/recipe/NoteCard'
 import ImagesSection from '../components/recipe/ImagesSection'
 import RecipeInfo from '../components/recipe/RecipeInfo'
 import useSiteMetadata from '../components/SiteMetadata'
@@ -57,6 +58,8 @@ export const RecipePostTemplate = ({
           {/* <PostConLinktent content={content} /> */}
           <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
         </div>
+        <div className="subtitle has-text-centered is-size-1">_._._._._._._._</div>
+        <NoteCard note="prova" />
         <ImagesSection images={images}></ImagesSection>
         <div className="section">
           <div className="columns">
