@@ -26,6 +26,7 @@ export const RecipePostTemplate = ({
   dose,
   ingredients,
   preparationSteps,
+  note,
   tags,
   blogger
 }) => {
@@ -59,7 +60,7 @@ export const RecipePostTemplate = ({
           <PreparationSteps preparationSteps={preparationSteps}></PreparationSteps>
         </div>
         <div className="subtitle has-text-centered is-size-1">_._._._._._._._</div>
-        <NoteCard note="prova" />
+        {note && <NoteCard note={note} />}
         <ImagesSection images={images}></ImagesSection>
         <div className="section">
           <div className="columns">
@@ -147,6 +148,7 @@ const RecipePost = ({ data }) => {
         dose={post.frontmatter.dose}
         ingredients={post.frontmatter.ingredientsSections}
         preparationSteps={post.frontmatter.preparationSteps}
+        note={post.frontmatter.note}
         tags={post.frontmatter.tags}
         blogger={post.frontmatter.blogger}
       />
@@ -197,6 +199,7 @@ export const pageQuery = graphql`
           preparationSteps {
             step
           }
+          note
           tags
           blogger
         }
