@@ -19,7 +19,21 @@ ingredientsSections:
       - olio evo
       - sale
 preparationSteps:
-  - step: xxx
+  - step: >-
+      Mettete l'acqua in una pentola e portate ad ebollizione.
+
+
+      Nel frattempo tagliate il cavolo a listarelle e cuocetelo in una padella con lo scalogno. Salate e lasciate ammorbidire il tutto per circa 10 minuti.
+  - step: Una volta che il cavolo sarà cotto, con l'utilizzo di un frullatore ad
+      immersione create una crema.
+  - step: In un wok fate sciogliere un'acciuga in un pò d'olio. Unite poi la crema
+      di cavolo viola ed amalgamate il tutto. Aggiungete dell'acqua di cottura
+      se volete rendere più morbido il condimento.
+  - step: >-
+      Cuocete la pasta ed unite alla crema.
+
+
+      Servite con una spolverata di pepe e cospargete di noci precedentemente sbriciolate.
 card: stagioni
 tags:
   - primi
