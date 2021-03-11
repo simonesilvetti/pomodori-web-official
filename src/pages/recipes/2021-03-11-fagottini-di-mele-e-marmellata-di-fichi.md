@@ -46,4 +46,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-Un'ottima merenda e/o colazione!
+Un'ottima merenda da gustare con un tè!
