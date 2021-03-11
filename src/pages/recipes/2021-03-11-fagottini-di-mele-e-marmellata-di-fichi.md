@@ -35,7 +35,7 @@ preparationSteps:
       sulla metà di pasta ancora libera. Ripiegate infine la pasta e sigillate
       bene i bordi aiutarndovi con una forchetta.
   - step: Disponete i fagottini su una teglia coperta da carta da forno e cuocete
-      per 20 minuti a 20°C. Se preferite spolverizzate con zucchero di canna
+      per 20 minuti a 200°C. Se preferite spolverizzate con zucchero di canna
       prima di infornarli e/o zucchero a velo una volta che saranno pronti.
 note: "Per assicurarvi che i lembi dei vostri fagottini rimangano chiusi, potete
   spennellare i bordi con un albume: fungerà proprio da collante!"
