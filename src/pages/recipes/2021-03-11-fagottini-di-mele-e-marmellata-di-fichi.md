@@ -33,7 +33,7 @@ preparationSteps:
       pasta ed aggiungete poi 2/3 fettine di mela. Prima di chiudere il
       fagottino, con la punta di un coltello eseguite delle piccole fessure
       sulla metà di pasta ancora libera. Ripiegate infine la pasta e sigillate
-      bene i bordi aiutarndovi con una forchetta.
+      bene i bordi aiutandovi con una forchetta.
   - step: Disponete i fagottini su una teglia coperta da carta da forno e cuocete
       per 20 minuti a 200°C. Se preferite, spolverizzate con zucchero di canna
       prima di infornarli e/o zucchero a velo una volta che saranno pronti.
