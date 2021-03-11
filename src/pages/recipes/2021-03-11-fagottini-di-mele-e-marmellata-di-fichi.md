@@ -22,9 +22,9 @@ ingredientsSections:
       - 3 noci
       - 5/6 mandorle
 preparationSteps:
-  - step: Sbucciate le mele e tagliatele e fettine. Mettele in una padella con 2
-      cucchiai di zucchero. Aggiungete le noci e le mandorle tritate. Lasciate
-      appassire le mele per circa 10 minuti a fuoco basso.
+  - step: Sbucciate le mele e tagliatele e fettine. Mettetele in una padella con 2
+      cucchiai di zucchero, aggiungete le noci e le mandorle tritate e lasciate
+      appassire per circa 10 minuti.
   - step: Unite in una ciotola la farina, l'olio e l'acqua. Impastate fino ad
       ottenere un composto morbido. Stendete l'impasto ottenuto (con il
       mattarello o con la macchina per stendere la pasta) e ricavate dei
@@ -35,7 +35,7 @@ preparationSteps:
       sulla metà di pasta ancora libera. Ripiegate infine la pasta e sigillate
       bene i bordi aiutarndovi con una forchetta.
   - step: Disponete i fagottini su una teglia coperta da carta da forno e cuocete
-      per 20 minuti a 200°C. Se preferite spolverizzate con zucchero di canna
+      per 20 minuti a 200°C. Se preferite, spolverizzate con zucchero di canna
       prima di infornarli e/o zucchero a velo una volta che saranno pronti.
 note: "Per assicurarvi che i lembi dei vostri fagottini rimangano chiusi, potete
   spennellare i bordi con un albume: fungerà proprio da collante!"
