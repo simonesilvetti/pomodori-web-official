@@ -30,12 +30,11 @@ preparationSteps:
       padella per circa 10 minuti.  Eseguite lo stesso procedimento con i funghi
       tagliati per 5 minuti.
   - step: In un tegame da forno, unite la zucca ed i funghi.  Tritate finemente il
-      prezzemolo, il timo e la maggiorana ed aggiungete al composto.
-  - step: Aggiungete due cucchiai di olio evo, sale, peperoncino, cumino (q.b.),
-      le olive e le mandorle intere. Mescolate.
+      prezzemolo, il timo e la maggiorana ed aggiungete al composto.  Aggiungete
+      due cucchiai di olio, sale, peperoncino, cumino (q.b.), le olive e le
+      mandorle intere. Mescolate.
   - step: Distribuite omogeneamente uno strato di parmigiano grattugiato.  Coprite
       con la feta sbriciolata.  Finite con del pepe macinato.
-  - step: Cuocete in forno statico a 200°C per circa 40 minuti.
 card: stagioni
 tags:
   - secondi
