@@ -34,7 +34,8 @@ preparationSteps:
       due cucchiai di olio, sale, peperoncino, cumino (q.b.), le olive e le
       mandorle intere. Mescolate.
   - step: Distribuite omogeneamente uno strato di parmigiano grattugiato.  Coprite
-      con la feta sbriciolata.  Finite con del pepe macinato.
+      con la feta sbriciolata.  Finite con del pepe macinato.  Cuocete in forno
+      statico a 200°C per circa 40 minuti.
 card: stagioni
 tags:
   - secondi
