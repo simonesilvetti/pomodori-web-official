@@ -8,7 +8,7 @@ const NoteCard = ({ note }) => (
         <div className="box">
             <div className="subtitle is-size-2	" style={{
                 position: "relative",
-                top: "-15px", left: "-10px"
+                // top: "-15px", left: "-10px"
             }}>Note</div>
             <ReactMarkdown>{note}</ReactMarkdown>
         </div>
