@@ -42,6 +42,8 @@ preparationSteps:
       * unite le uova sode sgusciate e tagliate in due parti,
       * distribuite omogeneamente il tonno,
       * finite con olio, sale, pepe.
+note: Provate ad arricchire il piatto con mozzarella e olive sott'olio per
+  renderlo più sfizioso!
 card: none
 tags:
   - piattiunici
