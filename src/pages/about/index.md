@@ -14,4 +14,4 @@ Noi proviamo a portare avanti un’idea di cucina genuina e stagionale, senza ma
 <br>
 <br>
 <br>
-Claudia, Katia (ed i sisetti)
+Claudia, Katia, Paolo e Simone.

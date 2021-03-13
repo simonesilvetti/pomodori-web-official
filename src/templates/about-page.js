@@ -15,13 +15,15 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent, bac
         <title>{title}</title>
       </Helmet>
       <div className="container">
-        <div className="columns">
+        <div className="columns is-multiline">
           <div className="column is-7 is-offset-1">
             <div className="section">
+              <br />
+              <br />
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-                <PageContent className="content" content={content} />
+              <PageContent className="content" content={content} />
             </div>
           </div>
           <div className="column is-4">
@@ -33,6 +35,12 @@ export const AboutPageTemplate = ({ title, image, content, contentComponent, bac
                 />
               </figure>
             </div>
+          </div>
+          <div className="column">
+            <Img
+              fluid={backGroundImage}
+              alt="Nonna"
+            />
           </div>
         </div>
       </div>
@@ -70,11 +78,11 @@ export default AboutPage
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
-    file(relativePath: { eq: "components/glove_instagram.png" }) {
+    file(relativePath: { eq: "components/greca_mestoli.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
-        fluid(maxWidth: 300,maxHeight: 300) {
+        fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
         }
       }
