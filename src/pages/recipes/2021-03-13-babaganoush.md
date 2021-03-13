@@ -21,8 +21,8 @@ ingredientsSections:
       - pepe
 preparationSteps:
   - step: Lavate la melanzana e , senza sbucciarla, preparatela per la cottura al
-      cartoccio usando della carta stagnola.  Infornate a
-      250[](https://www.pomodorialsole.com/recipes/2021-03-02-quiche-ai-funghi-e-gorgonzola/#step4)
+      cartoccio usando della carta
+      stagnola.  [](https://www.pomodorialsole.com/recipes/2021-03-02-quiche-ai-funghi-e-gorgonzola/#step4)
 card: none
 tags:
   - antipasti
