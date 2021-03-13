@@ -31,9 +31,6 @@ preparationSteps:
       Sciogliete il burro sul fuoco. Iniziate a tritare i biscotti in un mixer.
 
       In una ciotola unite il trito di biscotti ed il burro fuso. Mescolate in modo tale da inumidire tutto il biscotto con il burro. Versate il composto ottenuto all’interno di una tortiera a cerniera. Livellate e compattate il composto con un cucchiaio. Riponete in frigo.
-
-
-      Nota: l’effetto ottimale per queste dosi di impasto si ottengono con una tortiera a cerniera di 20cm.
   - step: In un piccolo recipiente, spezzettate e mettete i fogli di gelatina a
       mollo in acqua fredda.
   - step: >-
@@ -64,6 +61,8 @@ preparationSteps:
 
 
       Versate la guarnizione al centro della cheesecake e aggiungete la restante metà dei frutti di bosco freschi.  Spolverizzate con dello zucchero a velo per completare il piatto.
+note: L’effetto ottimale per queste dosi di impasto si ottengono con una
+  tortiera a cerniera di 20cm.
 card: none
 tags:
   - dolci
