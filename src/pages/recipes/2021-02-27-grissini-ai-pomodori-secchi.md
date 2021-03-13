@@ -34,10 +34,12 @@ preparationSteps:
   - step: " A grissini ben allineati, versate un filo di olio e con un pennello
       distribuitelo omogeneamente.  Distribuite semi di lino, sesamo e papavero
       (la scelta dei semi è facoltativa, come anche le quantità)."
-  - step: Cuocete in forno statico (freddo) a
-      [](https://www.pomodorialsole.com/recipes/2021-02-22-ciambellone-di-carote-e-mandorle/#step3)250°C
-      per 25 minuti, monitorando la cottura. Per dorare i grissini, cuocete
-      ulteriormente al grill per pochi minuti finali.
+  - step: Cuocete in forno statico (freddo) a 250°C per 25 minuti, monitorando la
+      cottura. Per dorare i grissini, cuocete ulteriormente al grill per pochi
+      minuti finali.
+note: "Questi grissini possono essere arricchiti con semi di finocchio oppure
+  rosmarino.  Divertitevi inoltre ad utilizzare farine diverse: tipo 1,tipo 2,
+  di mais, di grano saraceno."
 card: pomodoro
 tags:
   - antipasti
