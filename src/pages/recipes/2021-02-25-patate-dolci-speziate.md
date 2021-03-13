@@ -21,7 +21,6 @@ preparationSteps:
       tagliatele in fette da 1 cm circa.
   - step: Disponete le patate a raggiera in una pirofila. Aggiungete olio, sale, aglio a fettine e il cajun.
   - step: Infornate per 25 minuti a 180°C
- 
 card: none
 tags:
   - contorni

@@ -30,6 +30,7 @@ preparationSteps:
   - step: |-
       Tagliuzzate i pomodori secchi e soffriggeteli leggermente.\
       Servite la vostra vellutata accompagnata con i pomodori secchi.
+note: ""
 card: stagioni
 tags:
   - inverno
