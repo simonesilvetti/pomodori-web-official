@@ -1,15 +1,15 @@
 ---
 templateKey: recipe-post
-title: Hamburger di lenticchie e cipolline in agrodolce
+title: Burger di lenticchie e cipolline in agrodolce
 date: 2021-02-19T13:19:34.164Z
 difficulty: 2
 time: 2h
 description: Un veggie burger di lenticchie insaporito con paprika ed
   accompagnato da cipolle borettane in agrodolce.
 featuredimage: /img/hamburger_lenticchie.png
-dose: 5 hamburger
+dose: 5 burger
 ingredientsSections:
-  - section: HAMBURGER
+  - section: BURGER
     ingredients:
       - 200g lenticchie
       - 200g patate
@@ -27,7 +27,7 @@ preparationSteps:
   - step: Mettete in una casseruola le lenticchie e cuocetele per circa 45 minuti in
       abbondante acqua. Potete sceglierle se cuocerle in sola acqua o se
       aggiungere del pomodoro o ancora delle spezie. Una volta pronte, avrete
-      comunque modo di insaporirle durante la preparazione dell'hamburger.
+      comunque modo di insaporirle durante la preparazione dell'burger.
   - step: "Pelate le patate, tagliatele a pezzetti e cuocetele a parte coprendole di
       acqua. Per verificare la cottura punzecchiatele con una forchetta:
       dovranno risultare morbide. Rimuovete l'acqua e schiacciatele
@@ -35,7 +35,7 @@ preparationSteps:
   - step: Rimuovete, se presente, il liquido dalle lenticchie ed unitele alle
       patate. Aggiungete il parmigiano, la paprika, l'aglio a pezzetti ed il
       sale. Usate un frullatore per rendere il tutto omogeneo.
-  - step: Formate degli hamburger aiutandovi con un coppapasta e cospargeteli di
+  - step: Formate dei burger aiutandovi con un coppapasta e cospargeteli di
       pangrattato. Infornate in forno a 180 gradi per 25 minuti.
   - step: >-
       Concentratevi ora sulla preparazione delle cipolline come contorno.in
@@ -49,7 +49,7 @@ preparationSteps:
 
 
       Le cipolline saranno pronte dopo circa 15 minuti.
-  - step: Trasferite in un piatto l'hamburger ed accompagnate con le cipolle in
+  - step: Trasferite in un piatto il burger ed accompagnate con le cipolle in
       agrodolce.
 card: none
 tags:
