@@ -1,8 +1,8 @@
 import React from 'react'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import VegetarianToolTip from './recipe/VegetarianToolTip'
+import TagList from './TagList'
 import { Link } from 'gatsby'
-
 
 const RecipeCardList = ({ card }) => {
     return (
@@ -18,19 +18,29 @@ const RecipeCardList = ({ card }) => {
                                     image: card.featuredimage,
                                     alt: `featured image thumbnail for post ${card.title}`,
                                 }}
-                                style={{ maxHeight: '200px',  maxWidth: '200px' }}
+                                style={{ maxHeight: '170px', maxWidth: '170px' }}
                             />
                         </div>
                     ) : null}
                 </div>
                 <div className="tile is-child is-10">
-                    <div className="post-meta">
-                        <Link
-                            className="subtitle has-text-black is-size-3"
-                            to={card.slug}
-                        >
-                            {card.title}{card.tags.includes("vegetariano") ? <VegetarianToolTip /> : null}
-                        </Link>
+                    <div className="tile is-parent" >
+                        <div className="tile is-child" >
+                            <div className="post-meta">
+                                <Link
+                                    className="subtitle has-text-black is-size-3"
+                                    to={card.slug}
+                                >
+                                    {card.title}{card.tags.includes("vegetariano") ? <VegetarianToolTip /> : null}
+                                </Link>
+                            </div>
+                            <div className="tile is-child" >
+                                {card.excerpt}
+                            </div>
+                            <div className="tile is-child" >
+                                <TagList tags={card.tags} />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {/* <p>

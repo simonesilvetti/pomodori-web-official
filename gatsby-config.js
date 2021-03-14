@@ -106,6 +106,7 @@ module.exports = {
               fields {
                 slug
               }
+              excerpt(pruneLength: 200)
               frontmatter {
                 title
                 tags
@@ -143,7 +144,7 @@ module.exports = {
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
         // Default: all fields
-        store: ['id', "slug", 'title', 'tags', 'featuredimage'],
+        store: ['id', "slug", 'title', 'tags', 'featuredimage', 'excerpt'],
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
@@ -156,6 +157,7 @@ module.exports = {
             title: node.frontmatter.title,
             tags: node.frontmatter.tags,
             featuredimage: node.frontmatter.featuredimage,
+            excerpt: node.excerpt
           })),
       },
     }

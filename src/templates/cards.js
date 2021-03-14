@@ -1,23 +1,19 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import RecipeCardList from '../components/RecipeCardList'
 
 class CardRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
-    const postLinks = posts.map((post) => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <div className="subtitle is-size-2">-{post.node.frontmatter.title}-</div>
-        </Link>
-      </li>
-    ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
     const finalLetter = totalCount === 1 ? 'a' : 'e';
     const tagHeader = `${totalCount} ricett${finalLetter}`
+    const cards = posts.map((post) => (
+      <RecipeCardList card={{ id: post.node.id, featuredimage: post.node.frontmatter.featuredimage, title: post.node.frontmatter.title, slug: post.node.fields.slug, tags: post.node.frontmatter.tags, excerpt: post.node.excerpt }} />))
 
     return (
       <Layout>
@@ -30,7 +26,7 @@ class CardRoute extends React.Component {
                 style={{ marginBottom: '6rem' }}
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
+                {cards}
               </div>
             </div>
           </div>
@@ -57,11 +53,21 @@ export const cardPageQuery = graphql`
       totalCount
       edges {
         node {
+          id
           fields {
             slug
           }
+          excerpt(pruneLength: 200)
           frontmatter {
             title
+            featuredimage{
+              childImageSharp {
+                fluid(maxWidth: 400, quality: 100) {
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
+                }
+              }
+            }
+            tags
           }
         }
       }

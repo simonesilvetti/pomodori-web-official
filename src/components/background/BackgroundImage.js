@@ -11,7 +11,6 @@ const BackgroundSection = ({ className, imageData, title }) => {
       fluid={imageData}
       backgroundColor={`#040e18`}
     >
-      {console.log(title)}
       {title ?
         <div
           className="title has-text-weight-bold is-size-1"
