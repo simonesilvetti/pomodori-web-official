@@ -16,9 +16,14 @@ const SearchPage = ({ state, index, store }) => {
       <Layout>
         <section className="section">
           <div className="container content">
-            <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-            <div className="columns is-multiline">
-              {results.map(card => <RecipeCardList key={card.id} card={card} />)}
+            <div className="columns">
+              <div
+                className="column is-10 is-offset-1"
+                style={{ marginBottom: '6rem' }}
+              >
+                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
+                  {results.map(card => <RecipeCardList key={card.id} card={card} />)}
+              </div>
             </div>
           </div>
         </section>

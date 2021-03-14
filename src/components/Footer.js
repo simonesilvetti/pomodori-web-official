@@ -22,14 +22,16 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a> */}
-                <Logo />
-                <a title="instagram" href="https://www.instagram.com/pomodorialsole/">
+                <a className="social-icon" title="instagram" href="https://www.instagram.com/pomodorialsole/">
                   <img
                     src={instagram}
                     alt="Instagram"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
+                <p><Logo /></p>
+                <p>developed by <a title="instagram" href="https://github.com/simonesilvetti/">simonesilvetti</a></p>
+                
               </div>
             </div>
           </div>
