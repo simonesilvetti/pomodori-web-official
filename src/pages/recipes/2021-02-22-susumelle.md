@@ -5,7 +5,7 @@ date: 2021-02-22T18:38:08.266Z
 difficulty: 2
 time: 1h 30min
 description: Biscotti speziati della nostra tradizione calabrese.
-featuredimage: /img/susumelle.png
+featuredimage: /img/susumelle1.png
 images: []
 dose: 15 biscotti
 ingredientsSections:
