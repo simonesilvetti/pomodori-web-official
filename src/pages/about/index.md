@@ -4,7 +4,7 @@ path: /about
 title: Chi Siamo
 image: /img/nonna.png
 ---
-Calabresi di nascita, liguri e friuliani di adozione. 
+Calabresi di nascita, ligure e friulana di adozione. 
 
 La nostra cucina è contaminata dai profumi della tradizione. Siamo cresciute tra mare e campagna, tra mulingiani ‘mbuttunati e susumelle.  Queste sono solo alcune delle pietanze che coloravano la nostra tavola.
 
