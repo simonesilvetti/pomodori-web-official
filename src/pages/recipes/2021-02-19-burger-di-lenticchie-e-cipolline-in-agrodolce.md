@@ -27,7 +27,7 @@ preparationSteps:
   - step: Mettete in una casseruola le lenticchie e cuocetele per circa 45 minuti in
       abbondante acqua. Potete sceglierle se cuocerle in sola acqua o se
       aggiungere del pomodoro o ancora delle spezie. Una volta pronte, avrete
-      comunque modo di insaporirle durante la preparazione dell'burger.
+      comunque modo di insaporirle durante la preparazione del burger.
   - step: "Pelate le patate, tagliatele a pezzetti e cuocetele a parte coprendole di
       acqua. Per verificare la cottura punzecchiatele con una forchetta:
       dovranno risultare morbide. Rimuovete l'acqua e schiacciatele
@@ -38,8 +38,8 @@ preparationSteps:
   - step: Formate dei burger aiutandovi con un coppapasta e cospargeteli di
       pangrattato. Infornate in forno a 180 gradi per 25 minuti.
   - step: >-
-      Concentratevi ora sulla preparazione delle cipolline come contorno.in
-      agrodolce. 
+      Concentratevi ora sulla preparazione delle cipolline in agrodolce come
+      contorno. 
 
 
       Versate in una padella 2 cucchiaini di miele ed unite le cipolline. Lasciate che il miele si sciolga per circa 4 minuti a fuoco basso.
