@@ -10,7 +10,7 @@ dose: 15 fagottini
 ingredientsSections:
   - section: BASE
     ingredients:
-      - 300G farina 0
+      - 300g farina 0
       - 140g acqua
       - 4 cucchiai olio evo
       - sale
