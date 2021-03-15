@@ -38,7 +38,7 @@ preparationSteps:
       **Procediamo con la preparazione del ripieno.**
 
 
-      Lavate i funghi e tagliateli e pezzetti. Cuoceteli in una padella con un filo d'olio ed insaporiteli a piacimento.
+      Lavate i funghi e tagliateli a pezzetti. Cuoceteli in una padella con un filo d'olio ed insaporiteli a piacimento.
 
 
       Pelate le patate e tagliatele a fettine alte circa 1/2 cm. Cuocetele a vapore finchè non saranno morbide. Alternativamente, potete anche portarle a bollore.
