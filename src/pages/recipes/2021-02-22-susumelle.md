@@ -41,6 +41,10 @@ preparationSteps:
   - step: Fate raffreddare su una gratella per dolci. Ricoprite con il cioccolato
       fondente precedentemente sciolto a bagnomaria. A copertura ultimata,
       aspettate che il cioccolato rassodi.
+note: "Piccolo suggerimento per la copertura al cioccolato: infilzate
+  delicatamente i biscotti dalla parte posteriore con una forchetta in modo da
+  aiutarvi per l'immersione nel cioccolato.  Lasciare scolare per qualche
+  secondo.  Il risultato finale sarà una copertura liscia ed omogenea."
 card: tradizioni
 tags:
   - dolci
