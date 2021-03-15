@@ -38,8 +38,8 @@ preparationSteps:
   - step: Formate dei burger aiutandovi con un coppapasta e cospargeteli di
       pangrattato. Infornate in forno a 180 gradi per 25 minuti.
   - step: >-
-      Concentratevi ora sulla preparazione delle cipolline come contorno.in
-      agrodolce. 
+      Concentratevi ora sulla preparazione delle cipolline in agrodolce come
+      contorno. 
 
 
       Versate in una padella 2 cucchiaini di miele ed unite le cipolline. Lasciate che il miele si sciolga per circa 4 minuti a fuoco basso.
