@@ -22,7 +22,7 @@ ingredientsSections:
       - 3 noci
       - 5/6 mandorle
 preparationSteps:
-  - step: Sbucciate le mele e tagliatele e fettine. Mettetele in una padella con 2
+  - step: Sbucciate le mele e tagliatele a fettine. Mettetele in una padella con 2
       cucchiai di zucchero, aggiungete le noci e le mandorle tritate e lasciate
       appassire per circa 10 minuti.
   - step: Unite in una ciotola la farina, l'olio e l'acqua. Impastate fino ad
