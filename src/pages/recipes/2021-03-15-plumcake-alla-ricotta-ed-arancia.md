@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Plumcake alla ricotta ed arancia
+title: Plumcake alla ricotta e all'arancia
 date: 2021-03-15T18:08:41.512Z
 difficulty: 1
 time: 1h
