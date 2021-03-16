@@ -32,7 +32,7 @@ preparationSteps:
       dall'alto verso il basso.
   - step: Versate il composto nello stampo da plumcake ed infornate a 180°C per
       40/45 minuti circa.
-card: none
+card: stagioni
 tags:
   - dolci
   - inverno
