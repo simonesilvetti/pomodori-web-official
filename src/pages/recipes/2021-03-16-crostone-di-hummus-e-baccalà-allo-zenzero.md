@@ -49,7 +49,9 @@ preparationSteps:
       * Nel frattempo preparate i vostri crostoni facendoli abbrustolire da entrambi i lati su una padella antiaderente. Una volta pronti, assemblate i crostoni spalmando sopra dell'hummus ed il baccalà. Rifinite con un filo di olio di cottura del baccalà.
 card: none
 tags:
-  - antipasti crostone baccalà
+  - antipasti
+  - crostone
+  - baccalà
 blogger: Claudia
 ---
 La versatilità dell'hummus che si sposa con il gusto delicato di un baccalà aromatizzato allo zenzero.
