@@ -18,7 +18,7 @@ Specialmente nella preparazione della crostata, di cui breve storia a seguire.
 
 * Ne ho fatto una versione chiusa con farcitura a sorpresa.
 
-* L’ho esportata in Canada dove l’ho cucinata gluten-free e con il banking soda (prova molto difficile questa eh!) e senza apposito tegame (che mi sono ovviamente andata a comprare da Sobeys ed importato poi in Italia).
+* L’ho esportata in Canada dove l’ho cucinata gluten-free e con il baking soda (prova molto difficile questa eh!) e senza apposito tegame (che mi sono ovviamente andata a comprare da Sobeys ed importato poi in Italia).
 
 E poi ho fatto biscotti, di tutti i tipi.  Prima con lo stesso impasto, poi giocando con le farine. Ultimo esperimento arrivato è sostituire parte della farina con farina di mais (si, quella della polenta!). Nei biscotti crea un effetto croccantino meraviglioso!
 
