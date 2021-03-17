@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: OH MY GARLIC
+title: OH, MY GARLIC!
 date: 2021-03-17T09:38:25.798Z
 description: Storie di agli
 featuredpost: true
