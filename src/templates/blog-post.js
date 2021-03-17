@@ -6,6 +6,8 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import ShareBadge from '../components/ShareBadge'
 import Content, { HTMLContent } from '../components/Content'
+import useSiteMetadata from '../components/SiteMetadata'
+
 
 export const BlogPostTemplate = ({
   content,
@@ -26,10 +28,10 @@ export const BlogPostTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light" >
-              {title}  
-            </h1>
-            <ShareBadge url={url} content={title} />
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light" >
+                {title}
+              </h1>
+              <ShareBadge url={url} content={title} />
             </div>
             <div className="title is-size-4">
               di {blogger}
@@ -70,6 +72,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
+  const { siteUrl } = useSiteMetadata()
 
   return (
     <Layout>
@@ -78,12 +81,19 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Pomodori al sole">
+            {console.log(post)}
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta property="og:title" content={post.frontmatter.title} />
+            <meta property="og:type" content="article" />
+            <meta property="og:description" content={post.frontmatter.description} />
+            {post.frontmatter.featuredimage && <meta property="og:image" content={siteUrl + post.frontmatter.featuredimage.childImageSharp.fluid.src} />}
+            <meta property="og:image:alt" content={post.frontmatter.title} />
+            <meta name="keywords" content={["blog", "cibo", "italia"].concat(post.frontmatter.tags.toString())} />
           </Helmet>
         }
         tags={post.frontmatter.tags}
@@ -113,6 +123,13 @@ export const pageQuery = graphql`
         blogger
         description
         tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 200, quality: 80) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
+            }
+          }
+        }
       }
     }
   }
