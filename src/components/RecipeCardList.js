@@ -10,19 +10,18 @@ const RecipeCardList = ({ card }) => {
             <article
                 className='blog-list-item tile is-parent box'
             >
-                <div className="tile is-child is-2">
-                    {card.featuredimage ? (
-                        <div>
-                            <PreviewCompatibleImage
-                                imageInfo={{
-                                    image: card.featuredimage,
-                                    alt: `featured image thumbnail for post ${card.title}`,
-                                }}
-                                style={{ maxHeight: '170px', maxWidth: '170px' }}
-                            />
-                        </div>
-                    ) : null}
-                </div>
+                {card.featuredimage ? (<div className="tile is-child is-2">
+
+                    <div>
+                        <PreviewCompatibleImage
+                            imageInfo={{
+                                image: card.featuredimage,
+                                alt: `featured image thumbnail for post ${card.title}`,
+                            }}
+                            style={{ maxHeight: '170px', maxWidth: '170px' }}
+                        />
+                    </div>
+                </div>) : null}
                 <div className="tile is-child is-10">
                     <div className="tile is-parent" >
                         <div className="tile is-child" >

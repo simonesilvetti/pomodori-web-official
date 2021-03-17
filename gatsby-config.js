@@ -3,7 +3,7 @@ module.exports = {
     title: 'Pomodori al Sole',
     siteUrl: 'https://pomodorialsole.com',
     description:
-      'Passione per la cucina',
+      'Cucina, tradizioni e colori',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -100,7 +100,7 @@ module.exports = {
         //https://github.com/gatsbyjs/gatsby/blob/4638cd678b28f7a515df465be21d9d8bcdd71d9a/packages/gatsby-transformer-sharp/src/fragments.js
         query: `
         {
-          allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "recipe-post"}}}) {
+          allMarkdownRemark(filter: {frontmatter: {templateKey: {in: ["blog-post" "recipe-post"]}}}) {
             nodes {
               id
               fields {

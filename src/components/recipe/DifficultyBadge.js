@@ -6,7 +6,7 @@ import { v4 } from 'uuid'
 
 
 const DifficultyBadge = ({ level }) => (
-    <div><span>DIFFICOLTA:  </span>
+    <div><span>DIFFICOLT&Agrave;:  </span>
         {[...Array(level)].map(_ =>
             <GiTomato key={v4()} style={{ fill: '#D62F05' }} />
         )}

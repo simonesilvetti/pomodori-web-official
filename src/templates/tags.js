@@ -10,11 +10,10 @@ class TagRoute extends React.Component {
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const finalLetter = totalCount === 1 ? 'a' : 'e';
-    const tagHeader = `${totalCount} ricett${finalLetter} taggat${finalLetter} “${tag}”`
+    const finalLetter = totalCount === 1 ? 'o' : 'i';
+    const tagHeader = `${totalCount} contenut${finalLetter} taggat${finalLetter} come “${tag}”`
     const cards = posts.map((post) => (
       <RecipeCardList card={{ id: post.node.id, featuredimage: post.node.frontmatter.featuredimage, title: post.node.frontmatter.title, slug: post.node.fields.slug, tags: post.node.frontmatter.tags, excerpt: post.node.excerpt }} />))
-
     return (
       <Layout>
         <section className="section">

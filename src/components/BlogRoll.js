@@ -12,11 +12,10 @@ class BlogRoll extends React.Component {
       <div className="columns is-multiline">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="is-parent column is-4" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                className={`blog-list-item tile post is-child box ${post.frontmatter.featuredpost ? 'is-featured' : ''
+                  }`}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (
@@ -31,14 +30,14 @@ class BlogRoll extends React.Component {
                   ) : null}
                   <p className="post-meta">
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="title has-text-black is-size-3"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
+                    <br />
+                    <span className="subtitle is-size-4">
+                      {post.frontmatter.date} &bull; {post.frontmatter.blogger}
                     </span>
                   </p>
                 </header>
@@ -47,7 +46,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Continua a leggere →
                   </Link>
                 </p>
               </article>
@@ -84,11 +83,12 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "DD MMMM YYYY", locale: "it")
+                blogger
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 240, quality: 100) {
                       ...GatsbyImageSharpFluid_withWebp_noBase64
                     }
                   }

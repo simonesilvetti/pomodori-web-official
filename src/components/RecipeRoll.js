@@ -84,7 +84,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "DD MMMM YYYY", locale: "it")
                 featuredpost
                 tags
                 featuredimage {

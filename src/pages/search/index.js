@@ -10,8 +10,8 @@ const SearchPage = ({ state, index, store }) => {
   const results = useFlexSearch(query, index, store)
   if (results.length > 0) {
     const totalCount = results.length
-    const finalLetter = totalCount === 1 ? 'a' : 'e';
-    const tagHeader = `${totalCount} ricett${finalLetter} trovat${finalLetter}`
+    const finalLetter = totalCount === 1 ? 'o' : 'i';
+    const tagHeader = `${totalCount} contenut${finalLetter} trovat${finalLetter}`
     return (
       <Layout>
         <section className="section">

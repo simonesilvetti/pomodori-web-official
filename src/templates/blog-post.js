@@ -4,6 +4,7 @@ import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import ShareBadge from '../components/ShareBadge'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
@@ -12,9 +13,11 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  blogger,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+  const url = typeof window !== 'undefined' ? window.location.href : 'https://pomodorialsole.com/';
 
   return (
     <section className="section">
@@ -22,10 +25,16 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light" >
+              {title}  
             </h1>
-            <p>{description}</p>
+            <ShareBadge url={url} content={title} />
+            </div>
+            <div className="title is-size-4">
+              di {blogger}
+            </div>
+            <p className="has-text-weight-semibold">{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -33,7 +42,11 @@ export const BlogPostTemplate = ({
                 <ul className="taglist">
                   {tags.map((tag) => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link to={`/tags/${kebabCase(tag)}/`}>
+                        <div className="tag is-medium ">
+                          {tag}
+                        </div>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -51,6 +64,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  blogger: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -74,6 +88,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        blogger={post.frontmatter.blogger}
       />
     </Layout>
   )
@@ -93,8 +108,9 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY", locale: "it")
         title
+        blogger
         description
         tags
       }

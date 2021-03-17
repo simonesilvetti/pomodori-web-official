@@ -2,9 +2,10 @@
 templateKey: blog-post
 title: FROLLE FANTASTICHE ... E DOVE TROVARLE
 date: 2021-03-17T09:35:03.650Z
+blogger: Claudia
 description: "Breve storia della mia esperienza con le frolle "
 featuredpost: true
-featuredimage: /img/crostata.png
+featuredimage:
 tags:
   - frolla
   - crostata
@@ -22,6 +23,6 @@ Specialmente nella preparazione della crostata, di cui breve storia a seguire.
 
 E poi ho fatto biscotti, di tutti i tipi.  Prima con lo stesso impasto, poi giocando con le farine. Ultimo esperimento arrivato è sostituire parte della farina con farina di mais (si, quella della polenta!). Nei biscotti crea un effetto croccantino meraviglioso!
 
-Curiosate nel sito.  La ricetta 🥧  Crostata con granella di mandorle e mele al Grand Marnier🥧   è fatta con la frolla in questione.
+Curiosate nel sito.  La ricetta 🥧  [Crostata con granella di mandorle e mele al Grand Marnier](/recipes/2021-02-16-crostata-alle-mele/)🥧   è fatta con la frolla in questione.
 
 Fine delle mia breve storia sulle frolle! 😂
