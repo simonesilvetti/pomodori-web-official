@@ -25,11 +25,11 @@ preparationSteps:
 
 
       Tagliate il guanciale a listarelle e cuocetelo con un filo d'olio qualche minuto fino a renderlo croccante. Rimuovete quindi il guanciale e tenete da parte l'olio insaporito che servirà per le cime di rapa.
-  - step: Nel frattempo lavate e tagliate a pezzetti le cime di rapa. Cuocetele in
-      un wok per circa 10 minuti. Una volta morbide, se necessario strizzatele e
-      versatele nella padella dove avete precedentemente cotto il guanciale.
-      Aggiungete anche uno spicchio d'aglio intero leggermente schiacciato, sale
-      e del peperoncino se gradite.
+  - step: Nel frattempo lavate e tagliate a pezzetti le cime di rapa. Cuocetele per
+      circa 10 minuti in padella (o sbollentatele se preferite). Una volta
+      morbide, strizzatele se necessario e versatele nella padella dove avete
+      precedentemente cotto il guanciale. Aggiungete anche uno spicchio d'aglio
+      intero leggermente schiacciato, sale e del peperoncino se gradite.
   - step: |-
       Una volta cotti, unite i fusilli alle cime di rapa ed unite il guanciale.
 
