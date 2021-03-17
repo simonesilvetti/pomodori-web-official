@@ -21,10 +21,19 @@ ingredientsSections:
       - caciocavallo
 preparationSteps:
   - step: >-
-      Mettete l'aqua in una pentola e portate ad ebollizione.
+      Mettete l'acqua in una pentola e portate ad ebollizione.
 
 
-      Nel frattempo lavate e tagliate a pezzetti le cime di rapa. Cuocietele in un wok per circa 10 minuti. Una volta morbide, se necessario strizzatele e fatele insaporire in una padella con olio, uno spicchio d'aglio schiacciato e se gradite peperoncino.
+      Tagliate il guanciale a listarelle e cuocetelo con un filo d'olio qualche minuto fino a renderlo croccante. Rimuovete quindi il guanciale e tenete da parte l'olio insaporito che servirà per le cime di rapa.
+  - step: Nel frattempo lavate e tagliate a pezzetti le cime di rapa. Cuocetele in
+      un wok per circa 10 minuti. Una volta morbide, se necessario strizzatele e
+      versatele nella padella dove avete precedentemente cotto il guanciale.
+      Aggiungete anche uno spicchio d'aglio intero leggermente schiacciato, sale
+      e del peperoncino se gradite.
+  - step: |-
+      Una volta cotti, unite i fusilli alle cime di rapa ed unite il guanciale.
+
+      Spolverate infine con del caciocavallo.
 card: stagioni
 tags:
   - primi
