@@ -21,7 +21,7 @@ Specialmente nella preparazione della crostata, di cui breve storia a seguire.
 
 * L’ho esportata in Canada dove l’ho cucinata gluten-free e con il baking powder (prova molto difficile questa eh!) e senza apposito tegame (che mi sono ovviamente andata a comprare da Sobeys ed importato poi in Italia).
 
-E poi ho fatto biscotti, di tutti i tipi.  Prima con lo stesso impasto, poi giocando con le farine. Ultimo esperimento arrivato: sostituire parte della farina con farina di mais (sì, quella della polenta!). Nei biscotti crea un effetto croccantino meraviglioso!
+E poi ho fatto biscotti, di tutti i tipi.  Prima con lo stesso impasto, poi giocando con le farine. Ultimo esperimento arrivato: sostituire parte della farina con la farina di mais (sì, quella della polenta!). Nei biscotti crea un effetto croccantino meraviglioso!
 
 Curiosate nel sito.  La ricetta 🥧  [Crostata con granella di mandorle e mele al Grand Marnier](/recipes/2021-02-16-crostata-alle-mele/)🥧   è fatta con la frolla in questione.
 
