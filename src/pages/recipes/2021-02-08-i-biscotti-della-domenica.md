@@ -20,7 +20,7 @@ ingredientsSections:
       - 150g  burro a t. ambiente
       - scorza di due limoni
       - 2 cucchiai marmellata di limone
-      - 1/2 bustina di lievito per dolci
+      - 8g lievito per dolci
   - section: ALLA MELA
     ingredients:
       - 1 mela
