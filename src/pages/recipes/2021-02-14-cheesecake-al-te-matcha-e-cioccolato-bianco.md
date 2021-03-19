@@ -17,7 +17,7 @@ ingredientsSections:
       - 250g formaggio tipo Philadelphia
       - 250g yogurt bianco magro
       - 200g panna liquida per dolci
-      - 2 cucchiaini te matcha in polvere
+      - 2 cucchiaini tè matcha in polvere
       - 1 barretta cioccolato bianco
       - 80g zucchero
       - 5 fogli di gelatina
@@ -38,12 +38,12 @@ preparationSteps:
       magro.  Mescolare energicamente con una frusta da cucina.
 
 
-      In un pentolino versate la panna liquida e lo zucchero.  Fate scaldare a fuoco basso e mescolate.  Aggiungete i 3/4 del cioccolato tagliato precedentement a pezzi molto piccoli.  Continuate a sobollire mescolando fino a quando il cioccolato non si sarà completamente sciolto.  Spegnete il gas ed aggiungete la gelatina ben strizzata.  Mescolate fino a quando si sarà completamente sciolta.
+      In un pentolino versate la panna liquida e lo zucchero.  Fate scaldare a fuoco basso e mescolate.  Aggiungete i 3/4 del cioccolato tagliato precedentemente a pezzi molto piccoli.  Continuate a sobbollire mescolando fino a quando il cioccolato non si sarà completamente sciolto.  Spegnete il gas ed aggiungete la gelatina ben strizzata.  Mescolate fino a quando si sarà completamente sciolta.
   - step: Versate il composto ottenuto al precedente composto, amalgamando con la
-      frusta.  Aggiungete adesso il te matcha in polvere e mescolate
+      frusta.  Aggiungete adesso il tè matcha in polvere e mescolate
       energicamente evitando che si formino grumi di te nella crema.  Il colore
       verde ed il sapore del matcha saranno appena accennati.  Per avvertire un
-      sapore  piu deciso aumentare lievemente la dose.
+      sapore  più deciso aumentare lievemente la dose.
   - step: >-
       Versate la crema sulla base precedentemente riposta in frigo.
 
@@ -61,8 +61,8 @@ preparationSteps:
 
 
       Versate la guarnizione al centro della cheesecake e aggiungete la restante metà dei frutti di bosco freschi.  Spolverizzate con dello zucchero a velo per completare il piatto.
-note: L’effetto ottimale per queste dosi di impasto si ottengono con una
-  tortiera a cerniera di 20cm.
+note: L’effetto ottimale per queste dosi di impasto si ottiene con una tortiera
+  a cerniera di 20cm.
 card: none
 tags:
   - dolci
