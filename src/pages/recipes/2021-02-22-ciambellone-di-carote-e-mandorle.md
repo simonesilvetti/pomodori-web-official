@@ -18,7 +18,7 @@ ingredientsSections:
       - 1 vasetto di yogurt magro (125g)
       - 60ml di olio evo
       - succo di un'arancia
-      - 1 bustina di lievito per dolci
+      - 16 lievito per dolci
 preparationSteps:
   - step: Unite le uova allo zucchero. Montate fino ad ottenere un composto omogeneo
       e spumoso. Aggiungete l'olio, il succo di un'arancia e continuate a
