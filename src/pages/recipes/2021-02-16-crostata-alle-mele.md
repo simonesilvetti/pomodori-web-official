@@ -16,7 +16,7 @@ ingredientsSections:
       - 1 uovo
       - 150g burro a t. ambiente
       - scorza di un limone
-      - 1/2 bustina di lievito per dolci
+      - 8g lievito per dolci
       - un pizzico di sale
   - section: FARCITURA
     ingredients:
