@@ -13,11 +13,11 @@ ingredientsSections:
       - 250g farina 0
       - 250g ricotta
       - 150g zucchero di canna
-      - 2uova
+      - 2 uova
       - 80ml yogurt magro
       - 50ml olio evo
       - 150ml succo di arancia
-      - 1 bustina di lievito per dolci
+      - 16g lievito per dolci
       - scorza di un'arancia
       - gocce di cioccolato
 preparationSteps:
