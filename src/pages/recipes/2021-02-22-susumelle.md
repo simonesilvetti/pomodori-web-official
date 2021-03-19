@@ -13,11 +13,11 @@ ingredientsSections:
     ingredients:
       - 250g farina tipo 1
       - 20g cacao amaro in polvere
-      - 100g miele
+      - 100miele
       - 100g zucchero
       - 30g latte
-      - 1/2 bustina di lievito per dolci
-      - 2gr cannella in polvere
+      - 8g lievito per dolci
+      - 2gr g cannella in polvere
       - 4 chiodi di garofano
       - acqua 30g (q.b.)
       - 100g cioccolato fondente
