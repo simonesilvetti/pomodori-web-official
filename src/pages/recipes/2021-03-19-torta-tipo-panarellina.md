@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Torta tipo Panarellina
 date: 2021-03-19T13:00:36.615Z
 difficulty: 2
-time: 1h
+time: 20min + 40min
 description: Un classico della tradizione dolciaria ligure.
 featuredimage: /img/panarellina.png
 dose: 8 persone
