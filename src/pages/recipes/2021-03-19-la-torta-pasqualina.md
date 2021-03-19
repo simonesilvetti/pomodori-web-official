@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: LA TORTA PASQUALINA
+title: La torta pasqualina
 date: 2021-03-19T18:04:05.067Z
 difficulty: 2
 time: 1h 30min
