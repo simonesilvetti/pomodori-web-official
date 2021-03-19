@@ -82,7 +82,6 @@ const BlogPost = ({ data }) => {
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Pomodori al sole">
-            {console.log(post)}
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"

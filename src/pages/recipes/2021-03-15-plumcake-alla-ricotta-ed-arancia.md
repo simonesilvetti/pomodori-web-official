@@ -39,6 +39,7 @@ tags:
   - plumcake
   - ricotta
   - arancia
+  - vegetariano
 blogger: Katia
 ---
 Un plumcake soffice  e profumato.

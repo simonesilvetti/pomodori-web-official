@@ -8,7 +8,7 @@ description: Una torta di origine libanese fatta di semolino e mandorle.
 featuredimage: /img/basbousa.png
 dose: 8 persone
 ingredientsSections:
-  - section: INGREDIENTI
+  - section: IMPASTO
     ingredients:
       - 400g semolino
       - 2 cucchiai di farina di cocco

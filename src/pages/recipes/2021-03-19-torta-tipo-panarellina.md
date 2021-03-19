@@ -34,11 +34,12 @@ note: L'uso delle fruste elettriche è altamente consigliato per ottenere
   con una tortiera a cerniera di 20cm.  Affinché la vostra torta lieviti
   adeguatamente e non collassi nella parte centrale, evitate di aprire il forno
   in cottura.
-card: none
+card: tradizioni
 tags:
   - dolci
   - torta
   - mandorle
+  - vegetariano
 blogger: Claudia
 ---
 Un classico della tradizione dolciaria ligure.

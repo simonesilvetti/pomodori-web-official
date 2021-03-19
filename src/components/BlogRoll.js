@@ -42,7 +42,7 @@ class BlogRoll extends React.Component {
                   </p>
                 </header>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description && <span className="has-text-weight-semibold">{post.frontmatter.description} &bull; </span>}{post.excerpt}
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
@@ -82,6 +82,7 @@ export default () => (
               }
               frontmatter {
                 title
+                description
                 templateKey
                 date(formatString: "DD MMMM YYYY", locale: "it")
                 blogger
