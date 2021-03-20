@@ -10,7 +10,7 @@ description: "Una rivisitazione della classica quiche francese: un guscio di
 featuredimage: /img/quiche_funghi_gorgonzola_patate.png
 dose: 4 persone
 ingredientsSections:
-  - section: BASE
+  - section: PASTA MATTA
     ingredients:
       - 140g farina 1
       - 60g acqua
