@@ -21,7 +21,7 @@ ingredientsSections:
       - 700g vongole veraci
       - aglio
       - sale
-      - pepe
+      - olio evo
 preparationSteps:
   - step: >-
       **Iniziamo con la preparazione della pasta fresca.**
@@ -41,10 +41,13 @@ preparationSteps:
       frigo. 
 
 
-      Sciacquate bene le vongole sotto l’acqua corrente, eliminando quelle già aperte che non sono più buone da mangiare. Metterle poi a mollo in acqua fredda e aggiungere un pugno di sale grosso per ricreare l’ambiente marino e lasciarle spurgare per almeno 1-2 ore.
+      Sciacquate bene le vongole sotto l’acqua corrente, eliminando quelle già aperte. Mettetele poi a mollo in acqua fredda e aggiungete un pugno di sale grosso. Lasciatele spurgare per circa 2 ore.
 
 
-      <!--EndFragment-->
+      Trascorso tale tempo, per verificare che non ci siano conghiglie piene di sabbia, sbattete una per una su un piano: le vongole piene di sabbia si apriranno subito e andranno buttate.
+
+
+      Mettete le vongole in una padella con uno spicchio d'aglio e olio evo
 note: Se non possedete la macchina per fare i tagliolini, potete stendere delle
   sfoglie con l'aiuto di un mattarello (spessore 1-2 mm), infarinarle bene e
   ripiegarle su se stesse. Procedete quindi con un coltello a lama liscia e
