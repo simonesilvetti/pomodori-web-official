@@ -41,26 +41,21 @@ preparationSteps:
       frigo. 
 
 
-      Sciacquate bene le vongole sotto l’acqua corrente, eliminando quelle già aperte. Mettetele poi a mollo in acqua fredda e aggiungete un pugno di sale grosso. Lasciatele spurgare per circa 2 ore.
+      Sciacquate bene le vongole sotto l’acqua corrente, eliminando quelle già aperte. Per verificare che non ci siano conchiglie piene di sabbia, sbattetele una per una nel lavandino: le vongole piene di sabbia si apriranno subito e andranno rimosse. Mettetele poi a mollo in acqua fredda e aggiungete un pugno di sale grosso. Lasciatele spurgare per circa 2 ore.
 
 
-      Trascorso tale tempo, per verificare che non ci siano conghiglie piene di sabbia, sbattete una per una su un piano: le vongole piene di sabbia si apriranno subito e andranno buttate.
+      Trascorso tale tempo, risciacquate le vongole. Mettetele poi in una padella con uno spicchio d'aglio e olio evo e copritele con un coperchio. Lasciatele sul fuoco, le vongole si apriranno in pochi minuti.
 
-
-      Mettete le vongole in una padella con uno spicchio d'aglio e olio evo e coprite con un coperchio: le vongole si apriranno in pochi minuti.
-
-
-      Rimuovete la conghiglia della maggior parte delle vongole, conservandone solo i frutti di mare. Tenete da parte solo alcuni molluschi interi per decorare il piatto finale.
   - step: Cuocete i tagliolini in acqua bollente per 1/2 minuti. Aggiungete quindi i
       tagliolini alle vongole, completando la cottura nell'acqua delle stesse
       per un minuto.
-note: Se non possedete la macchina per fare i tagliolini, potete stendere delle
-  sfoglie con l'aiuto di un mattarello (spessore 1-2 mm), infarinarle bene e
-  ripiegarle su se stesse. Procedete quindi con un coltello a lama liscia e
+note: Se non possedete la macchina per fare la pasta fresca, potete stendere delle
+  sfoglie con l'aiuto di un mattarello (spessore 1-2 mm). Infarinatele bene e
+  ripiegatele su se stesse. Procedete quindi con un coltello a lama liscia e
   ricavate tagliolini o tagliatelle a vostro piacimento.
 card: none
 tags:
-  - Primi
+  - primi
   - pasta fresca
   - vongole
   - spinaci

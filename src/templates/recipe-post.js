@@ -131,6 +131,7 @@ const RecipePost = ({ data }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta property="og:url" content={siteUrl + post.fields.slug} />
             <meta property="og:title" content={post.frontmatter.title} />
             <meta property="og:type" content="article" />
             <meta property="og:description" content={post.frontmatter.description} />
@@ -169,6 +170,9 @@ export const pageQuery = graphql`
       markdownRemark(id: { eq: $id }) {
         id
         html
+        fields{
+          slug
+        }
         frontmatter {
           date(formatString: "DD MMMM YYYY", locale: "it")
           title

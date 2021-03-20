@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from './Logo'
-//import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
+import facebook from '../img/social/facebook.svg'
+import twitter from '../img/social/twitter.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -26,6 +27,20 @@ const Footer = class extends React.Component {
                   <img
                     src={instagram}
                     alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a className="social-icon" title="instagram" href="https://www.facebook.com/pomodorialsole/">
+                  <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a className="social-icon" title="instagram" href="https://www.twitter.com/pomodorialsole/">
+                  <img
+                    src={twitter}
+                    alt="Twitter"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
