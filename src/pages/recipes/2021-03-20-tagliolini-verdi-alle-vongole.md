@@ -47,12 +47,13 @@ preparationSteps:
       Trascorso tale tempo, per verificare che non ci siano conghiglie piene di sabbia, sbattete una per una su un piano: le vongole piene di sabbia si apriranno subito e andranno buttate.
 
 
-      Mettete le vongole in una padella con uno spicchio d'aglio e olio evo e coprire con un coperchio: le vongole si apriranno in pochi minuti.
+      Mettete le vongole in una padella con uno spicchio d'aglio e olio evo e coprite con un coperchio: le vongole si apriranno in pochi minuti.
 
 
       Rimuovete la conghiglia della maggior parte delle vongole, conservandone solo i frutti di mare. Tenete da parte solo alcuni molluschi interi per decorare il piatto finale.
   - step: Cuocete i tagliolini in acqua bollente per 1/2 minuti. Aggiungete quindi i
-      tagliolini alle vongole, completando la cottura nell'acqua delle stesse.
+      tagliolini alle vongole, completando la cottura nell'acqua delle stesse
+      per un minuto.
 note: Se non possedete la macchina per fare i tagliolini, potete stendere delle
   sfoglie con l'aiuto di un mattarello (spessore 1-2 mm), infarinarle bene e
   ripiegarle su se stesse. Procedete quindi con un coltello a lama liscia e
