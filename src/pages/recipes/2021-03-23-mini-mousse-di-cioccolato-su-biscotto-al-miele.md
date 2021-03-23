@@ -26,7 +26,24 @@ preparationSteps:
       Tritate finemenete i biscotti in un mixer. Versateli in una ciotola ed unite il miele, l'olio e l'acqua. 
 
 
-      Disponete il composto ottenuto in 3 coppapasta (o 3 bicchieri se preferite)
+      Disponete il composto ottenuto in 3 coppapasta (o 3 bicchieri se preferite) e compattate fino ad ottenere la base, alta circa 0,5cm.
+  - step: >-
+      **Proseguiamo con la preparazione della mousse.**
+
+
+      Sciogliete il cioccolato a bagnomaria. 
+
+
+      Montate leggermente la panna: dovrete ottenere una panna semi-montata e non montata a neve ferma. 
+
+
+      Unite qualche cucchiaio di panna semi-montata al cioccolato ancora caldo, in modo da favorire il raffreddamento. Mescolate energicamente ed amalgamate. In seguito unite la panna restante al composto e continuate a mescolare con una frusta finchè non otterrete una mousse di un unico colore.
+  - step: >-
+      Aggiungete la mousse nei coppasta e lasciate riposare in frigorifero per
+      circa 2 ore.
+
+
+      Servite spolverando con cocco e granella e nocciole.
 card: none
 tags:
   - dolci
