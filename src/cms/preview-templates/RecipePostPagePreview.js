@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { RecipePostTemplate } from '../../templates/recipe-post'
 
 const RecipePostPagePreview = ({ entry, collection, widgetFor, getAsset, fieldsMetaData, config, fields }) => {
+  const tags = entry.getIn(['data', 'tags'])
   return (
     <RecipePostTemplate
       title={entry.getIn(['data', 'title'])}
@@ -14,7 +15,7 @@ const RecipePostPagePreview = ({ entry, collection, widgetFor, getAsset, fieldsM
       ingredients={entry.getIn(['data', 'ingredients'])}
       preparationSteps={entry.getIn(['data', 'preparationSteps'])}
       description={entry.getIn(['data', 'description'])}
-      //tags={entry.getIn(['data', 'tags'])}
+      tags={tags && tags.toJS()}
       blogger={entry.getIn(['data', 'blogger'])}
     />
   )

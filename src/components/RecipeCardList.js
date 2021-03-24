@@ -8,10 +8,9 @@ const RecipeCardList = ({ card }) => {
     return (
         <div className="is-parent column is-12" key={card.id}>
             <article
-                className='blog-list-item tile is-parent box'
+                className={`blog-list-item ${card.slug.includes("blog") ? "post" : ""} tile is-parent box`}
             >
                 {card.featuredimage ? (<div className="tile is-child is-2">
-
                     <div>
                         <PreviewCompatibleImage
                             imageInfo={{
