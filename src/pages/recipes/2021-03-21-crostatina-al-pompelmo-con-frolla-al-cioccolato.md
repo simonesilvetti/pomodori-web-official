@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: CROSTATINA DI POMPELMO CON FROLLA AL CIOCCOLATO FONDENTE
+title: Crostatina di pompelmo con frolla al cioccolato fondente
 date: 2021-03-21T13:08:05.504Z
 difficulty: 2
 time: 1h
