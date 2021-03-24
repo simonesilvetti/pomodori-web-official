@@ -6,8 +6,9 @@ export default (recipe) => {
     let featuredImage = [recipe.featuredimage.childImageSharp.fluid.src]
     let otherImages = recipe.images ? recipe.images.map(element => element.image.childImageSharp.fluid.src) : []
     let images = featuredImage.concat(otherImages).map(address => siteUrl + address)
+    console.log(recipe.ingredientsSections.map(section => section.ingredients).reduce((x,y)=>x+y))
     let data = {
-        "@context": "https://schema.org/",
+        "@context": "http://schema.org/",
         "@type": "Recipe",
         "name": recipe.title,
         "image": images,
@@ -15,20 +16,21 @@ export default (recipe) => {
             "@type": "Person",
             "name": recipe.blogger
         },
+        "recipeCategory": recipe.tags[0].toString(),
         "datePublished": recipe.date,
         "description": recipe.description,
         // "prepTime": "PT20M",
         // "cookTime": "PT30M",
         // "totalTime": "PT50M",
         "keywords": recipe.tags.toString(),
-        //"recipeYield": "10",
-        "recipeCategory": recipe.tags[0].toString(),
+        //"recipeYield": "10{"@context":"http://schema.org/","@type":"Recipe","name":"Mini mousse di cioccolato su biscotto al miele","image":["https://pomodorialsole.com/static/8b02725cfa4b43d957413b4e8a01d6a8/c2ae5/mousse_cioccolato2.png"],"author":{"@type":"Person","name":"Katia"},"recipeCategory":"dolci","datePublished":"23 marzo 2021","description":"Un dolce al cioccolato goloso e veloce da preparare.","keywords":"dolci,mousse,cioccolato,vege{"@context":"http://schema.org/","@type":"Recipe","name":"Mini mousse di cioccolato su biscotto al miele","image":["https://pomodorialsole.com/static/8b02725cfa4b43d957413b4e8a01d6a8/c2ae5/mousse_cioccolato2.png"],"author":{"@type":"Person","name":"Katia"},"recipeCategory":"dolci","datePublished":"23 marzo 2021","description":"Un dolce al cioccolato goloso e veloce da preparare.","keywords":"dolci,mousse,cioccolato,vege{"@context":"http://schema.org/","@type":"Recipe","name":"Mini mousse di cioccolato su biscotto al miele","image":["https://pomodorialsole.com/static/8b02725cfa4b43d957413b4e8a01d6a8/c2ae5/mousse_cioccolato2.png"],"author":{"@type":"Person","name":"Katia"},"recipeCategory":"dolci","datePublished":"23 marzo 2021","description":"Un dolce al cioccolato goloso e veloce da preparare.","keywords":"dolci,mousse,cioccolato,vegetariano","recipeCuisine":"italiana"}tariano","recipeCuisine":"italiana"}tariano","recipeCuisine":"italiana"}",
+        
         "recipeCuisine": "italiana",
         // "nutrition": {
         //     "@type": "NutritionInformation",
         //     "calories": "270 calories"
         // },
-        // "recipeIngredient": recipe.ingredients,
+        "recipeIngredient": recipe.ingredientsSections.map(section => section.ingredients).reduce((x,y)=>x.concat(y)),
         // "recipeInstructions": [
         //     {
         //         "@type": "HowToStep",
@@ -116,6 +118,6 @@ export default (recipe) => {
 
     return (
         <script type="application/ld+json">
-            {JSON.stringify(data)}
+            {JSON.stringify(data,undefined,2)}
         </script>)
 };

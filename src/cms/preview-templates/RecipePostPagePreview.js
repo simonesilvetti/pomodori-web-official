@@ -6,6 +6,7 @@ const RecipePostPagePreview = ({ entry, collection, widgetFor, getAsset, fieldsM
   const tags = entry.getIn(['data', 'tags'])
   return (
     <RecipePostTemplate
+      content={widgetFor('body')}
       title={entry.getIn(['data', 'title'])}
       difficulty={entry.getIn(['data', 'difficulty'])}
       time={entry.getIn(['data', 'time'])}
