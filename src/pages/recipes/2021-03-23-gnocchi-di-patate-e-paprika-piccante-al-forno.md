@@ -23,7 +23,7 @@ ingredientsSections:
     section: INGREDIENTI
 preparationSteps:
   - step: Lessate le patate con tutta la buccia in abbondante acqua fredda non
-      salata per circa 25 min. Quando saranno cotte, scolate e lasciatele
+      salata per circa 25 minuti. Quando saranno cotte, scolate e lasciatele
       raffreddare. Pelate e rimuovete tutte le impurità dalla superficie.
   - step: Schiacciate le patate fino ad ottenere una purea omogenea, aggiustate di
       sale ed aggiungete la polvere di paprika piccante, pangrattato e
