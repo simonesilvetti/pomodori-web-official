@@ -23,8 +23,8 @@ preparationSteps:
       l'olio e lo yogurt. Continuate a mescolare con una frusta.
   - step: Aggiungete la farina setacciata e mescolate.
   - step: Spremete il succo di un limone ed unitelo al composto. Aggiungete anche la
-      scorza di un limone. Infine unite il lievito per dolci.
-  - step: Versate il composto il 4 pirottini da muffin e riempiteli per 3/4 della
+      scorza di un limone. Infine, unite il lievito per dolci.
+  - step: Versate il composto in 4 pirottini da muffin e riempiteli per 3/4 della
       loro capienza.
   - step: Infornate a 200°C per i primi 5 minuti, poi a 180°C per i restanti 20
       minuti.
