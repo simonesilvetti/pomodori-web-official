@@ -21,7 +21,10 @@ ingredientsSections:
       - sale
       - zucchero a velo
       - marmellata
-preparationSteps: []
+preparationSteps:
+  - step: Aprite 2 bacche di cardamomo.  Mettete da parte i semi e tritate le bucce
+      insieme alle mandorle, il rosmarino con un tritatutto.  Sopra un tagliere
+      riducete (per quanto possibile) in polvere i semi di cardamomo.
 card: none
 tags:
   - dolci
