@@ -8,6 +8,25 @@ description: Il pane carasau sostituisce la classica sfoglia per un piatto
   alternativo e super veloce.
 featuredimage: /img/lasagne_carasau.png
 dose: 2 porzioni
+ingredientsSections:
+  - section: INGREDIENTI
+    ingredients:
+      - fette di pane carasau
+      - 10 foglie di cavolo nero
+      - gorgonzola
+      - pecorino romano grattugiato
+      - aglio
+      - olio evo
+      - sale
+      - pepe
+  - section: BESCIAMELLA
+    ingredients:
+      - 350ml latte
+      - 4 cucchiai di farina
+      - noce di burro
+      - noce moscata
+      - sale
+      - pepe
 card: stagioni
 tags:
   - primi
