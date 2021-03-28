@@ -19,8 +19,8 @@ ingredientsSections:
       - rosmarino
       - cardamomo
       - sale
-      - zucchero a velo
       - marmellata
+      - zucchero a velo
 preparationSteps:
   - step: Aprite 2 bacche di cardamomo.  Mettete da parte i semi e tritate le bucce
       insieme alle mandorle, il rosmarino con un tritatutto.  Sopra un tagliere
@@ -37,7 +37,10 @@ preparationSteps:
       compongono l'occhio di bue (base circolare piena e forma bucata per la
       parte superiore).
   - step: Cuocete in forno statico preriscaldato a 220 °C per 10 minuti.  Sfornate e
-      fate raffreddare su una gratella per dolci.
+      fate raffreddare su una gratella per dolci.  Guarnite con la marmellata di
+      pompelmo  e spolverizzate con zucchero a velo.
+note: La marmellata di pompelmo può essere sostituita con una marmellata a
+  piacimento.
 card: none
 tags:
   - dolci
