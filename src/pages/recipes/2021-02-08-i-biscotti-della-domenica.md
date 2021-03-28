@@ -53,7 +53,7 @@ preparationSteps:
 
       * Unite l’uovo ed il burro a pezzettini. Impastate fino a quando il burro non si sarà sciolto con il calore delle mani.
 
-      * Formate un panetto e lasciate riposare in frigo per almeno 30 minuti.
+      * Formate un panetto e lasciate riposare in frigo per almeno 30 minuti avvolto in una pellicola.
   - step: >-
       **Continuiamo con la preparazione del panetto alla mela.**
 
@@ -62,7 +62,7 @@ preparationSteps:
 
       * In un ciotola unite ai pezzi di mela, 125g di farina, lo zucchero a velo, il sale, la buccia di limone, il burro tagliato a pezzetti. Mescolate. Aggiungete l'uovo. Impastate con le mani.
 
-      * Aggiungete la restante farina, il lievito setacciato e lo zucchero di canna.   Impastate fino ad ottenere un panetto omogeneo.  Riponete in frigo a riposo per almeno 30 minuti.
+      * Aggiungete la restante farina, il lievito setacciato e lo zucchero di canna.   Impastate fino ad ottenere un panetto omogeneo.  Riponete in frigo a riposo per almeno 30 minuti avvolto in una pellicola.
   - step: >-
       **Finiamo con la preparazione del panetto allo zenzero.**
 
@@ -71,7 +71,7 @@ preparationSteps:
 
       * Riponete il composto in una ciotola ed unite il burro a pezzettini, la scorza di limone e lo zucchero bianco. Impastate cercando di sgretolare il burro con il calore delle mani.
 
-      * Unite l'uovo, la farina ed il lievito setacciato. Lavorate fino ad ottenere un panetto omogeneo.  Riponete in frigo a riposo per almeno 30 minuti.
+      * Unite l'uovo, la farina ed il lievito setacciato. Lavorate fino ad ottenere un panetto omogeneo.  Riponete in frigo a riposo per almeno 30 minuti avvolto in una pellicola.
   - step: Preriscaldate il forno.
   - step: >-
       **Lavorate il panetto al limone.**  Stendete il panetto con l'aiuto di un
