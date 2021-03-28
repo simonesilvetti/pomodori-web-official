@@ -36,6 +36,8 @@ preparationSteps:
       un piano infarinato.  Usate dei coppapasta per ritagliare le due forme che
       compongono l'occhio di bue (base circolare piena e forma bucata per la
       parte superiore).
+  - step: Cuocete in forno statico preriscaldato a 220 °C per 10 minuti.  Sfornate e
+      fate raffreddare su una gratella per dolci.
 card: none
 tags:
   - dolci
