@@ -26,7 +26,8 @@ preparationSteps:
       mani il burro all'interno del composto.  Aggiungete le gocce di
       cioccolato.  Impastate fino a quando il burro non si sarà sciolto con il
       calore delle mani.
-  - step: Formate un panetto e lasciate riposare in frigo per almeno 30 minuti.
+  - step: Formate un panetto e lasciate riposare in frigo per almeno 30 minuti
+      avvolto nella pellicola.
   - step: Trascorso questo tempo, prelevate 1/5 del vostro impasto e create delle
       striscioline rustiche per la decorazione.   In una tortiera da forno alta
       pochi centimetri, stendete con le mani il restante impasto (aiutandovi con
