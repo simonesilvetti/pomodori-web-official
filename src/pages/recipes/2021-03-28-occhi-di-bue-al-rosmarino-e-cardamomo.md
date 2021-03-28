@@ -8,6 +8,8 @@ description: Occhi di bue aromatizzati al rosmarino e cardamomo farciti di
   marmellata al pompelmo.
 featuredimage: /img/biscotti_rosmarino_cardamomo.png
 dose: 10 occhi di bue
+preparationSteps:
+  - step: Test
 card: none
 tags:
   - dolci
