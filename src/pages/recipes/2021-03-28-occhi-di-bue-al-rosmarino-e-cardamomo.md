@@ -27,7 +27,11 @@ preparationSteps:
       riducete (per quanto possibile) in polvere i semi di cardamomo.
   - step: In una terrina unite la farina, lo zucchero, un pizzico di sale.  Unite
       anche la polvere ottenuta dai semi di cardamomo ed il composto
-      tristato.  Mescolate.  Unite l'uovo ed il burro a pezzettini.
+      tristato.  Mescolate.  Unite l'uovo ed il burro a pezzettini.  Cominciate
+      ad impastare con le mani fino a quando tutto il burro non si sarà sciolto
+      con il calore delle vostre mani.
+  - step: Formate un panetto e lasciate riposare in frigo per almeno 30 minuti
+      avvolto in una pellicola.
 card: none
 tags:
   - dolci
