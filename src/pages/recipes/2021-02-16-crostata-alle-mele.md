@@ -34,10 +34,8 @@ preparationSteps:
       zucchero e la scorza grattugiata del limone.  Unite l’uovo ed il burro a
       pezzettini. Impastate fino a quando il burro non si sarà sciolto con il
       calore delle mani.
-  - step: |-
-      
-
-      Formate un panetto e lasciate riposare in frigo per almeno 30 minuti.
+  - step: Formate un panetto e lasciate riposare in frigo per almeno 30 minuti
+      avvolto in una pellicola.
   - step: >-
       Trascorso questo tempo,  dividete il vostro panetto in due parti.  Una
       parte molto piccola di impasto servirà per creare delle strisce decorative
