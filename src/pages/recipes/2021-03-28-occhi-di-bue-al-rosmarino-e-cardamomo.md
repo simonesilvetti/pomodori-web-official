@@ -17,14 +17,15 @@ ingredientsSections:
       - 1 uovo
       - 75g mandorle
       - rosmarino
-      - cardamomo
+      - 2 bacche cardamomo
       - sale
       - marmellata
       - zucchero a velo
 preparationSteps:
-  - step: Aprite 2 bacche di cardamomo.  Mettete da parte i semi e tritate le bucce
-      insieme alle mandorle, il rosmarino con un tritatutto.  Sopra un tagliere
-      riducete (per quanto possibile) in polvere i semi di cardamomo.
+  - step: Aprite le bacche di cardamomo.  Mettete da parte i semi e tritate le bucce
+      insieme alle mandorle ed il rosmarino (di un rametto) con un
+      tritatutto.  Separatamente, riducete (per quanto possibile) in polvere i
+      semi di cardamomo su un tagliere.
   - step: In una terrina unite la farina, lo zucchero, un pizzico di sale ed il
       lievito in polvere.  Unite anche la polvere ottenuta dai semi di cardamomo
       ed il composto tristato.  Mescolate.  Unite l'uovo ed il burro a
@@ -34,9 +35,9 @@ preparationSteps:
       lasciate riposare in frigo per almeno 30 minuti avvolto in una pellicola.
   - step: Trascorso questo tempo, stendete l'impasto con l'aiuto di un mattarello su
       un piano infarinato.  Usate dei coppapasta per ritagliare le due forme che
-      compongono l'occhio di bue (base circolare piena e forma bucata per la
-      parte superiore).
-  - step: Cuocete in forno statico preriscaldato a 220 °C per 10 minuti.  Sfornate e
+      compongono l'occhio di bue (base circolare piena per la parte inferiore e
+      forma bucata per la parte superiore).
+  - step: Cuocete in forno statico preriscaldato a 220 °C per 12 minuti.  Sfornate e
       fate raffreddare su una gratella per dolci.  Guarnite con la marmellata di
       pompelmo  e spolverizzate con zucchero a velo.
 note: La marmellata di pompelmo può essere sostituita con una marmellata a
