@@ -25,6 +25,9 @@ preparationSteps:
   - step: Aprite 2 bacche di cardamomo.  Mettete da parte i semi e tritate le bucce
       insieme alle mandorle, il rosmarino con un tritatutto.  Sopra un tagliere
       riducete (per quanto possibile) in polvere i semi di cardamomo.
+  - step: In una terrina unite la farina, lo zucchero, un pizzico di sale.  Unite
+      anche la polvere ottenuta dai semi di cardamomo ed il composto
+      tristato.  Mescolate.  Unite l'uovo ed il burro a pezzettini.
 card: none
 tags:
   - dolci
