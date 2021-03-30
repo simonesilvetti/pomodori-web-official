@@ -51,6 +51,7 @@ tags:
   - dolci
   - torta
   - colomba
+  - vegetariano
 blogger: Claudia
 ---
 Una dolce colomba alternativa per celebrare la Pasqua.
