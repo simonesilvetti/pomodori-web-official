@@ -29,9 +29,22 @@ ingredientsSections:
       - mandorle sgusciate (non pelate)
 preparationSteps:
   - step: In un terrina unite lo yogurt, le uova e lo zucchero.  Mescolate
-      aiutandovi con le fruste  da cucina.
-  - step: Unite la scorza grattugiata di un limone, un pizzico di sale e la
-      fecola.  Continuate a mescolare.
+      aiutandovi con le fruste elettriche da cucina.  Unite la scorza
+      grattugiata di un limone, un pizzico di sale e la fecola.  Continuate a
+      mescolare.
+  - step: Unite adesso il lievito e la farina aiutandovi con l'olio di
+      semi.  Mescolate fino a quando il composto non risulterà omogeneo.
+  - step: "In un tritatutto, tritale le mandorle e la buccia di 3 bacche di
+      cardamomo. Cercate di tritare SEPARATAMENTE i semi delle bacche molto
+      finemente: sono molto duri e bisogna unire al composto solo la polvere che
+      si riesce a ricavare!!"
+  - step: "Unite il trito al composto e mescolate nuovamente.  In uno stampo a forma
+      di colomba versate il composto e guarnite con la glassa: zucchero di
+      canna, mandorle intere distribuite omogeneamente e per finire granella di
+      zucchero."
+  - step: Cuocete in forno statico a 180°C per circa 50 minuti.  Passato questo
+      lasso di tempo utilizzate un coltello ed infilzate la vostra torta per
+      vedere se necessiti ancora di ulteriore cottura.
 card: tradizioni
 tags:
   - dolci
