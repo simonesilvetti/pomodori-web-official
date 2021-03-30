@@ -33,7 +33,7 @@ preparationSteps:
       mescolare.
   - step: Unite adesso il lievito e la farina aiutandovi con l'olio di
       semi.  Mescolate fino a quando il composto non risulterà omogeneo.
-  - step: "In un tritatutto, tritale le mandorle e la buccia di 3 bacche di
+  - step: "In un tritatutto, tritate le mandorle e la buccia di 3 bacche di
       cardamomo. Cercate di tritare SEPARATAMENTE i semi delle bacche molto
       finemente: sono molto duri e bisogna unire al composto solo la polvere che
       si riesce a ricavare!!"
@@ -45,7 +45,9 @@ preparationSteps:
       lasso di tempo utilizzate un coltello ed infilzate la vostra torta per
       verificarne la cottura (la parte centrale potrebbe necessitare di qualche
       minuto in più).
-note: Le dosi del composto sono adatte per uno stampo di 500gr.
+note: Le dosi del composto sono adatte per uno stampo di 500gr. La scorza di
+  limone può essere sostituita con la scorza di arancia e nell'impasto potreste
+  inserire dei canditi o dell'uvetta.
 card: tradizioni
 tags:
   - dolci
