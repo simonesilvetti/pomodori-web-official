@@ -45,6 +45,7 @@ preparationSteps:
       lasso di tempo utilizzate un coltello ed infilzate la vostra torta per
       verificarne la cottura (la parte centrale potrebbe necessitare di qualche
       minuto in più).
+note: Le dosi del composto sono adatte per uno stampo di 500gr.
 card: tradizioni
 tags:
   - dolci
