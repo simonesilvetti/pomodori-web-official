@@ -2,19 +2,18 @@
 templateKey: recipe-post
 title: Torta colomba
 date: 2021-03-30T10:48:52.487Z
-difficulty: 1
+difficulty: 2
 time: 20 min + 50 min
-description: Una colomba alternativa per celebrare la Pasqua.
+description: Una dolce colomba alternativa per celebrare la Pasqua.
 featuredimage: /img/colomba.png
 dose: 10 porzioni
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 1 vasetto yogurt 125gr
+      - 1 vasetto (125gr) yogurt bianco magro
       - 2 uova
       - 1 + 1/3 vasetto zucchero
       - 2 vasetti farina tipo 1
-      - scorza di un limone
       - 1 vasetto fecola di patate
       - 3/4 vasetto olio di semi
       - 16gr lievito per dolci in polvere
@@ -26,7 +25,7 @@ ingredientsSections:
     ingredients:
       - zucchero di canna
       - granella di zucchero
-      - mandorle sgusciate (non pelate)
+      - mandorle intere sgusciate (non pelate)
 preparationSteps:
   - step: In un terrina unite lo yogurt, le uova e lo zucchero.  Mescolate
       aiutandovi con le fruste elettriche da cucina.  Unite la scorza
@@ -40,11 +39,12 @@ preparationSteps:
       si riesce a ricavare!!"
   - step: "Unite il trito al composto e mescolate nuovamente.  In uno stampo a forma
       di colomba versate il composto e guarnite con la glassa: zucchero di
-      canna, mandorle intere distribuite omogeneamente e per finire granella di
-      zucchero."
+      canna, mandorle intere distribuite omogeneamente e, per finire, la
+      granella di zucchero."
   - step: Cuocete in forno statico a 180°C per circa 50 minuti.  Passato questo
       lasso di tempo utilizzate un coltello ed infilzate la vostra torta per
-      vedere se necessiti ancora di ulteriore cottura.
+      verificarne la cottura (la parte centrale potrebbe necessitare di qualche
+      minuto in più).
 card: tradizioni
 tags:
   - dolci
@@ -52,4 +52,4 @@ tags:
   - colomba
 blogger: Claudia
 ---
-Una colomba alternativa per celebrare la Pasqua.
+Una dolce colomba alternativa per celebrare la Pasqua.
