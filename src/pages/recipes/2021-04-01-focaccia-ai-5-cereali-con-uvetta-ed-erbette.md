@@ -24,10 +24,23 @@ preparationSteps:
   - step: >-
       Unite in una ciotola la farina, lo zucchero, il lievito e parte dell'acqua
       a temperatura ambiente. Cominciate ad impastare ed aggiungete poco per
-      volta l'acqua. Solo alla fine unite il sale.
+      volta l'acqua rimanente. Solo alla fine unite il sale.
 
 
-      L'impasto dovrà risultare legermente appiccicoso ma abbastanza compatto.
+      L'impasto dovrà risultare leggermente appiccicoso ma abbastanza compatto.
+
+
+      Lasciate riposare per circa due ore nel forno spento, preferibilmente con la luce accesa.
+  - step: >-
+      Intanto preparate il condimento unendo l'olio e le erbette tagliate
+      grossolanamente. 
+
+
+      Immergete l'uvetta per circa 30 minuti in acqua. Trascorso questo tempo, strizzatela bene e tenetela da parte.
+  - step: Stendete l'impasto in una teglia di diametro di circa 22 cm, integrando
+      l'uvetta. Cospargete quindi la focaccia con l'olio aromatizzato.
+  - step: Infornate a 180°C per 30 minuti fino a quando non risulterà dorata e
+      croccante.
 card: none
 tags:
   - antipasti
