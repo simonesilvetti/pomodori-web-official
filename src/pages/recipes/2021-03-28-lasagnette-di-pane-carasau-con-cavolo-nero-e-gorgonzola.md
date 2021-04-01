@@ -54,6 +54,7 @@ tags:
   - carasau
   - cavolo nero
   - gorgonzola
+  - vegetariano
 blogger: Claudia
 ---
 Il pane carasau sostituisce la classica sfoglia per un piatto alternativo e super veloce.
