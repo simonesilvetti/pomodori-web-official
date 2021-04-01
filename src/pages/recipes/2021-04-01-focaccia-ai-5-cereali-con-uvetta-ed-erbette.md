@@ -3,7 +3,7 @@ templateKey: recipe-post
 title: Focaccia ai 5 cereali con uvetta ed erbette
 date: 2021-04-01T14:58:18.207Z
 difficulty: 1
-time: 20min + 3h
+time: 20min + 2h
 description: Una focaccia croccante, molto simile ad una schiacciata,
   aromatizzata con menta e salvia ed addolcita dall'uvetta.
 featuredimage: /img/focaccia_uvetta_erbette.png
@@ -39,8 +39,8 @@ preparationSteps:
       Immergete l'uvetta per circa 30 minuti in acqua. Trascorso questo tempo, strizzatela bene e tenetela da parte.
   - step: Stendete l'impasto in una teglia di diametro di circa 22 cm, integrando
       l'uvetta. Cospargete quindi la focaccia con l'olio aromatizzato.
-  - step: Infornate a 180°C per 30 minuti fino a quando non risulterà dorata e
-      croccante.
+  - step: Infornate a 180°C per 30 minuti fino a quando la vostra focaccia non
+      risulterà dorata e croccante.
 card: none
 tags:
   - antipasti
