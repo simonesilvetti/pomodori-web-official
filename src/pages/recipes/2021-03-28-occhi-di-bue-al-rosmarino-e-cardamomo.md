@@ -48,6 +48,7 @@ tags:
   - biscotti
   - occhi di bue
   - rosmarino
+  - vegetariano
 blogger: Claudia
 ---
 Occhi di bue aromatizzati al rosmarino e cardamomo farciti di marmellata al pompelmo.
