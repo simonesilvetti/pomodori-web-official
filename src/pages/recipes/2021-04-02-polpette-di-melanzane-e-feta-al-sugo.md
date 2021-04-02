@@ -15,7 +15,7 @@ ingredientsSections:
       - 80g pangrattato
       - 50g feta
       - 50g parmigiano grattuggiato
-      - 1uovo
+      - 1 uovo
       - 300ml polpa di pomodoro
       - olio evo
       - aglio
