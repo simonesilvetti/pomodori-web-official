@@ -16,7 +16,7 @@ ingredientsSections:
       - 50g feta
       - 50g parmigiano grattuggiato
       - 1uovo
-      - polpa di pomodoro
+      - 300ml polpa di pomodoro
       - olio evo
       - aglio
       - menta
@@ -32,7 +32,10 @@ preparationSteps:
 
 
       Impastate con le mani e formate circa 8 polpette.
-  - step: Preparate il sugo in una padella
+  - step: Preparate il sugo in una padella facendo rosolare l'aglio in un pò d'olio.
+      Poi aggiungete la polpa di pomodoro e cuocete per circa 5 minuti.
+  - step: Aggiungete le polpette al sugo e fatele cuocere per circa 10 minuti.
+      Rigilatele delicatamente a metà cottura.
 card: tradizioni
 tags:
   - Secondi
