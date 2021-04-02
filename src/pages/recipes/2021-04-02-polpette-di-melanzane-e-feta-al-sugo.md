@@ -23,7 +23,7 @@ ingredientsSections:
       - sale
 preparationSteps:
   - step: Lavate le melanzane e tagliatele a cubetti. Cuocetele in una padella con
-      un filo d'olio. Una volta ammorbidite, rimuovere l'acqua se necessario
+      un filo d'olio. Una volta ammorbidite, rimuovete l'acqua se necessario
       (aiutandovi con un colino) e fatele intiepidire.
   - step: >-
       Unite in una ciotola le melanzane, il parmigiano grattuggiato, l'uovo, la
