@@ -25,6 +25,14 @@ preparationSteps:
   - step: Lavate le melanzane e tagliatele a cubetti. Cuocetele in una padella con
       un filo d'olio. Una volta ammorbidite, rimuovere l'acqua se necessario
       (aiutandovi con un colino) e fatele intiepidire.
+  - step: >-
+      Unite in una ciotola le melanzane, il parmigiano grattuggiato, l'uovo, la
+      feta sbriciolata ed il pangrattato. Aggiungete anche il sale, il pepe, la
+      menta e l'aglio tritato.
+
+
+      Impastate con le mani e formate circa 8 polpette.
+  - step: Preparate il sugo in una padella
 card: tradizioni
 tags:
   - Secondi
