@@ -32,7 +32,7 @@ preparationSteps:
       Nel frattempo preparate la farcitura:
 
 
-      * tagliate a cubetti le mozzarelle e lasciatele sgocciolare con la'iuto di un colino
+      * tagliate a cubetti le mozzarelle e lasciatele sgocciolare con l'aiuto di un colino
 
       * tagliate a cubetti la scamorza e lo speck
 
@@ -52,12 +52,12 @@ preparationSteps:
       dovete procedere nel seguente modo:
 
 
-      *  arrotolate le sfoglie ottenendo così una forma cilindrica 
+      * arrotolate le sfoglie ottenendo così 2 cilindri "allungati" 
 
-      * create quindi una spirale avvolgendo "a chiocciola" i rotoli appena ottenuti
+      * create una spirale avvolgendo "a chiocciola" i rotoli appena ottenuti
   - step: Spennellate con olio entrambe le pizze sfogliate ed infornate a 200°C per
       30 minuti.
-note: "La pizza sfogliata si presta molto bene ad un sacco di farciture diverse:
+note: "La pizza sfogliata si presta molto bene a molte farciture diverse:
   sbizzarritevi e buon appetito!"
 card: none
 tags:
