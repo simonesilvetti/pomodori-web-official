@@ -18,9 +18,9 @@ ingredientsSections:
       - 2 acciughe sott'olio
 preparationSteps:
   - step: "Setacciate la farina in una ciotola. Sciogliete il lievito in circa 100ml
-      di acqua ed unite alla farina. Iniziate a lavorare l'impasto ed aggiungete
-      la restante acqua. Continuate a mescolare: l'impasto dovra rimanere
-      abbastanza morbido."
+      di acqua ed unitelo alla farina. Iniziate a lavorare l'impasto ed
+      aggiungete la restante acqua. Continuate a mescolare: l'impasto dovra
+      rimanere abbastanza morbido."
   - step: >-
       Aggiungete il sale e continuate a lavorare l'impasto fino a quando non
       sarà omogeneo. Non preoccupatevi se risulterà un pò appiccicoso, è
@@ -35,8 +35,8 @@ preparationSteps:
 
 
       Aiutandovi con un cucchiaio, prendete una parte di impasto ed inserite un pezzettino di acciuga al suo interno. Avvolgete la zeppola più volte su sé stessa, cercando di allungarla.
-  - step: Friggete e rimuovete la zeppola solo quando avrà raggiunto un bel colore
-      dorato.
+  - step: Friggete le zeppole e rimuovetele solo quando avranno raggiunto un bel
+      colore dorato.
 note: I zippuli tradizionali sono farcite con acciughe e/o 'nduja. Possono anche
   essere condite a fine cottura con miele!
 card: tradizioni
