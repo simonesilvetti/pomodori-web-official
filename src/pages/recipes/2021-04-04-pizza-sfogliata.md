@@ -20,7 +20,6 @@ ingredientsSections:
       - 100g scamorza affumicata
       - 100g speck
       - 100g funghi
-      - ""
 preparationSteps:
   - step: >-
       Unite le uova, la farina ed un cucchiaino di sale. Impastate fino a quando
@@ -58,6 +57,8 @@ preparationSteps:
       * create quindi una spirale avvolgendo "a chiocciola" i rotoli appena ottenuti
   - step: Spennellate con olio entrambe le pizze sfogliate ed infornate a 200°C per
       30 minuti.
+note: "La pizza sfogliata si presta molto bene ad un sacco di farciture diverse:
+  sbizzarritevi e buon appetito!"
 card: none
 tags:
   - piattiunici
