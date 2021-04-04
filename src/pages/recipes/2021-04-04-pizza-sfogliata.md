@@ -22,8 +22,22 @@ ingredientsSections:
       - 100g funghi
       - ""
 preparationSteps:
-  - step: Unite le uova, la farina ed un cucchiaino di sale. Impastate fino a quando
-      non si sarà creato un impasto morbido ed omogeneo. Se necessario
+  - step: >-
+      Unite le uova, la farina ed un cucchiaino di sale. Impastate fino a quando
+      non avrete ottenuto un impasto morbido ed omogeneo. Se necessario,
+      aggiungete poca acqua tiepida per amalgamare il tutto.
+
+
+      Lasciate riposare il panetto per 30 minuti.
+  - step: >-
+      Nel frattempo preparate la farcitura:
+
+
+      * tagliate a cubetti le mozzarelle e lasciatele sgocciolare con la'iuto di un colino
+
+      * tagliate a cubetti la scamorza e lo speck
+
+      * lavate i funghi, sminuzzateli e cuoceteli in padella per 5 minuti con un filo d'olio ed un pò di sale
 card: none
 tags:
   - piattiunici
