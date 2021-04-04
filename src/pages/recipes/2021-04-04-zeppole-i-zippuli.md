@@ -22,7 +22,7 @@ preparationSteps:
       la restante acqua. Continuate a mescolare: l'impasto dovra rimanere
       abbastanza morbido."
   - step: >-
-      Aggiungete il sale e continuate ad lavorare l'impasto fino a quando non
+      Aggiungete il sale e continuate a lavorare l'impasto fino a quando non
       sarà omogeneo. Non preoccupatevi se risulterà un pò appiccicoso, è
       normale!
 
@@ -34,9 +34,11 @@ preparationSteps:
       caldo.
 
 
-      Aiutandovi con un cucchiaio, prendete una parte di pasta ed inserite un pezzettino di acciuga al suo interno. Avvolgete la zeppola più volte su sé stessa, cercando di allungarla. L'impasto risulterà appiccicoso ma dovreste comunque riuscire a creare le zeppolette.
+      Aiutandovi con un cucchiaio, prendete una parte di impasto ed inserite un pezzettino di acciuga al suo interno. Avvolgete la zeppola più volte su sé stessa, cercando di allungarla.
   - step: Friggete e rimuovete la zeppola solo quando avrà raggiunto un bel colore
       dorato.
+note: I zippuli tradizionali sono farcite con acciughe e/o 'nduja. Possono anche
+  essere condite a fine cottura con miele!
 card: tradizioni
 tags:
   - antipasti
