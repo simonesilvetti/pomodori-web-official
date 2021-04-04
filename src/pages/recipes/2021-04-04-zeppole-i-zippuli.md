@@ -22,8 +22,9 @@ preparationSteps:
       la restante acqua. Continuate a mescolare: l'impasto dovra rimanere
       abbastanza morbido."
   - step: >-
-      Aggiungete il sale e continuate ad impastare fino ad ottenere un impasto
-      omogeneo, un pò appiccicoso.
+      Aggiungete il sale e continuate ad lavorare l'impasto fino a quando non
+      sarà omogeneo. Non preoccupatevi se risulterà un pò appiccicoso, è
+      normale!
 
 
       Coprite la ciotola con la pellicola e fate lievitare per 4 ore.
