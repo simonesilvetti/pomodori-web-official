@@ -56,6 +56,8 @@ preparationSteps:
       *  arrotolate le sfoglie ottenendo così una forma cilindrica 
 
       * create quindi una spirale avvolgendo "a chiocciola" i rotoli appena ottenuti
+  - step: Spennellate con olio entrambe le pizze sfogliate ed infornate a 200°C per
+      30 minuti.
 card: none
 tags:
   - piattiunici
