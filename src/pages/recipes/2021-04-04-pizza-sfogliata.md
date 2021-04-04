@@ -36,7 +36,7 @@ preparationSteps:
 
       * tagliate a cubetti la scamorza e lo speck
 
-      * lavate i funghi, sminuzzateli e cuoceteli in padella per 5 minuti con un filo d'olio ed un pò di sale
+      * lavate i funghi, sminuzzateli e cuoceteli in padella per 5 minuti con un filo d'olio ed un po' di sale
   - step: >-
       Dividete il panetto in due parti per fare due pizze sfogliate del diametro
       di circa 20 cm.
@@ -45,10 +45,9 @@ preparationSteps:
       Cominciate a stendere le sfoglie aiutandovi con un mattarello o, alternatvamente, con la macchina per fare la pasta fresca. Le sfoglie dovranno essere abbastanza sottili.
   - step: Salate leggermente entrambe le sfoglie e disponete la farcitura sopra di
       esse. Noi abbiamo preparato una con lo speck, la mozzarella e la scamorza,
-      mentre per la seconda abbiamo utilizzato i funghi, la mozzarella e la
-      scamorza.
+      mentre per la seconda abbiamo sostituito i funghi allo speck.
   - step: >-
-      Per chiudere la sfoglia ed ottenere la tipica forma della pizza fogliata,
+      Per chiudere la sfoglia ed ottenere la tipica forma della pizza sfogliata,
       dovete procedere nel seguente modo:
 
 
