@@ -27,7 +27,7 @@ preparationSteps:
   - step: Unite in una ciotola la farina, l'uovo, l'olio ed il latte. Mescolate per
       amalgamare il tutto. Aggiungete un pizzico di sale ed incorporate anche il
       lievito. Otterrete un composto semiliquido.
-  - step: Sminuzzate grossolanemente feta, olive e pomodori secchi. Se volete,
+  - step: Sminuzzate grossolanamente feta, olive e pomodori secchi. Se volete,
       potete anche aggiungere i cubetti di speck. Incorporate il tutto nel
       composto e mescolate. Aggiungete la menta ed il pepe.
   - step: >-
