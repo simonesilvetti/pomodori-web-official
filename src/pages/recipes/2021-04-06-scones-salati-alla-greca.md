@@ -4,7 +4,8 @@ title: Scones salati alla greca
 date: 2021-04-06T10:32:49.240Z
 difficulty: 1
 time: 45min
-description: xxx
+description: Ottimi per un picnic, buoni da mangiare sia caldi che freddi,
+  versatili e personalizzabili!
 featuredimage: /img/scones_alla_greca_1.png
 dose: 4 scones
 ingredientsSections:
@@ -43,4 +44,4 @@ tags:
   - olive
 blogger: Katia
 ---
-xxx
+Ottimi per un picnic, buoni da mangiare sia caldi che freddi, versatili e personalizzabili!
