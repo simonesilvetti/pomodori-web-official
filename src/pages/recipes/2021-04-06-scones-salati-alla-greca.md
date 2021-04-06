@@ -13,7 +13,7 @@ ingredientsSections:
     ingredients:
       - 100g farina 0
       - 1 uovo
-      - 65 ml latte
+      - 65ml latte
       - 40ml olio evo
       - 5g lievito istantaneo per salati
       - 50g feta
