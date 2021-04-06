@@ -4,8 +4,8 @@ title: Scones salati alla greca
 date: 2021-04-06T10:32:49.240Z
 difficulty: 1
 time: 45min
-description: Ottimi per un picnic, buoni da mangiare sia caldi che freddi,
-  versatili e personalizzabili!
+description: "Ottimi per un picnic, buoni da mangiare sia caldi che freddi:
+  questi scones salati piacciono molto a grandi e piccini!"
 featuredimage: /img/scones_alla_greca_1.png
 dose: 4 scones
 ingredientsSections:
@@ -28,7 +28,7 @@ preparationSteps:
       amalgamare il tutto. Aggiungete un pizzico di sale ed incorporate anche il
       lievito. Otterrete un composto semiliquido.
   - step: Sminuzzate grossolanemente feta, olive e pomodori secchi. Se volete,
-      potete anche aggiugere i cubetti di speck. Incorporate il tutto nel
+      potete anche aggiungere i cubetti di speck. Incorporate il tutto nel
       composto e mescolate. Aggiungete la menta ed il pepe.
   - step: >-
       Dividete il composto ottenuto in 4 pirottini da muffin precedentemente
@@ -44,4 +44,4 @@ tags:
   - olive
 blogger: Katia
 ---
-Ottimi per un picnic, buoni da mangiare sia caldi che freddi, versatili e personalizzabili!
+Ottimi per un picnic, buoni da mangiare sia caldi che freddi: questi scones salati piacciono molto a grandi e piccini!
