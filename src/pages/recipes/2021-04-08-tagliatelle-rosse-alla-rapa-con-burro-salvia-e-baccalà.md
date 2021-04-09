@@ -4,9 +4,9 @@ title: Tagliatelle rosse alla rapa con burro, salvia e baccalà
 date: 2021-04-08T21:10:47.276Z
 difficulty: 2
 time: "2"
-description: Tagliatelle fatte in case, colorate dalla rapa rossa  e condite da
+description: Tagliatelle fatte in casa, colorate dalla rapa rossa  e condite da
   un delicato baccalà.
-featuredimage: /img/tagliatelle_rosse.png
+featuredimage: /img/tagliatellerapa.png
 dose: 3 porzioni
 ingredientsSections:
   - section: PASTA FRESCA
@@ -50,4 +50,4 @@ tags:
   - baccalà
 blogger: Claudia
 ---
-Tagliatelle fatte in case, colorate dalla rapa rossa  e condite da un delicato baccalà.
+Tagliatelle fatte in casa, colorate dalla rapa rossa  e condite da un delicato baccalà.
