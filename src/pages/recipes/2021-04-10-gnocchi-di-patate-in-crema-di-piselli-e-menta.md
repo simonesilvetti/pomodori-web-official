@@ -44,4 +44,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-La crema dolciastra di piselli avvolge i morbidi gnocchi di patate.
+La crema dolciastra di piselli avvolge morbidi gnocchi di patate.
