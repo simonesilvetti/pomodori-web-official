@@ -25,6 +25,16 @@ preparationSteps:
       sale e mescolate. Su una spianatoia, unite la farina e l'uovo. Cominciate
       ad impastare con le mani aiutandovi con dell'ulteriore farina fino ad
       ottenere un impasto morbido ma compatto.
+  - step: Con l'aiuto di un tagliapasta ricavate piccole dosi di impasto. Stendete
+      ciascuna dose con le mani fino ad ottenere dei filoncini spessi 2
+      centimetri dai quali poi ritaglierete tanti tronchetti.
+  - step: Preparate adesso il condimento. Cuocete per circa 10 minuti i piselli con
+      olio, sale e pepe. Frullate poi il tutto con le foglioline di menta
+      aiutandovi con un frullatore ad immersione. Dovrete ottenere un pesto di
+      piselli, morbido e profumato.
+  - step: Cuocete in abbondante acqua salata gli gnocchi fino a quando non
+      risaliranno in superficie. Scolate ed unite alla purea. Se gradite,
+      spolverate con del parmiggiano.
 card: none
 tags:
   - primi
