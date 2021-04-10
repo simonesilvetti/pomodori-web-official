@@ -4,7 +4,7 @@ title: Gnocchi di patate in crema di piselli e menta
 date: 2021-04-10T12:05:19.851Z
 difficulty: 2
 time: 2h
-description: xx
+description: "La crema dolciastra di piselli avvolge morbidi gnocchi di patate. "
 featuredimage: /img/gnocchi_piselli_1.png
 dose: 3 persone
 ingredientsSections:
@@ -29,12 +29,12 @@ preparationSteps:
       ciascuna dose con le mani fino ad ottenere dei filoncini spessi 2
       centimetri dai quali poi ritaglierete tanti tronchetti.
   - step: Preparate adesso il condimento. Cuocete per circa 10 minuti i piselli con
-      olio, sale e pepe. Frullate poi il tutto con le foglioline di menta
-      aiutandovi con un frullatore ad immersione. Dovrete ottenere un pesto di
+      olio, sale e pepe. Frullate poi il tutto con le foglioline di menta,
+      aiutandovi con un frullatore ad immersione. Otterrete un "pesto" di
       piselli, morbido e profumato.
-  - step: Cuocete in abbondante acqua salata gli gnocchi fino a quando non
-      risaliranno in superficie. Scolate ed unite alla purea. Se gradite,
-      spolverate con del parmiggiano.
+  - step: Cuocete gli gnocchi in abbondante acqua salata fino a quando non
+      risaliranno in superficie. Scolate ed unite alla purea di piselli. Se
+      gradite, spolverate con del parmiggiano.
 card: none
 tags:
   - primi
@@ -44,4 +44,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-xx
+La crema dolciastra di piselli avvolge i morbidi gnocchi di patate.
