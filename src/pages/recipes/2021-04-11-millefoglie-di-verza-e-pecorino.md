@@ -32,7 +32,7 @@ preparationSteps:
       la besciamella.
 
 
-      Infornate a 180°C per 20minuti.
+      Infornate a 180°C per 20 minuti.
 card:
   - vegetariano
 tags:
