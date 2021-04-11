@@ -6,7 +6,6 @@ export default (recipe) => {
     let featuredImage = [recipe.featuredimage.childImageSharp.fluid.src]
     let otherImages = recipe.images ? recipe.images.map(element => element.image.childImageSharp.fluid.src) : []
     let images = featuredImage.concat(otherImages).map(address => siteUrl + address)
-    console.log(recipe.ingredientsSections.map(section => section.ingredients).reduce((x,y)=>x+y))
     let data = {
         "@context": "http://schema.org/",
         "@type": "Recipe",

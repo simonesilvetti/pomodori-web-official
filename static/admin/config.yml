@@ -33,7 +33,7 @@ collections:
       - {label: Preparation Steps, name: preparationSteps, widget: list, fields: [{label: "Step", name: "step", widget: markdown}]}
       - {label: "Note", name: "note", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: Card, name: card, widget: select, default: none, options: [{label: "None", value: "none"},{label: "Stagioni", value: "stagioni"},{label: "Tradizioni", value: "tradizioni"},{label: "Pomodoro", value: "pomodoro"}]}
+      - {label: Card, name: card, widget: "select", multiple: true, options: [{label: "None", value: "none"},{label: "Stagioni", value: "stagioni"},{label: "Tradizioni", value: "tradizioni"},{label: "Pomodoro", value: "pomodoro"},{label: "Ricette dal mondo", value: "ricette_mondo"},{label: "Menù", value: "menù"},{label: "Vegetariano", value: "vegetariano"}]}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Blogger", name: "blogger", widget: "string"}
 
@@ -61,7 +61,7 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Columns, name: columns, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string},{label: Text, name: text, widget: string},{label: Card, name: card, widget: select, options: [{label: "Stagioni", value: "stagioni"},{label: "Tradizioni", value: "tradizioni"},{label: "Pomodoro", value: "pomodoro"}]}]}
+          - {label: Columns, name: columns, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string},{label: Text, name: text, widget: string},{label: Card, name: card, widget: select, options: [{label: "Stagioni", value: "stagioni"},{label: "Tradizioni", value: "tradizioni"},{label: "Pomodoro", value: "pomodoro"},{label: "Ricette dal mondo", value: "ricette_mondo"},{label: "Menù", value: "menù"},{label: "Vegetariano", value: "vegetariano"}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"

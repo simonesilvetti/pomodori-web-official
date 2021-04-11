@@ -8,6 +8,17 @@ import Img from "gatsby-image"
 import { v4 } from 'uuid'
 import { kebabCase } from 'lodash'
 
+function listToMatrix(list, elementsPerSubArray) {
+  var matrix = [], i, k;
+  for (i = 0, k = -1; i < list.length; i++) {
+    if (i % elementsPerSubArray === 0) {
+      k++;
+      matrix[k] = [];
+    }
+    matrix[k].push(list[i]);
+  }
+  return matrix;
+}
 
 const Column = ({ column }) => (
   <div className="tile is-parent">
@@ -46,9 +57,10 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="tile is-ancestor">
                     <div className="tile is-vertical">
-                      <div className="tile">
-                        {columns.map(column => <Column key={v4()} column={column} />)}
-                      </div>
+                      {listToMatrix(columns, 3).map(row =>
+                        <div key={v4()} className="tile">
+                          {row.map(card => <Column key={v4()} column={card} />)}
+                        </div>)}
                     </div>
                   </div>
 
