@@ -14,7 +14,7 @@ ingredientsSections:
       - 8 foglie di verza
       - 200g pecorino
       - 150ml latte
-      - 2 cucchiai farina
+      - 2 cucchiai di farina
       - noce moscata
       - sale
       - pepe
