@@ -42,7 +42,8 @@ preparationSteps:
       pecorino grattugiato (versione light) o con una combinazione di pecorino e
       mozzarella (versione più ricca). Aggiungete un filo di olio e cuocete in
       forno preriscaldato a 200°C per il tempo necessario alla gratinatura.
-card: none
+card: 
+  - vegetariano
 tags:
   - primi
   - gnocchi

@@ -29,7 +29,9 @@ preparationSteps:
       riempimento della pirofila.
   - step: Spolverizzate con cacao amaro e spargete le gocce di cioccolato. Mettete
       in frigorifero per circa 2 ore.
-card: tradizioni
+card: 
+  - tradizioni
+  - vegetariano
 tags:
   - dolci
   - caffé

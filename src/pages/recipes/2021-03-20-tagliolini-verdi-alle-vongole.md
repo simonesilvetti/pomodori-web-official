@@ -53,7 +53,7 @@ note: Se non possedete la macchina per fare la pasta fresca, potete stendere del
   sfoglie con l'aiuto di un mattarello (spessore 1-2 mm). Infarinatele bene e
   ripiegatele su se stesse. Procedete quindi con un coltello a lama liscia e
   ricavate tagliolini o tagliatelle a vostro piacimento.
-card: none
+card: 
 tags:
   - primi
   - pasta fresca

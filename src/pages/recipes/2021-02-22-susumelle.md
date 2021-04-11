@@ -45,7 +45,9 @@ note: "Piccolo suggerimento per la copertura al cioccolato: infilzate
   delicatamente i biscotti dalla parte posteriore con una forchetta in modo da
   aiutarvi per l'immersione nel cioccolato.  Lasciare scolare per qualche
   secondo.  Il risultato finale sarà una copertura liscia ed omogenea."
-card: tradizioni
+card: 
+  - tradizioni
+  - vegetariano
 tags:
   - dolci
   - biscotti

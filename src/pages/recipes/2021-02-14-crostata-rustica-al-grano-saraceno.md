@@ -32,7 +32,8 @@ preparationSteps:
       restante parte di impasto e ponetele sulla marmellata.
   - step: Infornate in forno già caldo per circa 30 minuti a 180°C. Infine
       spolverizzate con zucchero a velo.
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - crostata

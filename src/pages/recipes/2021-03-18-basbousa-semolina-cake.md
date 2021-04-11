@@ -44,7 +44,9 @@ preparationSteps:
 note: La fase di riposo finale è fondamentale affinché la glassa possa penetrare
   ed insaporire la parte superficiale della torta. Il miele verra aggiunto nel
   piatto del commensale come tocco finale.
-card: none
+card: 
+  - vegetariano
+  - ricette dal mondo
 tags:
   - dolci
   - torta

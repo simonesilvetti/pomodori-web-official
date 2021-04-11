@@ -40,7 +40,7 @@ preparationSteps:
       con olio, pepe, rosmarino, pangrattato e paprika.
   - step: Cuocete in forno statico a 220°C per circa 30 minuti.
 note: Per la versione vegetariana, sostituire la salsiccia con funghi trifolati.
-card: none
+card: 
 tags:
   - secondi
   - focaccia

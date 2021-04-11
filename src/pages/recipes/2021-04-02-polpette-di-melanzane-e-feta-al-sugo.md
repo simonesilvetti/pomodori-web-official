@@ -36,7 +36,9 @@ preparationSteps:
       Poi aggiungete la polpa di pomodoro e cuocete per circa 5 minuti.
   - step: Aggiungete le polpette al sugo e fatele cuocere per circa 10 minuti.
       Rigilatele delicatamente a metà cottura.
-card: tradizioni
+card: 
+  - tradizioni
+  - vegetariano
 tags:
   - Secondi
   - estate

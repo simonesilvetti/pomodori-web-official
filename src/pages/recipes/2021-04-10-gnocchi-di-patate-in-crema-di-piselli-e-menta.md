@@ -35,7 +35,8 @@ preparationSteps:
   - step: Cuocete gli gnocchi in abbondante acqua salata fino a quando non
       risaliranno in superficie. Scolate ed unite alla purea di piselli. Se
       gradite, spolverate con del parmiggiano.
-card: none
+card: 
+  - vegetariano
 tags:
   - primi
   - primavera

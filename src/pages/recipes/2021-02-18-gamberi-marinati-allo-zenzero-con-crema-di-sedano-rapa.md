@@ -28,7 +28,8 @@ preparationSteps:
   - step: Unite la ricotta e mescolate.  Aggiustate di sale e pepe.
   - step: In una padella, cuocete con un filo d'olio i gamberi per qualche minuto.
   - step: Servite i gamberi sulla crema di sedano rapa.
-card: stagioni
+card: 
+  - stagioni
 tags:
   - inverno
   - antipasti

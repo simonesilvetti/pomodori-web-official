@@ -39,7 +39,8 @@ preparationSteps:
       ultimata, fate raffreddare e spolverizzate con zucchero a velo.
 note: L’effetto ottimale per queste dosi si ottiene utilizzando con una tortiera
   di 20cm.
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - crostata

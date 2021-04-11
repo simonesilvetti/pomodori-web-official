@@ -44,7 +44,7 @@ preparationSteps:
       * finite con olio, sale, pepe.
 note: Provate ad arricchire il piatto con mozzarella e olive sott'olio per
   renderlo più sfizioso!
-card: none
+card: 
 tags:
   - piattiunici
   - cavolfiore

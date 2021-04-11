@@ -47,7 +47,8 @@ preparationSteps:
 
       Servite spolverando con cocco e granella di mandorle.
 note: ""
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - mousse

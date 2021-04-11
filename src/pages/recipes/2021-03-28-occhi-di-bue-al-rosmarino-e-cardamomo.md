@@ -42,7 +42,8 @@ preparationSteps:
       pompelmo  e spolverizzate con zucchero a velo.
 note: La marmellata di pompelmo può essere sostituita con una marmellata a
   piacimento.
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - biscotti

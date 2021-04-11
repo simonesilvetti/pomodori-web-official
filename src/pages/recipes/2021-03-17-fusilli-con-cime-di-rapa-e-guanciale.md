@@ -34,7 +34,8 @@ preparationSteps:
       Una volta cotti, unite i fusilli alle cime di rapa ed unite il guanciale.
 
       Spolverate infine con del caciocavallo.
-card: stagioni
+card: 
+  - stagioni
 tags:
   - primi
   - inverno

@@ -47,7 +47,9 @@ preparationSteps:
       strati e finite con besciamella, pecorino e un filo di olio.
   - step: Cuocete in forno statico a 250°C per circa 25 minuti, fino a quando non si
       sarà creata la crosticina croccante in superficie.
-card: stagioni
+card: 
+  - stagioni
+  - vegetariano
 tags:
   - primi
   - lasagne

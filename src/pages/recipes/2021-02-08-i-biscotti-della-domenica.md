@@ -96,7 +96,8 @@ preparationSteps:
       Infornate a 185°C in forno statico per 25 minuti.
   - step: Fate raffreddare i biscotti su una gratella per dolci. Spolverizzate
       eventualmente con dello zucchero a velo.
-card: none
+card: 
+  - vegetariano
 tags:
   - biscotti
   - dolci

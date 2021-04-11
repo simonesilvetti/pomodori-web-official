@@ -51,7 +51,9 @@ preparationSteps:
 
 
       Infornate a 180°C per 25 minuti.
-card: stagioni
+card: 
+  - stagioni
+  - vegetariano
 tags:
   - primi
   - inverno

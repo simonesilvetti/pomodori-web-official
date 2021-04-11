@@ -47,7 +47,7 @@ preparationSteps:
       * A cottura ultimata, riponete il baccalà su un piatto e sfilettatelo eliminando la parte esterna. Salate (se necessario) ed arricchite con zenzero grattugiato e peperoncino. Lasciate raffreddare.
 
       * Nel frattempo preparate i vostri crostoni facendoli abbrustolire da entrambi i lati su una padella antiaderente. Una volta pronti, assemblate i crostoni spalmando sopra dell'hummus ed il baccalà. Rifinite con un filo di olio di cottura del baccalà.
-card: none
+card: 
 tags:
   - antipasti
   - crostone

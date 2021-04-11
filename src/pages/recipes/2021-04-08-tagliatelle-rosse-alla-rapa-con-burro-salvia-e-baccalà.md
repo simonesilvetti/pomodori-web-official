@@ -42,12 +42,14 @@ preparationSteps:
   - step: Cuocete le tagliatelle in abbondante acqua salata, scolate e condite con
       burro e salvia. Servite con sopra il baccalà ed una spolverata di
       pangrattato e paprika.
-card: none
+card:
+  - stagioni
 tags:
   - primi
   - pasta
   - rapa
   - baccalà
+  - inverno
 blogger: Claudia
 ---
 Tagliatelle fatte in casa, colorate dalla rapa rossa  e condite da un delicato baccalà.

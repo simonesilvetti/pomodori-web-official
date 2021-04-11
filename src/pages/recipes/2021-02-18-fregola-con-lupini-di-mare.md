@@ -31,7 +31,7 @@ preparationSteps:
   - step: Lasciate cuocere fino a quando la fregola non sarà cotta, aggiungendo se
       necessario altra acqua in cottura.
   - step: A fine cottura, insaporite con il prezzemolo tritato.
-card: none
+card: 
 tags:
   - primi
   - fregola

@@ -90,7 +90,6 @@ exports.createPages = ({ actions, graphql }) => {
 
     cards.forEach((tag) => {
       const tagPath = `/cards/${_.kebabCase(tag)}/`
-
       createPage({
         path: tagPath,
         component: path.resolve(`src/templates/cards.js`),

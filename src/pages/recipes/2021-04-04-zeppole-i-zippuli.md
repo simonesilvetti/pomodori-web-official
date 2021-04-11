@@ -39,7 +39,8 @@ preparationSteps:
       colore dorato.
 note: I zippuli tradizionali sono farcite con acciughe e/o 'nduja. Possono anche
   essere condite a fine cottura con miele!
-card: tradizioni
+card: 
+  - tradizioni
 tags:
   - antipasti
   - zeppole

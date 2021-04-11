@@ -58,7 +58,8 @@ preparationSteps:
       30 minuti.
 note: "La pizza sfogliata si presta molto bene a molte farciture diverse:
   sbizzarritevi e buon appetito!"
-card: none
+card: 
+  - tradizioni
 tags:
   - piattiunici
   - pizza sfogliata

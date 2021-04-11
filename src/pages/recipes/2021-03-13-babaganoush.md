@@ -36,7 +36,9 @@ preparationSteps:
       ingredienti fino a quando il sapore non sarà di vostro gradimento.
   - step: Servite con la pita, un pane tipico della cucina mediorientale, oppure con
       dei grissini croccanti.
-card: none
+card: 
+  - vegetariano
+  - ricette dal mondo
 tags:
   - antipasti
   - melanzana

@@ -39,7 +39,8 @@ preparationSteps:
       prima di infornarli e/o zucchero a velo una volta che saranno pronti.
 note: "Per assicurarvi che i lembi dei vostri fagottini rimangano chiusi, potete
   spennellare i bordi con un albume: fungerà proprio da collante!"
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - mela

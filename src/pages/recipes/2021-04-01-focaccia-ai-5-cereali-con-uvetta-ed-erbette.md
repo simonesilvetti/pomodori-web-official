@@ -41,10 +41,12 @@ preparationSteps:
       l'uvetta. Cospargete quindi la focaccia con l'olio aromatizzato.
   - step: Infornate a 180°C per 30 minuti fino a quando la vostra focaccia non
       risulterà dorata e croccante.
-card: none
+card: 
+  - vegetariano
 tags:
   - antipasti
   - focaccia
+  - vegetariano
 blogger: Katia
 ---
 Una focaccia croccante, molto simile ad una schiacciata, aromatizzata con menta e salvia ed addolcita dall'uvetta.

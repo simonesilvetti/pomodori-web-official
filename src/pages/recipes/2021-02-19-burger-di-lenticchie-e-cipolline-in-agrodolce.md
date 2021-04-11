@@ -51,7 +51,8 @@ preparationSteps:
       Le cipolline saranno pronte dopo circa 15 minuti.
   - step: Trasferite in un piatto il burger ed accompagnate con le cipolle in
       agrodolce.
-card: none
+card: 
+  - vegetariano
 tags:
   - secondi
   - lenticchie

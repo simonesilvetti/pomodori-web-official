@@ -51,7 +51,8 @@ preparationSteps:
   - step: Aggiungete in ordine le patate, i funghi e la crème di uova e yogurt.
       Arricchite il tutto con dei pezzetti di gorgonzola.
   - step: Ripiegate leggermente i bordi ed infornate per 25 minuti a 180°C.
-card: none
+card: 
+  - vegetariano
 tags:
   - secondi
   - torta salata

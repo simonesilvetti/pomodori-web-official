@@ -34,7 +34,9 @@ note: L'uso delle fruste elettriche è altamente consigliato per ottenere
   con una tortiera a cerniera di 20cm.  Affinché la vostra torta lieviti
   adeguatamente e non collassi nella parte centrale, evitate di aprire il forno
   in cottura.
-card: tradizioni
+card: 
+  - tradizioni
+  - vegetariano
 tags:
   - dolci
   - torta

@@ -49,7 +49,8 @@ preparationSteps:
       rombo.
   - step: Infornate a 200°C in forno statico per 30 minuti.   A cottura ultimata,
       fate raffreddare e spolverizzate con zucchero a velo.
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - crostata

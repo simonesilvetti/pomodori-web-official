@@ -36,7 +36,7 @@ preparationSteps:
 
 
       Infornate a 200°C per i primi 5 minuti, poi a 180°C per i restanti 25 minuti.
-card: none
+card: 
 tags:
   - antipasti
   - scones

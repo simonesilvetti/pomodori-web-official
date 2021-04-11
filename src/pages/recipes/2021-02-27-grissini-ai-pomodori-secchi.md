@@ -40,7 +40,9 @@ preparationSteps:
 note: "Questi grissini possono essere arricchiti con semi di finocchio oppure
   rosmarino.  Divertitevi inoltre ad utilizzare farine diverse: tipo 1,tipo 2,
   di mais, di grano saraceno."
-card: pomodoro
+card: 
+  - pomodoro
+  - vegetariano
 tags:
   - antipasti
   - pomodoro secco

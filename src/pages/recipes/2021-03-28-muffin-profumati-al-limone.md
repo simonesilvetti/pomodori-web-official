@@ -28,7 +28,8 @@ preparationSteps:
       loro capienza.
   - step: Infornate a 200°C per i primi 5 minuti, poi a 180°C per i restanti 20
       minuti.
-card: none
+card: 
+  - vegetariano
 tags:
   - dolci
   - muffin

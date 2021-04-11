@@ -34,7 +34,8 @@ preparationSteps:
 
 
       Servite con una spolverata di pepe e cospargete di noci precedentemente sbriciolate.
-card: stagioni
+card: 
+  - stagioni
 tags:
   - primi
   - inverno

@@ -63,7 +63,9 @@ preparationSteps:
 
       \- Cuocete in forno statico a 200°C per circa 30 minuti
 note: ""
-card: tradizioni
+card: 
+  - tradizioni
+  - vegetariano
 tags:
   - secondi
   - torta
