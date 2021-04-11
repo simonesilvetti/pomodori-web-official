@@ -48,7 +48,9 @@ preparationSteps:
 note: Le dosi del composto sono adatte per uno stampo di 500gr. La scorza di
   limone può essere sostituita con la scorza di arancia e nell'impasto potreste
   inserire dei canditi o dell'uvetta.
-card: tradizioni
+card:
+  - stagioni
+  - tradizioni
 tags:
   - dolci
   - torta
