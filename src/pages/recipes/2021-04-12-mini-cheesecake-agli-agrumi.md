@@ -37,7 +37,7 @@ preparationSteps:
       Spremete un'arancia e 2 limoni circa. Unite il loro succo e grattuggiate anche la scorza di un limone.
 
 
-      Unite l'amido di mais e mescolate bene con una frusta. Portate il tutto sul fuoco e fate addensare il succo. Versatelo quindi in un contenitore ed aspettate che si raffreddi.
+      Aggiungete l'amido di mais e mescolate bene con una frusta. Portate il tutto sul fuoco e fate addensare il succo. Versatelo quindi in un contenitore ed aspettate che si raffreddi.
 
 
       Montate intanto la panna ed incorporatela al succo ormai freddo. Mescolate per amalgamare.
@@ -52,4 +52,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-Una crema molto morbida all'arancia ed al limone su una base compatta al miele.
+Una crema molto morbida all'arancia ed al limone su una base compatta di biscotto.
