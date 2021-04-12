@@ -34,7 +34,7 @@ preparationSteps:
       **Proseguiamo con la preparazione della crema.**
 
 
-      Spremete un'arancia e 2/3 limoni circa. Unite il loro succo e grattuggiate anche la scorza di un limone.
+      Spremete un'arancia e 2 limoni circa. Unite il loro succo e grattuggiate anche la scorza di un limone.
 
 
       Unite l'amido di mais e mescolate bene con una frusta. Portate il tutto sul fuoco e fate addensare il succo. Versatelo quindi in un contenitore ed aspettate che si raffreddi.
