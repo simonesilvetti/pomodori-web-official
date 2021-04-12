@@ -22,7 +22,27 @@ ingredientsSections:
       - 50ml succo di arancia
       - 10g amido di mais
 preparationSteps:
-  - step: xx
+  - step: >-
+      **Iniziamo con la preparazione della base.**
+
+
+      Tritate finemenete i biscotti in un mixer. Versateli in una ciotola ed unite il miele, l'olio e l'acqua.
+
+
+      Disponete il composto ottenuto in 3 coppapasta di diametro di circa 8 cm (o in 3 bicchieri se preferite) e compattate fino ad ottenere la base, alta circa 0,5 cm.
+  - step: >-
+      **Proseguiamo con la preparazione della crema.**
+
+
+      Spremete un'arancia e 2/3 limoni circa. Unite il loro succo e grattuggiate anche la scorza di un limone.
+
+
+      Unite l'amido di mais e mescolate bene con una frusta. Portate il tutto sul fuoco e fate addensare il succo. Versatelo quindi in un contenitore ed aspettate che si raffreddi.
+
+
+      Montate intanto la panna ed incorporatela al succo ormai freddo. Mescolate per amalgamare.
+  - step: Aggiungete la crema nei coppapasta e lasciate riposare in frigorifero per
+      circa 2 ore.
 card:
   - vegetariano
 tags:
