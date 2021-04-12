@@ -39,15 +39,15 @@ preparationSteps:
       Montate leggermente la panna: dovrete ottenere una panna semi-montata e non montata a neve ferma. 
 
 
-      Unite qualche cucchiaio di panna semi-montata al cioccolato ancora caldo, in modo da favorirne il raffreddamento. Mescolate energicamente ed amalgamate. In seguito, unite la panna restante al composto e continuate a mescolare con una frusta finchè non otterrete una mousse di un unico colore.
+      Unite qualche cucchiaio di panna semi-montata al cioccolato ancora caldo, in modo da favorirne il raffreddamento. Mescolate energicamente ed amalgamate. In seguito, unite la restante panna al composto e continuate a mescolare con una frusta finchè non otterrete una mousse di un unico colore.
   - step: >-
-      Aggiungete la mousse nei coppasta e lasciate riposare in frigorifero per
+      Aggiungete la mousse nei coppapasta e lasciate riposare in frigorifero per
       circa 2 ore.
 
 
       Servite spolverando con cocco e granella di mandorle.
 note: ""
-card: 
+card:
   - vegetariano
 tags:
   - dolci
