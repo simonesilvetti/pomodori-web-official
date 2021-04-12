@@ -4,7 +4,8 @@ title: Mini cheesecake agli agrumi
 date: 2021-04-12T14:20:55.857Z
 difficulty: 1
 time: 30min + 2h
-description: Una crema molto morbida all'arancia ed al limone su una base compatta al miele.
+description: Una crema molto morbida all'arancia ed al limone su una base
+  compatta di biscotto.
 featuredimage: /img/minicheesecake_agrumi_1.png
 dose: 3 persone
 ingredientsSections:
