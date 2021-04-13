@@ -26,10 +26,10 @@ preparationSteps:
       da parte.
 
 
-      Affettate le cipolle e mettetele in una padella ampia. Aggiungete il burro, coprite con un coperchio e lasciate cuocere a fuoco basso per circa 10minuti.
-  - step: Aggiungete alle cipolle una cucchiaio di farina, mescolate ed unite anche
-      parte del brodo. Aggiustate di sale e pepe e lasciate cuocere per circa
-      30minuti a fuoco moderato, aggiungendo di tanto in tanto il brodo rimasto.
+      Affettate le cipolle e mettetele in una padella ampia. Aggiungete il burro, coprite con un coperchio e lasciate cuocere a fuoco basso per circa 10 minuti.
+  - step: Aggiungete una cucchiaio di farina alle cipolle, mescolate ed unite anche
+      parte del brodo. Aggiustate di sale e pepe e lasciate cuocere per circa 30
+      minuti a fuoco moderato, aggiungendo di tanto in tanto il brodo rimasto.
   - step: Quando le cipolle saranno ormai diventate molto morbide ed il brodo si
       sarà asciugato, trasferite la zuppa in due cocotte dopo aver disposto i
       crostini di pane sul fondo o di lato come in figura.
