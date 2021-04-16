@@ -29,7 +29,8 @@ preparationSteps:
       perfettamente asciutto e pulito, allora la vostra torta è pronta!"
   - step: Fate raffreddare completamente prima di tagliarlo in due e procedere alla
       farcitura.
-note: ""
+note: Noi abbiamo preferito creare delle mini tortine aiutandoci con il
+  coppapasta ed abbiamo scelto una marmellata di more di rovo.
 card:
   - vegetariano
 tags:
