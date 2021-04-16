@@ -18,7 +18,7 @@ ingredientsSections:
       - 1 vasetto di yogurt magro (125g)
       - 60ml di olio evo
       - succo di un'arancia
-      - 16 lievito per dolci
+      - 16g lievito per dolci
 preparationSteps:
   - step: Unite le uova allo zucchero. Montate fino ad ottenere un composto omogeneo
       e spumoso. Aggiungete l'olio, il succo di un'arancia e continuate a
@@ -29,7 +29,7 @@ preparationSteps:
       resto, strizzatele leggermente per eliminare l'eventuale acqua residua.
       Unitele al composto, aggiungete anche il lievito in polvere e mescolate.
   - step: Infornate per circa 40 minuti a 180°C.
-card: 
+card:
   - vegetariano
 tags:
   - dolci
