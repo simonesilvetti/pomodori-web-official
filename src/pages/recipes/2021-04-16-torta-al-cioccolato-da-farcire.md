@@ -18,10 +18,8 @@ ingredientsSections:
       - succo di 2 arance
       - 16g lievito per dolci
 preparationSteps:
-  - step: xx
-note: Questa torta si presta anche molto bene ad essere usata come "pane al
-  cioccolato". In questo caso vi consigliamo di cuocerla in uno stampo da
-  plumcake.
+  - step: Unite l'uovo e lo zucchero. Mescolate
+note: ""
 card:
   - vegetariano
 tags:
