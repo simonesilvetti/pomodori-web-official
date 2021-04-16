@@ -18,7 +18,15 @@ ingredientsSections:
       - succo di 2 arance
       - 16g lievito per dolci
 preparationSteps:
-  - step: Unite l'uovo e lo zucchero. Mescolate
+  - step: Unite l'uovo e lo zucchero. Mescolate fino ad ottenere un composto
+      spumoso. Aggiungete il cacao in polvere e lo yogurt continuando a
+      mescolare.
+  - step: "Aggiungete il succo delle arance, il lievito ed infine la farina.
+      Continuate a mescolare per rimuovere gli eventuali grumi: il risultato
+      dovrà essere un composto morbido ed omogeneo."
+  - step: "Infornate a 180°C per circa 35 minuti. Controllate la cottura della torta
+      con la prova dello stecchino: se, estraendolo dalla torta, esso risulta
+      perfettamente asciutto e pulito, allora la vostra torta è pronta!"
 note: ""
 card:
   - vegetariano
