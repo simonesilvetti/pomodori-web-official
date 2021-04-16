@@ -24,14 +24,16 @@ preparationSteps:
   - step: "Aggiungete il succo delle arance, il lievito ed infine la farina.
       Continuate a mescolare per rimuovere gli eventuali grumi: il risultato
       dovrà essere un composto morbido ed omogeneo."
-  - step: "Infornate a 180°C per circa 35 minuti. Controllate la cottura della torta
-      infilzandola in più punti con uno stecchino: se, estraendolo dalla torta,
-      esso risulta perfettamente asciutto e pulito, allora la vostra torta è
-      pronta!"
-  - step: Fate raffreddare completamente prima di tagliarlo in due e procedere alla
+  - step: "Imburrate una tortiera a cerniera e versatevi il composto. Infornate a
+      180°C per circa 35 minuti. Controllate la cottura della torta infilzandola
+      in più punti con uno stecchino: se, estraendolo dalla torta, esso risulta
+      perfettamente asciutto e pulito, allora la vostra torta è pronta!"
+  - step: Fate raffreddare completamente prima di tagliarla in due e procedere alla
       farcitura.
 note: Noi abbiamo preferito creare delle mini tortine aiutandoci con il
-  coppapasta ed abbiamo scelto una marmellata di more di rovo.
+  coppapasta ed abbiamo scelto una marmellata di more di rovo. Consigliamo
+  inoltre l'utilizzo di una farina di legumi (di fagioli, di lenticchie o anche
+  un mix) che "legano" molto bene.
 card:
   - vegetariano
 tags:
