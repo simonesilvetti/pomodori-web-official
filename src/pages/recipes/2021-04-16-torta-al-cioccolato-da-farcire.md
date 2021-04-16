@@ -27,6 +27,8 @@ preparationSteps:
   - step: "Infornate a 180°C per circa 35 minuti. Controllate la cottura della torta
       con la prova dello stecchino: se, estraendolo dalla torta, esso risulta
       perfettamente asciutto e pulito, allora la vostra torta è pronta!"
+  - step: Fate raffreddare completamente prima di tagliarlo in due e procedere alla
+      farcitura.
 note: ""
 card:
   - vegetariano
