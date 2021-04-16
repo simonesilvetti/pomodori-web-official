@@ -19,7 +19,7 @@ ingredientsSections:
       - 100g zucchero a velo
       - 16g lievito per dolci
 preparationSteps:
-  - step: Sciogliete il burro in un pentolino sul fuoco.  In una terrrina, unite le
+  - step: Sciogliete il burro in un pentolino sul fuoco.  In una terrina, unite le
       uova, lo zucchero semolato e lo zucchero a velo.  Montate con delle fruste
       elettriche fino a quando il composto non risulta spumoso.
   - step: Aggiungete adesso le mandorle e il burro fuso. Mescolate con le
@@ -34,7 +34,7 @@ note: L'uso delle fruste elettriche è altamente consigliato per ottenere
   con una tortiera a cerniera di 20cm.  Affinché la vostra torta lieviti
   adeguatamente e non collassi nella parte centrale, evitate di aprire il forno
   in cottura.
-card: 
+card:
   - tradizioni
   - vegetariano
 tags:
