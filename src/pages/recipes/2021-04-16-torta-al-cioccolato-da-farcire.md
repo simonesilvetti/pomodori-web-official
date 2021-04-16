@@ -14,7 +14,7 @@ ingredientsSections:
       - 150g zucchero di canna
       - 60g cacao amaro in polvere
       - 1 uovo
-      - 1 vaset1 bto di yogurt magro (125g)
+      - 1 vasetto di yogurt magro (125g)
       - succo di 2 arance
       - 16g lievito per dolci
 preparationSteps:
@@ -25,8 +25,9 @@ preparationSteps:
       Continuate a mescolare per rimuovere gli eventuali grumi: il risultato
       dovrà essere un composto morbido ed omogeneo."
   - step: "Infornate a 180°C per circa 35 minuti. Controllate la cottura della torta
-      con la prova dello stecchino: se, estraendolo dalla torta, esso risulta
-      perfettamente asciutto e pulito, allora la vostra torta è pronta!"
+      infilzandola in più punti con uno stecchino: se, estraendolo dalla torta,
+      esso risulta perfettamente asciutto e pulito, allora la vostra torta è
+      pronta!"
   - step: Fate raffreddare completamente prima di tagliarlo in due e procedere alla
       farcitura.
 note: Noi abbiamo preferito creare delle mini tortine aiutandoci con il
