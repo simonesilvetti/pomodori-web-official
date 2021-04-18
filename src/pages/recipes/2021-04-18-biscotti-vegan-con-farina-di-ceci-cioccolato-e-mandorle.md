@@ -20,8 +20,8 @@ ingredientsSections:
       - 60ml olio di semi di mais
       - 60ml di acqua
 preparationSteps:
-  - step: Tostare la farina di ceci sul fuoco, a fiamma dolce.  Mescolare ed
-      aspettare che la farina cambi leggermente colore (non deve diventare
+  - step: Tostate la farina di ceci sul fuoco, a fiamma dolce.  Mescolate ed
+      aspettate che la farina cambi leggermente colore (non deve diventare
       marrone!).  Questo passaggio ne esalterà l'aroma.  Spegnete il fuoco e
       lasciate intiepidire.
   - step: In un tritatutto unite le mandorle, lo zucchero, il cioccolato fondente a
