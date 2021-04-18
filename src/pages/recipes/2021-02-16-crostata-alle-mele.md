@@ -7,7 +7,7 @@ time: 1h
 description: Una crostata di marmellata arricchita da granella di mandorle ed
   uno strato di mele al Grand Marnier.
 featuredimage: /img/crostata.png
-dose: 8 persone
+dose: 8 porzioni
 ingredientsSections:
   - section: FROLLA
     ingredients:
