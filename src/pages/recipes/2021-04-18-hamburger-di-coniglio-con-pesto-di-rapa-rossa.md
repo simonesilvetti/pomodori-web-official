@@ -11,7 +11,7 @@ ingredientsSections:
   - section: INGREDIENTI
     ingredients:
       - 1 hamburger di coniglio
-      - pesto di rapa rossa
+      - 3 cucchiai di pesto di rapa rossa
       - 2 cucchiai di burrata
       - 1 fetta di provola affumicata
       - 1 panino per hamburger
@@ -22,18 +22,18 @@ ingredientsSections:
       - 1 spicchio di aglio
       - 2 cucchiai olio evo
       - 1 manciata di pinoli
-      - 1 manciata di formaggio grana grattuggiato
+      - 1 manciata di formaggio grattugiato
       - sale
 preparationSteps:
   - step: Preparate il pesto di rapa rossa, unendo in un tritatutto la rapa rossa,
-      l'aglio, i pinoli, l'olio, il formaggio grattuggiato ed aggiustate di
-      sale.
+      l'aglio, i pinoli, l'olio ed il formaggio grattugiato. Tritate ed
+      aggiustate di sale ed olio.
   - step: Cuocete l'hamburger di coniglio in una padella all'incirca 4 minuti per
       lato o comunque fino a raggiungere la cottura che desiderate. A fine
-      cottura mettere la fetta di provola sull'hamburger affinchè si sciolga.
-  - step: "Tostate il pane e quando sarà pronto preparate il panino mettendo nel
-      seguente ordine: il pesto, l'hamburger, la burrata ed una spolverata di
-      pepe."
+      cottura mettete la fetta di provola sull'hamburger affinché si sciolga.
+  - step: "Tostate il pane e quando sarà pronto componete il vostro panino mettendo
+      nel seguente ordine: il pesto, l'hamburger, la burrata ed una spolverata
+      di pepe."
 card:
   - none
 tags:
