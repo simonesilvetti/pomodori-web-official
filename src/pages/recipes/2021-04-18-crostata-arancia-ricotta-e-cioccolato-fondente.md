@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Crostata arancia, ricotta e cioccolato fondente
+title: Crostata arancia, ricotta al Grand Marnier e cioccolato fondente
 date: 2021-04-18T15:17:16.208Z
 difficulty: 2
 time: 2h
@@ -33,20 +33,20 @@ preparationSteps:
       almeno 30 minuti avvolto in una pellicola.
   - step: Nel frattempo, scolate la ricotta.  In una terrina unite la ricotta, lo
       zucchero e due cucchiai di Grand Marnier.  Mescolare fino a creare una
-      crema senza grumi.
+      crema uniforme e senza grumi.
   - step: >-
-      Prendete ora il vostro panetto,  e dividetelo in due parti.
+      Prendete ora il vostro panetto,  e dividetelo in due parti.  Stendete la
+      parte più piccola con l'aiuto di un matterello.  Questa parte
+      rappresenterà la frolla di copertura.  Se il composto risulta appiccicoso,
+      aiutatevi con della farina. Ritagliate un cerchio di pasta frolla della
+      stessa dimensione della vostra pirofila da forno. 
 
 
-      Stendete la parte più piccola del vostro panetto con l'aiuto di un matterello.  Se il composto risulta appiccicoso, aiutatevi con della farina. Ritagliate un cerchio di pasta frolla della stessa dimensione della vostra pirofila da forno. Riutilizzate i ritagli in eccesso per stendere la seconda parte dell'impasto.
-  - step: >-
-      Dopo aver steso anche l'altra parte, adagiate la frolla sulla
-      pirofila.   Farcite con uno strato di marmellata di arance, la crema di
-      ricotta e finite distribuendo uniformemente le scaglie/gocce di cioccolato
-      fondente.
-
-
-      Richiudete con la frolla di chiusura e praticate delle fessure di decorazione in superficie.
+      Procedete adesso a stendere la frolla destinata alla base, riutilizzando i ritagli in eccesso ottenuti in precedenza.  Adagiate la frolla sulla pirofila.
+  - step: Farcite con uno strato di marmellata di arance, la crema di ricotta e
+      finite distribuendo uniformemente le scaglie/gocce di cioccolato
+      fondente.  Richiudete con la prima frolla stirata e praticate delle
+      fessure di decorazione in superficie.
   - step: Infornate a 200°C in forno statico per 30 minuti. A cottura ultimata, fate
       raffreddare e spolverizzate con zucchero a velo.
 card:
