@@ -9,7 +9,7 @@ description: Una crostata di marmellata arricchita da granella di mandorle ed
 featuredimage: /img/crostata.png
 dose: 8 persone
 ingredientsSections:
-  - section: INGREDIENTI
+  - section: FROLLA
     ingredients:
       - 190g farina tipo 1
       - 45g zucchero bianco
@@ -49,7 +49,7 @@ preparationSteps:
       rombo.
   - step: Infornate a 200°C in forno statico per 30 minuti.   A cottura ultimata,
       fate raffreddare e spolverizzate con zucchero a velo.
-card: 
+card:
   - vegetariano
 tags:
   - dolci
