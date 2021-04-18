@@ -29,7 +29,8 @@ preparationSteps:
 note: "Il sapore dolce di questa frittata vi sorprenderà. Piccoli trucchi per
   garantire che la frittata venga soffice: aggiungere un pizzico di bicarbonato
   nella preparazione rpima della cottura e cuocere a fuoco bassissimo e con il
-  coperchio."
+  coperchio. In generale, il nostro consiglio è quello di considerare lo scarto
+  di piselli provenienti solo da agricoltura di orti fidati.."
 card:
   - vegetariano
 tags:
