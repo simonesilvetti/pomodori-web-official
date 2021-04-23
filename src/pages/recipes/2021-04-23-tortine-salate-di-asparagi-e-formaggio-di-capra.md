@@ -40,8 +40,8 @@ preparationSteps:
 
       Nel frattempo sbattete l'uovo, aggiungendo sale e pepe, e create una "crema" incorporando il primo latte.
   - step: Stendete la pasta in due piccole pirofile (diametro circa 14 cm) e
-      disponete gli asparagi. Aggiungete la crema ed infornate a 200 °C per 15
-      minuti circa.
+      disponete gli asparagi sulla base. Aggiungete la crema ed infornate a 200
+      °C per 15 minuti circa.
 card:
   - stagioni
   - vegetariano
