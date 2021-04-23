@@ -24,7 +24,7 @@ ingredientsSections:
       - pepe
 preparationSteps:
   - step: >-
-      **Iniziamo con preparazione della base, la cosiddetta pasta matta.**
+      **Iniziamo con la preparazione della base, la cosiddetta pasta matta.**
 
 
       Unite in una ciotola l'acqua, l'olio ed il sale. Aggiungete la farina ed amalgamate tutti gli ingredienti, con l'aiuto delle mani, fino ad ottenere un panetto liscio ed abbastanza morbido. Dividete l'impasto in due parti uguali e lasciatele riposare per circa 20 minuti, coprendole con un canovaccio.
