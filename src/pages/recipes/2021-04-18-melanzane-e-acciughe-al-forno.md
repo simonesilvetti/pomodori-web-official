@@ -34,7 +34,6 @@ preparationSteps:
       origano.  Infornate in forno statico a 250°C per circa 35 minuti e
       gustatele calde.
 card:
-  - none
 tags:
   - secondi
   - melanzane

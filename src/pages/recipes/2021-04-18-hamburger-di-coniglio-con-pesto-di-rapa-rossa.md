@@ -35,7 +35,6 @@ preparationSteps:
       nel seguente ordine: il pesto, l'hamburger, la burrata ed una spolverata
       di pepe."
 card:
-  - none
 tags:
   - piattiunici
   - hamburger
