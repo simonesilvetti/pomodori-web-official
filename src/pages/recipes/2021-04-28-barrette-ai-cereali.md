@@ -10,7 +10,7 @@ dose: 5 barrette
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 60G fiocchi di aveva
+      - 60g fiocchi d'avena
       - 60g miele
       - 30g farina ai 5 cereali
       - 30g uvetta
@@ -21,13 +21,13 @@ ingredientsSections:
       - 30g mandorle
       - 2 cucchiai sciroppo d'acero
 preparationSteps:
-  - step: Unite in una ciotola i fiocchi di avena, la farina, l'uvetta, il mix di
+  - step: Unite in una ciotola i fiocchi d'avena, la farina, l'uvetta, il mix di
       semi, le mandorle tritate ed il cioccolato a pezzetti.
   - step: RIscaldate leggermente il miele per renderlo più liquido ed aggiungetelo
       al composto. Incorporate anche lo sciroppo d'acero e mescolate.
   - step: Inserite il composto in una teglia dai bordi abbastanza alti, foderata con
       carta da forno. Formate una mattonella alta circa 1 cm ed infornate per
-      15minuti a 180°C.
+      15/20 minuti a 180°C.
   - step: Fate raffreddare e ricavate le vostre barrette usando un coltello a lama
       liscia.
 card:
