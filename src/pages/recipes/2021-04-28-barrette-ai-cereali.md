@@ -14,16 +14,14 @@ ingredientsSections:
       - 60g miele
       - 30g farina ai 5 cereali
       - 30g uvetta
-      - 30g mix semi (girasole
-      - zucca
-      - semi di chia)
+      - 30g mix semi (girasole/zucca/semi di chia)
       - 30g cioccolato fondente
       - 30g mandorle
       - 2 cucchiai sciroppo d'acero
 preparationSteps:
   - step: Unite in una ciotola i fiocchi d'avena, la farina, l'uvetta, il mix di
       semi, le mandorle tritate ed il cioccolato a pezzetti.
-  - step: RIscaldate leggermente il miele per renderlo più liquido ed aggiungetelo
+  - step: Riscaldate leggermente il miele per renderlo più liquido ed aggiungetelo
       al composto. Incorporate anche lo sciroppo d'acero e mescolate.
   - step: Inserite il composto in una teglia dai bordi abbastanza alti, foderata con
       carta da forno. Formate una mattonella alta circa 1 cm ed infornate per
