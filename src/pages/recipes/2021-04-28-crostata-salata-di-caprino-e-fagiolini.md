@@ -30,10 +30,10 @@ preparationSteps:
       **Preparate la base**
 
 
-      Unite alla farina un pizzico di sale e mescolate. Aggiungete l'olio e l'uovo. Cominciate ad impastare con le mani, aggiungendo l'acqua un pò alla volta fino ad ottenere un impasto sodo ma non duro.
+      Unite alla farina un pizzico di sale e mescolate. Aggiungete l'olio e l'uovo. Cominciate ad impastare con le mani, aggiungendo l'acqua un po' alla volta fino ad ottenere un impasto sodo ma non duro.
 
 
-      Lasciate riposare per almeno 30 minuti
+      Lasciate riposare per almeno 30 minuti.
   - step: >-
       **Preparate il ripieno**
 
@@ -52,7 +52,7 @@ preparationSteps:
       Nel tegame da forno ben oliato, stendete la pasta e spalmate all'interno la crema di caprino che livellerete con una spatola da cucina.
 
 
-      Disponete quindi sopra la crema i fagiolini.
+      Disponete sopra la crema di fagiolini.
   - step: Cuocete in forno statico a 250°C per circa 30 minuti.
 card:
   - vegetariano
