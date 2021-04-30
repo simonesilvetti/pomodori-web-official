@@ -53,9 +53,7 @@ preparationSteps:
 
 
       Disponete quindi sopra la crema i fagiolini.
-
-
-      Cuocete in forno statico a 250°C per circa 30 minuti.
+  - step: Cuocete in forno statico a 250°C per circa 30 minuti.
 card:
   - vegetariano
 tags:
