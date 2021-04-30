@@ -23,7 +23,7 @@ preparationSteps:
       pangrattato, l'aglio, qualche cappero e le acciughe.
   - step: Riempite i porri col composto. Finite con un filo d'olio ed una manciata
       di origano.
-  - step: Cuocete in forno statico a 200°C per 30 minuti
+  - step: Cuocete in forno statico a 200°C per 30 minuti.
 card:
   - stagioni
 tags:
