@@ -21,7 +21,7 @@ preparationSteps:
   - step: Tagliate le acciughe a pezzetti e disponetele omogeneamente sui peperoni.
   - step: Sbriciolate la feta, coprite con una manciata di pangrattato ed un filo
       d'olio.
-  - step: Cuocete in forno statico a 200°C per 30 minuti circa
+  - step: Cuocete in forno statico a 200°C per 30 minuti circa.
 card:
   - stagioni
 tags:
