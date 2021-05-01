@@ -18,8 +18,8 @@ ingredientsSections:
     ingredients:
       - 400g asparagi
       - 150g formaggio Piave
-      - 150ml latte
-      - 2 cucchiai di farina
+      - 200ml latte
+      - 3 cucchiai di farina
       - noce moscata
       - sale
       - pepe
