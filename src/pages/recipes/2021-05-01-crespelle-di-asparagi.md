@@ -31,7 +31,7 @@ preparationSteps:
       Sbattete l'uovo in una ciotola. Unite il latte e la farina, continuando a mescolare con le fruste per non far creare dei grumi. Aggiungete un pizzico di sale.
 
 
-      Fate scaldare una padella antiaderente e fate sciogliere un pezzetto di burro. Se preferite, potete aggiungere un filo d'olio in sostituzione del burro.
+      Fate scaldare una padella antiaderente e fate sciogliere un pezzetto di burro. Se preferite, potete aggiungere un filo d'olio in sostituzione al burro.
 
 
       Versate un mestolo di impasto e muovete la padella in modo da uniformare lo spessore. Girate la crespella appena il bordo inizia a cambiare colore. Dopo qualche minuto rimuovetela dalla padella e procedete con le altre.
@@ -51,7 +51,7 @@ preparationSteps:
       cosparsa con poca besciamella sul fondo. Proseguite così per tutte le
       crespelle, affiancandole una accanto all'altra nella pirofila. Coprite con
       la besciamella rimasta e spolverizzate con del parmigiano grattuggiato.
-  - step: Infornate in forno per 10 minuti e fate gratinare. Sfornate e gustatele
+  - step: Infornate per 10 minuti a 200°C e fate gratinare. Sfornate e gustatele
       subito.
 card:
   - stagioni
