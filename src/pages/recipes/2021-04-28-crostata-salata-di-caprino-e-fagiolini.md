@@ -12,15 +12,15 @@ ingredientsSections:
   - section: BASE
     ingredients:
       - 190g farina
-      - sale
       - 1 uovo
       - 4 cucchiai olio evo
+      - sale
       - acqua q.b.
   - section: RIPIENO
     ingredients:
       - 200g caprino
-      - 4 cucchiai di latte
       - 200g fagiolini
+      - 4 cucchiai di latte
       - 2 cucchiai salsa di soia
       - 1 spicchio aglio
       - olio evo
