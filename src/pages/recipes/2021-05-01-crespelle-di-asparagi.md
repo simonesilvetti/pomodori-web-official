@@ -31,10 +31,13 @@ preparationSteps:
       Sbattete l'uovo in una ciotola. Unite il latte e la farina, continuando a mescolare con le fruste per non far creare dei grumi. Aggiungete un pizzico di sale.
 
 
-      Fate scaldare una padella antiaderente e fate sciogliere un pezzetto di burro. Se preferite, potete aggiungere un filo d'olio. 
+      Fate scaldare una padella antiaderente e fate sciogliere un pezzetto di burro. Se preferite, potete aggiungere un filo d'olio in sostituzione del burro.
 
 
-      Versate un mestolo di impasto e muovere la padella in modo da uniformare lo spessore. Girate la crespella appena il bordo inizia a cambiare colore. Dopo qualcu minuto rimuovetela dalla padella e procedete con le altre.
+      Versate un mestolo di impasto e muovete la padella in modo da uniformare lo spessore. Girate la crespella appena il bordo inizia a cambiare colore. Dopo qualche minuto rimuovetela dalla padella e procedete con le altre.
+  - step: "Pulite gli asparagi: lavateli e tagliate via la parte finale del gambo,
+      più legnosa. Cuoceteli in abbondante acqua bollente per circa 10 minuti.
+      Scolateli quando saranno morbidi ma ancora al dente."
 card:
   - stagioni
   - vegetariano
