@@ -23,10 +23,12 @@ preparationSteps:
   - step: Infornate per 25 minuti a 180°C
 card: 
   - vegetariano
+  - vegano
 tags:
   - contorni
   - patata
   - vegetariano
+  - vegano
 blogger: Katia
 ---
 Un semplice contorno di patate dolci speziate al cajun.

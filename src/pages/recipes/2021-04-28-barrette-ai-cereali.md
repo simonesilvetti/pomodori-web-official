@@ -30,10 +30,12 @@ preparationSteps:
       liscia.
 card:
   - vegetariano
+  - vegano
 tags:
   - barretta
   - cereali
   - vegetariano
+  - vegano
 blogger: Katia
 ---
 Uno snack energetico a base di frutta secca e cereali.

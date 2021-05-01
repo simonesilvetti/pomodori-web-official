@@ -44,6 +44,6 @@ columns:
   - image: /img/vegan_card.png
     title: Vegano
     text: >
-      La cucina vegetariana è più facile di quanto si possa pensare: sa essere varia, gustosa ed apre la strada ad una maggiore sostenibilità. E' anche un modo per soffermarsi su parti di scaffali al supermercato che sembra non ci siano mai state!
+      Piatti a base vegetale, semplici ma mai banali che sanno essere avvolgenti e molto gustosi. Vi proponiamo una serie di ricette che, senza essere ricercate, sono parte dei nostri menù quotidiani. 
     card: vegano
 ---

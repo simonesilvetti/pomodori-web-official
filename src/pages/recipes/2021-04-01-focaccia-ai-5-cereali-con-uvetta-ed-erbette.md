@@ -43,10 +43,12 @@ preparationSteps:
       risulterà dorata e croccante.
 card: 
   - vegetariano
+  - vegano
 tags:
   - antipasti
   - focaccia
   - vegetariano
+  - vegano
 blogger: Katia
 ---
 Una focaccia croccante, molto simile ad una schiacciata, aromatizzata con menta e salvia ed addolcita dall'uvetta.

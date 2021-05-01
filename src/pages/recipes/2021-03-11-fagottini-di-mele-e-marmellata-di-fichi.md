@@ -41,10 +41,12 @@ note: "Per assicurarvi che i lembi dei vostri fagottini rimangano chiusi, potete
   spennellare i bordi con un albume: fungerà proprio da collante!"
 card: 
   - vegetariano
+  - vegano
 tags:
   - dolci
   - mela
   - vegetariano
+  - vegano
 blogger: Katia
 ---
 Un'ottima merenda da gustare con un tè!

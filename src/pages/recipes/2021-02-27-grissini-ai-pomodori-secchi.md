@@ -43,10 +43,12 @@ note: "Questi grissini possono essere arricchiti con semi di finocchio oppure
 card: 
   - pomodoro
   - vegetariano
+  - vegano
 tags:
   - antipasti
   - pomodoro secco
   - vegetariano
+  - vegano
 blogger: Claudia
 ---
 Quando un grissino rustico croccante incontra il sapore dolciastro del pomodoro secco.

@@ -34,12 +34,14 @@ note: ""
 card: 
   - stagioni
   - vegetariano
+  - vegano
 tags:
   - inverno
   - primi
   - vellutata
   - topinambur
   - vegetariano
+  - vegano
 blogger: Katia
 ---
 Una vellutata delicata arricchita dal sapore più deciso dei pomodori secchi.

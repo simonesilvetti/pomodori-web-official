@@ -44,11 +44,12 @@ preparationSteps:
       ancora leggermente morbidi.
 card:
   - vegetariano
+  - vegano
 tags:
   - dolci
   - biscotti
   - ceci
-  - vegan
+  - vegano
 blogger: Claudia
 ---
 Golosi biscotti vegani per una colazione o una merenda saporitissima.

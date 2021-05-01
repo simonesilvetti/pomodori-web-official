@@ -39,10 +39,12 @@ preparationSteps:
 card: 
   - vegetariano
   - ricette dal mondo
+  - vegano
 tags:
   - antipasti
   - melanzana
   - vegetariano
+  - vegano
 blogger: Claudia
 ---
 Una fresca crema mediorientale di melanzane arrostiste.
