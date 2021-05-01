@@ -35,9 +35,24 @@ preparationSteps:
 
 
       Versate un mestolo di impasto e muovete la padella in modo da uniformare lo spessore. Girate la crespella appena il bordo inizia a cambiare colore. Dopo qualche minuto rimuovetela dalla padella e procedete con le altre.
-  - step: "Pulite gli asparagi: lavateli e tagliate via la parte finale del gambo,
-      più legnosa. Cuoceteli in abbondante acqua bollente per circa 10 minuti.
-      Scolateli quando saranno morbidi ma ancora al dente."
+  - step: >-
+      **Procediamo con la preparazione del ripieno.**
+
+
+      Pulite gli asparagi: lavateli e tagliate via la parte finale del gambo, più legnosa. Cuoceteli in abbondante acqua bollente per circa 10 minuti. Scolateli quando saranno morbidi ma ancora al dente.
+
+
+      Sminuzzate il formaggio e mettetelo da parte.
+
+
+      Preparate la besciamella: versate il latte in una piccola pentola, salate, pepate ed aggiungete una spolverata di noce moscata. Accendete il fuoco a fiamma bassa ed aggiungete la farina setacciata continuando a mescolare costantemente: questa operazione è molto importante per evitare la formazione di grumi. La vostra besciamella sarà pronta quando comincerà ad addensarsi. Toglietela dal fuoco in attesa del suo utilizzo, mescolando di tanto in tanto per evitare che si solidifichi.
+  - step: Aggiungete su ogni crespella 2 cucchiai di besciamella, gli asparagi e del
+      Piave a pezzetti. Arrotolate la crespella e disponetela in una pirofila
+      cosparsa con poca besciamella sul fondo. Proseguite così per tutte le
+      crespelle, affiancandole una accanto all'altra nella pirofila. Coprite con
+      la besciamella rimasta e spolverizzate con del parmigiano grattuggiato.
+  - step: Infornate in forno per 10 minuti e fate gratinare. Sfornate e gustatele
+      subito.
 card:
   - stagioni
   - vegetariano
