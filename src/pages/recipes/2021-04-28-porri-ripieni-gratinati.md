@@ -4,15 +4,16 @@ title: Porri ripieni gratinati
 date: 2021-04-28T18:23:59.891Z
 difficulty: 1
 time: 15min + 30min
-description: Un modo alternativo di gustare i porri
+description: Un modo alternativo di gustare i porri.
 featuredimage: /img/porriripieni.png
 dose: 2 porzioni
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
       - 3 porri
-      - pangratto
       - 4 acciughe
+      - pangrattato
+      - ""
       - capperi
       - olio evo
       - origano
