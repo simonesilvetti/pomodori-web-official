@@ -17,7 +17,12 @@ ingredientsSections:
   - section: RIPIENO
     ingredients:
       - 400g asparagi
-      - ""
+      - 150g formaggio Piave
+      - 150ml latte
+      - 2 cucchiai di farina
+      - noce moscata
+      - sale
+      - pepe
 preparationSteps:
   - step: >-
       **Iniziamo con la preparazione delle crespelle.**
