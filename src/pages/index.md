@@ -31,14 +31,19 @@ columns:
     text: >
       Non solo Italia. Selezione di ricette contaminate da ingredienti, sapori e profumi dal mondo. Ricette assaggiate in luoghi visitati per evocare ricordi di viaggio. Ricette solo immaginate per avvicinarci a culture culinarie che non conosciamo. Una sezione per sorprendersi da abbinamenti inaspettati.
     card: ricette dal mondo
-  - image: /img/card_menu.png
-    title: Menù
-    text: >
-      I piatti che cuciniamo fanno quasi sempre parte di un pranzo, una cena..di un menù più grande insomma! Ed allora perché non condividere con voi i nostri abbinamenti? Ricette dal nostro sito che combinate insieme possono creare piccole proposte di menù.
-    card: menù
+  # - image: /img/card_menu.png
+  #   title: Menù
+  #   text: >
+  #     I piatti che cuciniamo fanno quasi sempre parte di un pranzo, una cena..di un menù più grande insomma! Ed allora perché non condividere con voi i nostri abbinamenti? Ricette dal nostro sito che combinate insieme possono creare piccole proposte di menù.
+  #   card: menù
   - image: /img/card_vegetariano.png
     title: Vegetariano
     text: >
       La cucina vegetariana è più facile di quanto si possa pensare: sa essere varia, gustosa ed apre la strada ad una maggiore sostenibilità. E' anche un modo per soffermarsi su parti di scaffali al supermercato che sembra non ci siano mai state!
     card: vegetariano
+  - image: /img/vegan_card.png
+    title: Vegano
+    text: >
+      La cucina vegetariana è più facile di quanto si possa pensare: sa essere varia, gustosa ed apre la strada ad una maggiore sostenibilità. E' anche un modo per soffermarsi su parti di scaffali al supermercato che sembra non ci siano mai state!
+    card: vegano
 ---
