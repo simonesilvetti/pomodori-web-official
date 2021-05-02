@@ -1,8 +1,9 @@
 import React from 'react'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import VegetarianToolTip from './recipe/VegetarianToolTip'
 import TagList from './TagList'
 import { Link } from 'gatsby'
+import { getToolTipFromTags } from './recipe/tooltip/ToolTip'
+
 
 const RecipeCardList = ({ card }) => {
     return (
@@ -29,7 +30,7 @@ const RecipeCardList = ({ card }) => {
                                     className="subtitle has-text-black is-size-3"
                                     to={card.slug}
                                 >
-                                    {card.title}{card.tags.includes("vegetariano") ? <VegetarianToolTip /> : null}
+                                    {card.title}{getToolTipFromTags(card.tags)}
                                 </Link>
                             </div>
                             <div className="tile is-child" >

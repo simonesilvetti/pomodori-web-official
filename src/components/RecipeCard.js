@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import VegetarianToolTip from './recipe/VegetarianToolTip'
+import { getToolTipFromTags } from './recipe/tooltip/ToolTip'
 
 
 class RecipeCard extends React.Component {
@@ -37,7 +37,7 @@ class RecipeCard extends React.Component {
                         className="title has-text-black is-size-3"
                         to={post.fields.slug}
                       >
-                        {post.frontmatter.title}{post.frontmatter.tags.includes("vegetariano") ? <VegetarianToolTip /> : null}
+                        {post.frontmatter.title}{getToolTipFromTags(post.frontmatter.tags)}
                       </Link>
                     </div>
                     <span></span>

@@ -3,7 +3,8 @@ import DifficultyBadge from './DifficultyBadge'
 import { v4 } from 'uuid'
 import IngredientList from './IngredientList'
 import ShareBadge from '../ShareBadge'
-import VegetarianToolTip from './VegetarianToolTip'
+import { getToolTipFromTags } from './tooltip/ToolTip'
+
 
 
 class RecipeInfo extends React.Component {
@@ -14,7 +15,7 @@ class RecipeInfo extends React.Component {
             <div>
                 <div className="tile is-child" style={{ display: "flex", justifyContent: "space-between" }}>
                     <div>
-                        <div className="title is-size-1" >{data.title} {data.vegetarian ? <VegetarianToolTip /> : null}</div>
+                        <div className="title is-size-1" >{data.title} {getToolTipFromTags(data.tags)}</div>
                         <div className="subtitle is-4">di {data.blogger}</div>
                     </div>
                     <ShareBadge url={url} content={data.title} />
