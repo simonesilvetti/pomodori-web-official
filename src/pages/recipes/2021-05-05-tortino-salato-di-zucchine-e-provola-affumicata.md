@@ -20,13 +20,13 @@ ingredientsSections:
       - 250g ricotta
       - 1 uovo
       - 1 spicchio di aglio
+      - 6 fette provola affumicata
+      - fiori di zucchina
       - formaggio grattuggiato
       - maggiorana
       - noce moscata
       - sale
       - pepe
-      - 6 fette provola affumicata
-      - fiori di zucchina
 preparationSteps:
   - step: >-
       **Preparate la pasta matta**
@@ -43,7 +43,7 @@ preparationSteps:
       Passate le zucchine tagliate a dadini in padella con un filo d'olio, sale e pepe.
 
 
-      In una ciotola unite al composto appena preparato la ricotta, l'uovo, la noce moscata, l'aglio sminuzzato, la maggiorana ed il formaggio grattuggiato. Infine aggiungete sale e pepe.
+      In una ciotola unite le zucchine, la ricotta, l'uovo, la noce moscata, l'aglio sminuzzato, la maggiorana ed il formaggio grattuggiato. Infine aggiungete sale e pepe.
 
 
       Quando il composto è ben amalgamato il vostro ripieno è pronto.
