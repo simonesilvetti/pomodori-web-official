@@ -35,7 +35,8 @@ card:
 tags:
   - antipasti
   - pita
-  - vegetariano vegano
+  - vegetariano
+  - vegano
 blogger: Katia
 ---
 Da farcire a piacimento o da accompagnare con salse.
