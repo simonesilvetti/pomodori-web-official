@@ -10,7 +10,7 @@ dose: 8 pite
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 200 g farina 0
+      - 200g farina 0
       - 200g farina 1
       - 250ml acqua
       - 5g sale
