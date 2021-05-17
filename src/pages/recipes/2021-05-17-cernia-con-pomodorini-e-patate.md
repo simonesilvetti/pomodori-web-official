@@ -30,7 +30,7 @@ preparationSteps:
       d'olio e disponete le patate a fettine fino a formare uno strato. Adagiate
       la cernia sulle patate e ricoprite il pesce con fettine di pomodorini.
   - step: Infornate a 180°C per un'ora. Se durante la cottura il pesce tende ad
-      asciugarsi troppo, aggiungete un pò di vino bianco per rendere la cernia
+      asciugarsi troppo, aggiungete un po' di vino bianco per rendere la cernia
       più umida.
 note: I tempi di cottura possono variare a seconda se avete optato per i filetti
   o se avete una cernia intero. Controllate sempre la cottura con un assaggio!
