@@ -1,12 +1,12 @@
 ---
 templateKey: recipe-post
-title: Cernia con pomodorini e patate
+title: Cernia al forno con pomodorini e patate
 date: 2021-05-17T09:08:36.771Z
 difficulty: 2
 time: 2h
 description: Il sapore delicato della cernia si affianca alla dolcezza delle
   patate ed alla sapidità dei pomodorini.
-featuredimage: /img/cernia_patate_pomo_1.png
+featuredimage: /img/cernia_patate_pomodorini_1.png
 dose: 6 persone
 ingredientsSections:
   - section: INGREDIENTI
