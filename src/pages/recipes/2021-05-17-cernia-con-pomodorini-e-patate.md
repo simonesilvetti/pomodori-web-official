@@ -14,14 +14,27 @@ ingredientsSections:
       - 2kg filetto di cernia
       - 600g patate
       - 300g pomodorini
-      - aglio
+      - 2 spicchi d'aglio
       - aromi (rosmarino
       - prezzemolo)
       - sale
       - pepe
       - olio evo
 preparationSteps:
-  - step: xxx
+  - step: Pelate le patate e tagliatele a rondelle sottili. Condidete in una ciotola
+      con olio evo, sale, pepe e rosmarino.
+  - step: "Pulite la cernia: rimuovete le interiora e squamatela. Ricavate dei
+      filetti oppure, se preferite, lasciate la cernia intera. In entrambi i
+      casi salate il pesce ed insaporitelo con aglio e aromi (prezzemolo,
+      rosmarino)."
+  - step: Disponete su una teglia da forno della carta da forno, quindi versate un
+      filo d'olio e disponete le patate a fettine fino a formare uno strato.
+      Adagiate la cernia sulle patate e ricoprite il pesce con fettine di
+      pomodorini.
+  - step: Infornate a 180°C per 50 minuti. Se durante la cottura il pesce risulta
+      secco, aggiungete un pò di vino bianco per rendere la cernia più umida.
+note: I tempi di cottura possono variare a seconda se avete optato per i filetti
+  o se avete un pesce intero. Controllate sempre la cottura con un assaggio!
 card:
   - pomodoro
 tags:
