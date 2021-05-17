@@ -2,7 +2,7 @@
 templateKey: recipe-post
 title: Cernia al forno con pomodorini e patate
 date: 2021-05-17T09:08:36.771Z
-difficulty: 1
+difficulty: 2
 time: 2h
 description: Il sapore delicato della cernia si affianca alla dolcezza delle
   patate ed alla sapidità dei pomodorini.
@@ -26,10 +26,9 @@ preparationSteps:
       filetti oppure, se preferite, lasciate la cernia intera. In entrambi i
       casi salate il pesce ed insaporitelo con aglio e aromi (prezzemolo,
       rosmarino, timo)."
-  - step: Disponete su una teglia da forno della carta da forno, quindi versate un
-      filo d'olio e disponete le patate a fettine fino a formare uno strato.
-      Adagiate la cernia sulle patate e ricoprite il pesce con fettine di
-      pomodorini.
+  - step: Coprite una teglia con della carta da forno , quindi versate un filo
+      d'olio e disponete le patate a fettine fino a formare uno strato. Adagiate
+      la cernia sulle patate e ricoprite il pesce con fettine di pomodorini.
   - step: Infornate a 180°C per un'ora. Se durante la cottura il pesce tende ad
       asciugarsi troppo, aggiungete un pò di vino bianco per rendere la cernia
       più umida.
