@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Bruschette con asparagi, uocva strapazzate e pinoli
+title: Bruschette con asparagi, uova strapazzate e pinoli
 date: 2021-05-22T11:39:12.768Z
 difficulty: 1
 time: 30min
