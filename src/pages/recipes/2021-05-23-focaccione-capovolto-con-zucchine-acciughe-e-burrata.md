@@ -22,7 +22,26 @@ ingredientsSections:
       - 5 acciughe sott'olio
       - 200g burrata
 preparationSteps:
-  - step: xx
+  - step: >-
+      **Iniziamo con la preparazione dell'impasto.**
+
+
+      Mescolate in una ciotola la farina ed il lievito in polvere. Aggiungete il latte ed iniziate ad impastare. Aggiungete l'olio ed infine il sale, sempre continuando ad impastare.
+
+
+      Lasciate lievitare per almeno 4 ore.
+  - step: Preparate le zucchine tagliandole a rondelle. Passatele in padella con
+      sale, pepe, aglio e olio evo.
+  - step: Rivestite una teglia da forno (diametro 32 cm) con della carta da forno.
+      Adagiate le zucchine in modo tale che ricoprano tutta la superficie della
+      teglia.
+  - step: Stendete l'impasto con le mani o, se preferite, con il matterello fino ad
+      ottenere un disco del diametro della teglia. Poggiate quindi il disco
+      ottenuto sulle zucchine, coprendole. Infornate a 250°C per 30 minuti.
+  - step: Capovolgete la focaccia e proseguite con la farcitura, quindi disponete i
+      fiori di zucchina e le acciughe a raggiera. Infornate nuovamente per circa
+      5 minuti usando la funzione grill.
+  - step: Ultimate la preparazione aggiungendo la bufala a pezzi.
 card:
   - stagioni
 tags:
