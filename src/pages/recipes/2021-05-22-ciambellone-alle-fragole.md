@@ -20,7 +20,16 @@ ingredientsSections:
       - 16g lievito per dolci
       - scorza di un limone
 preparationSteps:
-  - step: xx
+  - step: Pulite e tagliate a pezzi le fragole.  Unite in una ciotola la farina,
+      l’amido di mais, il lievito e lo zucchero. Mescolate.
+  - step: Sobbollite il latte con le scorze di limone e lasciate intiepidire.
+      Aggiungete al composto il latte, lo yogurt e l’olio di semi. Amalgamate
+      tutti gli ingredienti.  Incorporate le fragole e mescolate.
+  - step: Imburrate ed infarinate uno stampo per ciambelle del diametro di 22-24 cm.
+      Versate al suo interno il composto ed infornate a 180°C per 50 minuti.
+  - step: Dopo la cottura, lasciate raffreddate prima di rimuovere dallo stampo. Se,
+      dopo tale operazione, il ciambellone dovesse risultare molto umido,
+      cuocete in forno per 5 minuti con la funzione grill.
 card:
   - stagioni
   - vegetariano
