@@ -4,7 +4,7 @@ title: Focaccione capovolto con zucchine, acciughe e burrata
 date: 2021-05-23T14:22:37.617Z
 difficulty: 2
 time: 4h + 1h
-description: xx
+description: Una focaccia alternativa da cuocere capovolta.
 featuredimage: /img/focaccione_zucchine.png
 dose: 4 persone
 ingredientsSections:
@@ -12,7 +12,7 @@ ingredientsSections:
     ingredients:
       - 400g farina 1
       - 200g latte
-      - 20ml olio di semi
+      - 20ml olio evo
       - 4g lievito di birra disidratato
       - 4g sale
   - section: FARCITURA
@@ -32,16 +32,16 @@ preparationSteps:
       Lasciate lievitare per almeno 4 ore.
   - step: Preparate le zucchine tagliandole a rondelle. Passatele in padella con
       sale, pepe, aglio e olio evo.
-  - step: Rivestite una teglia da forno (diametro 32 cm) con della carta da forno.
+  - step: Rivestite con della carta da forno una teglia del diametro di 32 cm.
       Adagiate le zucchine in modo tale che ricoprano tutta la superficie della
       teglia.
   - step: Stendete l'impasto con le mani o, se preferite, con il matterello fino ad
       ottenere un disco del diametro della teglia. Poggiate quindi il disco
       ottenuto sulle zucchine, coprendole. Infornate a 250°C per 30 minuti.
   - step: Capovolgete la focaccia e proseguite con la farcitura, quindi disponete i
-      fiori di zucchina e le acciughe a raggiera. Infornate nuovamente per circa
-      5 minuti usando la funzione grill.
-  - step: Ultimate la preparazione aggiungendo la bufala a pezzi.
+      fiori di zucchina a raggiera. Infornate nuovamente per circa 5 minuti
+      usando la funzione grill.
+  - step: Ultimate la preparazione aggiungendo la bufala a pezzi e le acciughe.
 card:
   - stagioni
 tags:
@@ -52,4 +52,4 @@ tags:
   - burrata
 blogger: Claudia
 ---
-xx
+Una focaccia alternativa da cuocere capovolta.
