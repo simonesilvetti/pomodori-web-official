@@ -22,8 +22,8 @@ ingredientsSections:
 preparationSteps:
   - step: Versate il couscous in una ciotola capiente, aggiungete un pizzico di
       sale, un filo d'olio e coprite il tutto con acqua bollente. Sigillate con
-      pellicola trasparente (o con un coperchio) per circa 2 minuti e poi
-      sgranatelo con una forchetta.
+      pellicola trasparente (o con un coperchio) per circa 2 minuti, poi
+      sgranate con una forchetta.
   - step: Lavate le zucchine, tagliate la calotta e conservate il cappello. Scavate
       le zucchine aiutandovi con un cucchiaino e salatele al loro interno.
   - step: Sminuzzate l'interno delle zucchine ed unite il formaggio a pezzetti, la
