@@ -14,7 +14,7 @@ ingredientsSections:
       - 2 zucchine tonde
       - 50g couscous
       - 50g pecorino
-      - 2 cucchiai polpa di pommodoro
+      - 2 cucchiai polpa di pomodoro
       - paprika
       - sale
       - pepe
