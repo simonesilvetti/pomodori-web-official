@@ -20,16 +20,17 @@ ingredientsSections:
       - pepe
       - olio evo
 preparationSteps:
-  - step: "Pulite i gamberi: eliminate il carapace e la testa, rimuovete il filo
-      nero e l’intestino facendo un’incisione con un coltellino e lavateli. Con
-      i gusci dei gamberi preparate la bisque: metteteli in un pentolino con
-      cipolla, sedano e carota e portate a bollore."
+  - step: "Pulite i gamberi: eliminate il carapace e la testa, rimuovete l’intestino
+      facendo un’incisione con un coltellino e lavateli. Con i gusci dei gamberi
+      preparate la bisque: metteteli in un pentolino con cipolla, sedano e
+      carota e portate a bollore. Questo sarà il brodo con il quale cuocerete il
+      riso."
   - step: In una padella capiente fate rosolare la cipolla affettata sottile. Unite
       il riso e fatelo tostare per qualche minuto. Aggiungete quindi i gamberi
       tagliati a pezzetti, unite il brodo e salate. Continuate a mescolare ed
       aggiungete il brodo all'occorrenza.
-  - step: Unite anche i piselli e pochi minuti prima del termine di cottura
-      aggiungete lo zafferano.
+  - step: Unite anche i piselli e, pochi minuti prima del termine di cottura, anche
+      lo zafferano.
 card:
   - stagioni
 tags:
