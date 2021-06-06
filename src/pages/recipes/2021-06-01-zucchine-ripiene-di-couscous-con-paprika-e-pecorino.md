@@ -28,7 +28,7 @@ preparationSteps:
       le zucchine aiutandovi con un cucchiaino e salatele al loro interno.
   - step: Sminuzzate l'interno delle zucchine ed unite il formaggio a pezzetti, la
       paprika ed il couscous. Aggiungete la polpa di pomodoro, salate e pepate.
-  - step: Riempite le zucchine fino all'orlo, copritele con la loro calotte e
+  - step: Riempite le zucchine fino all'orlo, copritele con le loro calotte e
       ponetele in una teglia leggermente oliata. Cuocete per circa 35/40 minuti
       a 190°C.
 card:
