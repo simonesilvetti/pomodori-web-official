@@ -14,7 +14,7 @@ ingredientsSections:
       - 4 patate
       - 100g Montasio
       - 1 manciata olive taggiasche
-      - 1 manciata di pomodori secchi sott'olio
+      - 1 manciata pomodori secchi sott'olio
       - 30g prezzemolo
       - 50g pane raffermo
       - 1 spicchio d'aglio
@@ -23,17 +23,17 @@ ingredientsSections:
       - olio
 preparationSteps:
   - step: Lavate bene le patate, tagliatele a metà per il lungo e cuocetele a vapore
-      per 20 minuti. Con un cucchiaino scavatele al loro interno, lasciando un
+      per 20 minuti. Scavatele al loro interno con un cucchiaio, lasciando un
       bordo abbastanza spesso in modo che non si rompano. Ponete le calotte in
       una leccarda da forno e salate.
   - step: Unite alla polpa delle patate i pomodori secchi tagliati a pezzetti, il
       montasio a cubetti e le olive taggiasche. Salate e pepate.
   - step: Farcite le patate con il composto appena creato. Se gradite, spolverate
-      con altro montasio. Infornate per 15 minuti usando la funzione grill
+      con altro montasio. Infornate per 15 minuti usando la funzione grill.
   - step: "Dedicatevi ora alla preparazione della salsa verde: unite prezzemolo,
       pane raffermo precedentemente rammollito nel latte o nell'acqua, aglio,
       olio e sale. Aggiungete dell'acqua se necessario e frullate il tutto."
-  - step: Una volta ultimata la cottura in forno, coprite le barchette con le salsa
+  - step: Una volta ultimata la cottura in forno, coprite le barchette con la salsa
       verde.
 card:
   - vegetariano
