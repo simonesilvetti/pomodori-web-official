@@ -28,6 +28,8 @@ preparationSteps:
       una leccarda da forno e salate.
   - step: Unite alla polpa delle patate i pomodori secchi tagliati a pezzetti, il
       montasio a cubetti e le olive taggiasche. Salate e pepate.
+  - step: Farcite le patate con il composto appena creato. Se gradite, spolverate
+      con altro montasio. Infornate per 15 minuti usando la funzione grill
 card:
   - vegetariano
 tags:
