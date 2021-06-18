@@ -33,6 +33,8 @@ preparationSteps:
   - step: "Dedicatevi ora alla preparazione della salsa verde: unite prezzemolo,
       pane raffermo precedentemente rammollito nel latte o nell'acqua, aglio,
       olio e sale. Aggiungete dell'acqua se necessario e frullate il tutto."
+  - step: Una volta ultimata la cottura in forno, coprite le barchette con le salsa
+      verde.
 card:
   - vegetariano
 tags:
