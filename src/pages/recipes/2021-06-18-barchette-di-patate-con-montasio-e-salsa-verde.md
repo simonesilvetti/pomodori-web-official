@@ -30,6 +30,9 @@ preparationSteps:
       montasio a cubetti e le olive taggiasche. Salate e pepate.
   - step: Farcite le patate con il composto appena creato. Se gradite, spolverate
       con altro montasio. Infornate per 15 minuti usando la funzione grill
+  - step: "Dedicatevi ora alla preparazione della salsa verde: unite prezzemolo,
+      pane raffermo precedentemente rammollito nel latte o nell'acqua, aglio,
+      olio e sale. Aggiungete dell'acqua se necessario e frullate il tutto."
 card:
   - vegetariano
 tags:
