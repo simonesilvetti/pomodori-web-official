@@ -40,6 +40,7 @@ card:
 tags:
   - antipasti
   - patate
+  - salsa verde
 blogger: Katia
 ---
 Irresistibili e golose: queste patate sono proprio un ottimo antipasto che stupirà tutti.
