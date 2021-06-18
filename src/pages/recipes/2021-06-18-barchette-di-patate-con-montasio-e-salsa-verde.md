@@ -27,7 +27,7 @@ preparationSteps:
       bordo abbastanza spesso in modo che non si rompano. Ponete le calotte in
       una leccarda da forno e salate.
   - step: Unite alla polpa delle patate i pomodori secchi tagliati a pezzetti, il
-      montasio a cubetti,
+      montasio a cubetti e le olive taggiasche. Salate e pepate.
 card:
   - vegetariano
 tags:
