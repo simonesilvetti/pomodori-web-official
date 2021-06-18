@@ -15,7 +15,12 @@ ingredientsSections:
       - 100g Montasio
       - 1 manciata olive taggiasche
       - 1 manciata di pomodori secchi sott'olio
-      - ""
+      - 30g prezzemolo
+      - 50g pane raffermo
+      - 1 spicchio d'aglio
+      - sale
+      - pepe
+      - olio
 preparationSteps:
   - step: xx
 card:
