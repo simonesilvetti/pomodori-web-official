@@ -22,7 +22,12 @@ ingredientsSections:
       - pepe
       - olio
 preparationSteps:
-  - step: xx
+  - step: Lavate bene le patate, tagliatele a metà per il lungo e cuocetele a vapore
+      per 20 minuti. Con un cucchiaino scavatele al loro interno, lasciando un
+      bordo abbastanza spesso in modo che non si rompano. Ponete le calotte in
+      una leccarda da forno e salate.
+  - step: Unite alla polpa delle patate i pomodori secchi tagliati a pezzetti, il
+      montasio a cubetti,
 card:
   - vegetariano
 tags:
