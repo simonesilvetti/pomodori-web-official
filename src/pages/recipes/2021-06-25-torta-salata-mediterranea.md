@@ -12,7 +12,7 @@ ingredientsSections:
   - section: PASTA MATTA
     ingredients:
       - 300g farina
-      - 130ml acqua
+      - 140ml acqua
       - 6 cucchiai olio evo
       - sale
   - section: RIPIENO
@@ -45,6 +45,7 @@ preparationSteps:
   - step: Cuocete in forno statico a 220°C per circa 35 minuti.
 card:
   - pomodoro
+  - stagioni
 tags:
   - secondi
   - torta
