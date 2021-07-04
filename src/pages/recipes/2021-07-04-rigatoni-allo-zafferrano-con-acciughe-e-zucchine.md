@@ -4,7 +4,7 @@ title: Rigatoni allo zafferrano con acciughe e zucchine
 date: 2021-07-04T19:06:40.941Z
 difficulty: 1
 time: 30min
-description: Pochi ingredienti che si sposano molto bene insieme.
+description: Pochi ingredienti per un piatto gustoso.
 featuredimage: /img/rigatoni_zafferano_acciughe_zucchine.png
 dose: 2 persone
 ingredientsSections:
@@ -23,13 +23,13 @@ preparationSteps:
       dorsale. 
 
 
-      Tagliate le zucchine a listerelle e cuocetele per pochi minuti in un wok con un filo d'olio. Aggiungete le acciughe, salate e pepate.
+      Tagliate le zucchine a listarelle e cuocetele per pochi minuti in un wok con un filo d'olio. Aggiungete le acciughe, salate e pepate.
   - step: >-
       Nel frattempo versate lo zafferano nell'acqua per la pasta. Portate ad
       ebollizione l'acqua e cuocete i rigatoni.
 
 
-      Unite i rigatoni al condimento e spolverate con un pò di pangrattato (precedentemente tostato con prezzemolo, olio e peperoncino).
+      Unite i rigatoni al condimento e spolverate con un po' di pangrattato (precedentemente tostato con prezzemolo, olio e peperoncino).
 card:
   - stagioni
 tags:
@@ -40,4 +40,4 @@ tags:
   - zafferano
 blogger: Katia
 ---
-Pochi ingredienti che si sposano molto bene insieme.
+Pochi ingredienti per un piatto gustoso.
