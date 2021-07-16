@@ -48,4 +48,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-Un classico della cucina genovese: un piatto povero che sa conquistare tutti.
+Un classico della cucina ligure: un piatto povero che sa conquistare tutti.
