@@ -22,7 +22,21 @@ ingredientsSections:
       - pepe
     section: INGREDIENTI
 preparationSteps:
-  - step: xxx
+  - step: "Pelate le patate e tagliatele a pezzetti. Mondate i fagiolini e lessateli
+      insieme alle patate per circa 25 minuti. Scolate e schiacciate il tutto
+      con una forchetta: il risultato è un composto morbido omogeneo al quale
+      aggiungerete uno spicchio d'aglio a pezzettini, maggiorana e noce
+      moscata."
+  - step: Unite l'uovo ed il formaggio grattuggiato. Salate e pepate a piacimento.
+      Se il composto risulta troppo morbido, aggiungete un cucchiaio di
+      pangrattato.
+  - step: Oliate una pirofila e cospargetela di pangrattato. Stendete il composto in
+      uno strato uniforme di circa 1 centimetro. Rigate la superficie con una
+      forchetta, spolverizzate con pangrattato e origano.
+  - step: Infornate per circa 30 minuti a 190°C fino a quando la superficie non sarà
+      dorata. Lasciate intiepidire prima di servirlo.
+note: Nel caso in cui voleste renederlo più "goloso", potete aggiungere al
+  composto 50g di mortadella.
 card:
   - tradizioni
   - vegetariano
