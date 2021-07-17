@@ -30,11 +30,11 @@ preparationSteps:
       Se il composto risulta troppo morbido, aggiungete un cucchiaio di
       pangrattato.
   - step: Oliate una pirofila e cospargetela di pangrattato. Stendete il composto in
-      uno strato uniforme di circa 1 centimetro. Rigate la superficie con una
+      uno strato uniforme alto circa 1 centimetro. Rigate la superficie con una
       forchetta, spolverizzate con pangrattato e origano.
   - step: Infornate per circa 30 minuti a 190°C fino a quando la superficie sarà
       dorata. Lasciate intiepidire prima di servire.
-note: Nel caso in cui voleste renederlo più "goloso", potete aggiungere 50g di
+note: Nel caso in cui voleste renderlo più "goloso", potete aggiungere 50g di
   mortadella al composto di patate e fagiolini.
 card:
   - tradizioni
