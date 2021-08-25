@@ -1,0 +1,26 @@
+---
+templateKey: blog-post
+title: VACANZE ITALIANE
+date: 2021-08-25T16:36:29.140Z
+blogger: Claudia & Katia
+description: "\n"
+featuredpost: true
+featuredimage: /img/vacanze_italiane.jpg
+tags:
+  - formaggio peperoncino cipolla pane caciocavallo paposcia bruschetta
+---
+Abbiamo trascorso le nostre vacanze estive viaggiando lunga la penisola italiana.
+Ci siamo dirette a Sud, nella nostra terra di origine: la Calabria. Siamo state accolte nella Riviera dei Gelsomini per un breve ma intenso soggiorno.
+Questo tratto di costa bagnata dal Mar Ionio è ricca di profumi intensi, colori vivaci e sapori inconfondibili.
+Il peperoncino primeggia in tutte le sue forme ma c'è molto altro: pomodori succosi, cipolle profumate, pane fragrante e croccante, salumi (rigorosamente di maiale) dal sapore speziato quasi irrestibile, digestivi aromatici e dal gusto autentico.
+Il tutto arricchito da mare, sole, ottima accoglienza ed antiche tradizioni che si tramandano da generazioni.
+In una sola parola: emozionante.
+
+Ci siamo poi trasferite in Puglia, nel Gargano.
+Qua gli ulivi arrivano quasi a toccare il mare, alternandosi a fitte pinete e distese di tamerici.
+L'ottima qualità delle materie prime e grande passione non potevano che confermare le nostre aspettative sulla cucina pugliese. E così, tra una paposcia e l'altra, tra un pezzo di Caciocavallo Podolico ed una bruschetta di lardo, ci siamo dirette verso l'Abruzzo.
+
+L'Abruzzo è sia terra di arrosticini di pecora che popola l'Appennino che di ottimi prodotti ittici da assaporare sulla costa disseminata di affascinanti trabocchi.
+Anche la tradizone pastorale si fa sentire offrendo una vasta varietà di formaggi che ben si sposano con il famosissimo Montepulciano.
+
+Ed infine, siamo arrivati in Toscana.
