@@ -3,11 +3,18 @@ templateKey: blog-post
 title: VACANZE ITALIANE
 date: 2021-08-25T16:36:29.140Z
 blogger: Claudia & Katia
-description: "\n"
+description: |
+  UN RACCONTO CULINARIO
 featuredpost: true
 featuredimage: /img/vacanze_italiane.jpg
 tags:
-  - formaggio peperoncino cipolla pane caciocavallo paposcia bruschetta
+  - formaggio
+  - peperoncino
+  - cipolla
+  - pane
+  - caciocavallo
+  - paposcia
+  - bruschetta
 ---
 Abbiamo trascorso le nostre vacanze estive viaggiando lunga la penisola italiana.
 Ci siamo dirette a Sud, nella nostra terra di origine: la Calabria. Siamo state accolte nella Riviera dei Gelsomini per un breve ma intenso soggiorno.
