@@ -30,4 +30,4 @@ L'ottima qualità delle materie prime e grande passione non potevano che conferm
 L'Abruzzo è sia terra di arrosticini di pecora che popola l'Appennino che di ottimi prodotti ittici da assaporare sulla costa disseminata di affascinanti trabocchi.
 Anche la tradizone pastorale si fa sentire offrendo una vasta varietà di formaggi che ben si sposano con il famosissimo Montepulciano.
 
-Ed infine, siamo arrivati in Toscana.
+Ed infine, siamo arrivati in Toscana.....
