@@ -15,11 +15,14 @@ ingredientsSections:
       - 500g pangrattato
       - 2 spicchi di aglio
       - pecorino grattugiato
-      - maggiorana
       - latte q.b.
       - sale
       - olio
+      - maggiorana
       - origano
+preparationSteps:
+  - step: Tagliate i peperoni a seconda della loro grandezza e forma fino a creare
+      delle barchette da riempire
 card:
   - tradizioni
   - pomodoro
