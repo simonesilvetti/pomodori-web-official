@@ -14,7 +14,7 @@ ingredientsSections:
       - 6 pomodori
       - 500g pangrattato
       - 2 spicchi di aglio
-      - pecorino grattugiato
+      - pecorino (calabro) grattugiato
       - latte q.b.
       - sale
       - olio
