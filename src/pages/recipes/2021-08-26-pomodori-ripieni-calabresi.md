@@ -39,6 +39,7 @@ preparationSteps:
 card:
   - tradizioni
   - pomodoro
+  - vegetariano
 tags:
   - secondi
   - pomodoro
