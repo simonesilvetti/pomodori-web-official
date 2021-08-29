@@ -61,9 +61,10 @@ preparationSteps:
 
 
       Versate la guarnizione al centro della cheesecake e aggiungete la restante metà dei frutti di bosco freschi.  Spolverizzate con dello zucchero a velo per completare il piatto.
-note: L’effetto ottimale per queste dosi di impasto si ottiene con una tortiera
-  a cerniera di 20cm.
-card: 
+note: L’effetto ottimale per queste dosi si ottiene con una tortiera a cerniera
+  di 20cm.
+card:
+  - stagioni
 tags:
   - dolci
   - cheesecake
