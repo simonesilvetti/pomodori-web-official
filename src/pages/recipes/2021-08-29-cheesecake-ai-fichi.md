@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Cheesecake ai fichi
+title: CHEESECAKE AI FICI
 date: 2021-08-29T08:43:55.341Z
 difficulty: 1
 time: 1h + 8h
