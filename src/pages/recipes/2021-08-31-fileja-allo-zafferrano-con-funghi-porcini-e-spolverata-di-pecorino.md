@@ -11,7 +11,7 @@ dose: 2 persone
 ingredientsSections:
   - section: INGREDIENTI
     ingredients:
-      - 160g Fileja
+      - 160g pasta Fileja
       - 30g funchi porcini essicati
       - 1/2 cucchiaino zafferano in pistilli
       - 1/2 cipolla di Tropea
