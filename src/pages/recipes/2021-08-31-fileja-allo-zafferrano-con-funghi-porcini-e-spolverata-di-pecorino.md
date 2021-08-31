@@ -43,4 +43,4 @@ tags:
   - vegetariano
 blogger: Katia
 ---
-Una pasta tipica calabrese, rigorosamente di grano duro, si colora grazie allo zafferano e si insaporisce grazie ai porcini.
+Una pasta tipica calabrese, rigorosamente di grano duro, colorata dallo zafferano ed insaporita dai porcini.
