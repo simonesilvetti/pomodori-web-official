@@ -21,7 +21,7 @@ preparationSteps:
   - step: Per prima cosa mettete i pistilli di zafferano in un bicchiere, copriteli
       con dell'acqua calda e lasciate in infusione per 40 minuti. Vedrete
       l'acqua colorarsi di un giallo sempre più intenso. Analogamente, mettete i
-      porcini secchi in acqua tiepida per circa 30 minuti.
+      porcini secchi in una ciotola in acqua tiepida per circa 30 minuti.
   - step: Strizzate bene i funghi ma conservate l'acqua in cui sono immersi.
       Tagliateli a pezzetti ed uniteli insieme al trito di cipolla in una
       padella. Cuocete a fuoco dolce per circa 15 minuti, utilizzando anche
