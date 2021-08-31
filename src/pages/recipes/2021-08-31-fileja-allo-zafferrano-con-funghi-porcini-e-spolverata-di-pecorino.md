@@ -29,7 +29,7 @@ preparationSteps:
   - step: >-
       Lessate la pasta in abbondante acqua bollente salata. Ancora al dente,
       scolatela e versatela nella padella con il condimento preparato. Unite
-      l'acqua insaporita dallo zafferano ed amalgamate. Se necessario, potete
+      l'acqua insaporita dallo zafferano e mescolate. Se necessario, potete
       ancora usare l'acqua dei porcini per ultimare la cottura della pasta.
 
 
