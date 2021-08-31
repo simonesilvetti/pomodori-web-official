@@ -23,9 +23,9 @@ preparationSteps:
       l'acqua colorarsi di un giallo sempre più intenso. Analogamente, mettete i
       porcini secchi in una ciotola in acqua tiepida per circa 30 minuti.
   - step: Strizzate bene i funghi ma conservate l'acqua in cui sono immersi.
-      Tagliateli a pezzetti ed uniteli insieme al trito di cipolla in una
-      padella. Cuocete a fuoco dolce per circa 15 minuti, utilizzando anche
-      parte dell'acqua usata per far rinvenire i porcini.
+      Tagliateli a pezzetti ed uniteli in una padella al trito di cipolla.
+      Cuocete a fuoco dolce per circa 15 minuti, utilizzando anche parte
+      dell'acqua usata per far rinvenire i porcini.
   - step: >-
       Lessate la pasta in abbondante acqua bollente salata. Ancora al dente,
       scolatela e versatela nella padella con il condimento preparato. Unite
