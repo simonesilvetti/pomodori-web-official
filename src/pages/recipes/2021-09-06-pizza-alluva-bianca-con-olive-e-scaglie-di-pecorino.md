@@ -48,10 +48,14 @@ preparationSteps:
 
 
       Formate 3 panetti su un piano facendo un altro giro di pieghe  per ciascun panetto e copriteli con un canovaccio per l'ultima mezz'ora di lievitazione.
-  - step: |-
+  - step: >-
       **Farcite la pizza**
 
-      Su una carta da forno leggerm
+
+      Su una carta da forno leggermente oliata stendete il vostro panetto allargandolo dal centro verso l'esterno.  Questo passaggio vi permetterà al bordo di mantenere gli alveoli in cottura.
+
+
+      A stesura ultimata, distribuite omogeneamente un leggero filo di olio.
 card:
   - stagioni
   - vegetariano
