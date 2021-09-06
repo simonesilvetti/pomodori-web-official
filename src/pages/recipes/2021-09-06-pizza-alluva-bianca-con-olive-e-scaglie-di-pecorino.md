@@ -27,6 +27,18 @@ ingredientsSections:
       - salvia
       - pepe
       - olio evo
+preparationSteps:
+  - step: >-
+      **Preparate l'impasto della pizza**
+
+
+      In un contenitore aggiungete l'acqua, lo zucchero e l'olio. Mescolate. Il contenitore dovrà essere abbastanza capiente da contenere l'impasto quando il suo volume sarà raddoppiato. 
+
+
+      Aggiungete un cucchiaio di farina setacciata alla volta ed ogni volta mescolate fino ad ottenere una pastella.
+
+
+      A metà operazione, incorporate il lievito di birra e mescolate.  Qualche altro cucchiaio di farina e poi aggiungete anche il sale.
 card:
   - stagioni
   - vegetariano
