@@ -8,6 +8,25 @@ description: I sapori dolce e salato si uniscono e si compensano in un pizza cro
 featuredimage: /img/pizzauva.png
 images: []
 dose: 3 pizze
+ingredientsSections:
+  - section: IMPASTO
+    ingredients:
+      - 500g farina tipo 0
+      - 350ml acqua
+      - 10g sale
+      - 1g lievito di birra secco
+      - 1 cucchiaino di zucchero
+      - 1 cucchiaio olio evo
+  - section: CONDIMENTO
+    ingredients:
+      - 25 chicchi grossi di uva bianca
+      - pecorino stagionato
+      - 1 cipollotto
+      - 1 cipolla rossa
+      - olive taggiasche
+      - salvia
+      - pepe
+      - olio evo
 card:
   - stagioni
   - vegetariano
