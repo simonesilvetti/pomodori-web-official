@@ -47,7 +47,7 @@ preparationSteps:
       Trascorso questo tempo, fate un altro giro di pieghe ancora nel contenitore e lasciate riposare per 30 minuti.
 
 
-      Formate 3 panetti su un piano facendo prima un altro giro di pieghe e coprite con un canovaccio per l'ultima mezz'ora di lievitazione.
+      Formate 3 panetti su un piano facendo un altro giro di pieghe  per ciascun panetto e copriteli con un canovaccio per l'ultima mezz'ora di lievitazione.
   - step: |-
       **Farcite la pizza**
 
