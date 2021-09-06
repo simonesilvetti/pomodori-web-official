@@ -19,7 +19,7 @@ ingredientsSections:
       - 1 cucchiaio olio evo
   - section: CONDIMENTO
     ingredients:
-      - 25 chicchi grossi di uva bianca
+      - 25 acini grossi di uva bianca
       - pecorino stagionato
       - 1 cipollotto
       - 1 cipolla rossa
@@ -48,6 +48,9 @@ preparationSteps:
 
 
       Formate 3 panetti su un piano facendo un altro giro di pieghe  per ciascun panetto e copriteli con un canovaccio per l'ultima mezz'ora di lievitazione.
+  - step: Pulite e tagliate a metà gli acini di uva.  Togliete i semi da ogni
+      acino.  Passate in padella gli acini cos il cipollotto ed un pizzico di
+      sale.
   - step: >-
       **Farcite la pizza**
 
@@ -55,7 +58,19 @@ preparationSteps:
       Su una carta da forno leggermente oliata stendete il vostro panetto allargandolo dal centro verso l'esterno.  Questo passaggio vi permetterà al bordo di mantenere gli alveoli in cottura.
 
 
-      A stesura ultimata, distribuite omogeneamente un leggero filo di olio.
+      A stesura ultimata, distribuite omogeneamente un leggero filo di olio. Disponete una prima base di scaglie di pecorino.  
+
+
+      Distribuite omogeneamente l'uva passata in padella, le olive taggiasche, la cipolla rossa fresca tagliata a rondelle sottili.
+
+
+      Spolverate con salvia e pepe ed un altro filo di olio.
+  - step: >-
+      Cuocete in forno statico a 250°C per 15/20 minuti, fino a quando i bordi
+      cominceranno a colorarsi.  
+
+
+      A cottura ultimata, distribuite le altre scaglie di pecorino e lasciate intiepidire prima di servire.
 card:
   - stagioni
   - vegetariano
