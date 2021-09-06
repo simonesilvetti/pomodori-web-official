@@ -39,6 +39,12 @@ preparationSteps:
 
 
       A metà operazione, incorporate il lievito di birra e mescolate.  Qualche altro cucchiaio di farina e poi aggiungete anche il sale.
+
+
+      Mescolate con vigore per qualche minuto con le mani (bagnate di acqua).  Quando l'impasto sarà incordato, fare un giro di pieghe nelle due direzioni e poi mettere a lievitare a t. ambiente, coperta da una pellicola trasparente per 7 ore.
+
+
+      Trascorso questo tempo, fate un altro giro di pieghe ancora nel contenitore e lasciate riposare per un altra ora.
 card:
   - stagioni
   - vegetariano
