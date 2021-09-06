@@ -44,7 +44,14 @@ preparationSteps:
       Mescolate con vigore per qualche minuto con le mani (bagnate di acqua).  Quando l'impasto sarà incordato, fare un giro di pieghe nelle due direzioni e poi mettere a lievitare a t. ambiente, coperta da una pellicola trasparente per 7 ore.
 
 
-      Trascorso questo tempo, fate un altro giro di pieghe ancora nel contenitore e lasciate riposare per un altra ora.
+      Trascorso questo tempo, fate un altro giro di pieghe ancora nel contenitore e lasciate riposare per 30 minuti.
+
+
+      Formate 3 panetti su un piano facendo prima un altro giro di pieghe e coprite con un canovaccio per l'ultima mezz'ora di lievitazione.
+  - step: |-
+      **Farcite la pizza**
+
+      Su una carta da forno leggerm
 card:
   - stagioni
   - vegetariano
