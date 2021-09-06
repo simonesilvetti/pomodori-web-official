@@ -7,7 +7,7 @@ time: 8h + 45min
 description: Il dolce ed il salato si uniscono e si compensano in un pizza croccante.
 featuredimage: /img/pizzauva.png
 images: []
-dose: 3 pizze
+dose: 3 pizze medie
 ingredientsSections:
   - section: IMPASTO
     ingredients:
@@ -44,7 +44,7 @@ preparationSteps:
       Mescolate con vigore per qualche minuto con le mani (bagnate di acqua).  Quando l'impasto sarà incordato, fate un giro di pieghe nelle due direzioni e poi mettete a lievitare a t. ambiente, coperto da una pellicola trasparente per 7 ore.
 
 
-      Trascorso questo tempo, fate un altro giro di pieghe  senza rimuovere dlla ciotola e lasciate riposare per 30 minuti.
+      Trascorso questo tempo, fate un altro giro di pieghe  senza rimuovere della ciotola e lasciate riposare per 30 minuti.
 
 
       Formate 3 panetti su un piano facendo un altro giro di pieghe  per ciascun panetto e copriteli con un canovaccio per l'ultima mezz'ora di lievitazione.
