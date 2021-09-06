@@ -4,7 +4,7 @@ title: VACANZE ITALIANE
 date: 2021-08-25T16:36:29.140Z
 blogger: Claudia & Katia
 description: |
-  UN RACCONTO CULINARIO D'ESTATE
+  Un racconto culinario d'estate
 featuredpost: true
 featuredimage: /img/vacanze_italiane.jpg
 tags:
