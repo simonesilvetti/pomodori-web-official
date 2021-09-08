@@ -35,10 +35,11 @@ preparationSteps:
   - step: Con l'aiuto di un tagliapasta ricavate piccole dosi di impasto. Stendete
       ciascuna dose con le mani fino ad ottenere dei filoncini spessi 2
       centimetri dai quali poi ritaglierete tanti tronchetti.
-  - step: Aggiungete un filo di olio in una padella e preparate un soffritto con il
+  - step: Aggiungete un filo di olio in una padella e preparate un soffritto con un
       trito di carota, aglio e prezzemolo.  Unite i porcini ben strizzati.
       Mescolate.  Aggiungete i pomodori a pezzi e la salsa. Cucinate per 10
-      minuti, poi aggiungete
+      minuti, poi aggiungete le olive.  Quando il condimento si sarà un
+      asciugato, sarà pronto per condire gli gnocchi.
 card:
   - pomodoro
   - vegetariano
