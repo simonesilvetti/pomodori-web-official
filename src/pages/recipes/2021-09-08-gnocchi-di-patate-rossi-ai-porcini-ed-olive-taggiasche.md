@@ -22,6 +22,23 @@ ingredientsSections:
       - prezzemolo
       - olio evo
       - sale
+preparationSteps:
+  - step: Mettete i porcini secchi in una ciotola in acqua tiepida per circa 30
+      minuti.
+  - step: Lessate le patate con tutta la buccia in abbondante acqua fredda non
+      salata per circa 25 minuti. Quando saranno cotte, scolate e lasciatele
+      raffreddare. Pelate e rimuovete tutte le impurità dalla superficie.
+  - step: Schiacciate le patate fino ad ottenere una purea omogenea, aggiustate di
+      sale. Mescolate. Su una spianatoia, unite la farina e l'uovo. Cominciate
+      ad impastare con le mani aiutandovi con dell'ulteriore farina fino ad
+      ottenere un impasto morbido ma compatto.
+  - step: Con l'aiuto di un tagliapasta ricavate piccole dosi di impasto. Stendete
+      ciascuna dose con le mani fino ad ottenere dei filoncini spessi 2
+      centimetri dai quali poi ritaglierete tanti tronchetti.
+  - step: Aggiungete un filo di olio in una padella e preparate un soffritto con il
+      trito di carota, aglio e prezzemolo.  Unite i porcini ben strizzati.
+      Mescolate.  Aggiungete i pomodori a pezzi e la salsa. Cucinate per 10
+      minuti, poi aggiungete
 card:
   - pomodoro
   - vegetariano
