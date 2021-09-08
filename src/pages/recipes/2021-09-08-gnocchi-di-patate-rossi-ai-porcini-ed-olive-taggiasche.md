@@ -7,6 +7,21 @@ time: 1h 30min
 description: xxx
 featuredimage: /img/gnocchifunghi.png
 dose: 3 porzioni
+ingredientsSections:
+  - section: INGREDIENTI
+    ingredients:
+      - 500g patate a pasta gialla
+      - 150g farina 00
+      - 1 uovo
+      - 1 carota
+      - 1 spicchio aglio
+      - 40g funghi porcini essiccati
+      - 5 pomodori piccadilly
+      - 2 cucchiai salsa di pomodoro
+      - 15 olive taggiasche denocciolate
+      - prezzemolo
+      - olio evo
+      - sale
 card:
   - pomodoro
   - vegetariano
