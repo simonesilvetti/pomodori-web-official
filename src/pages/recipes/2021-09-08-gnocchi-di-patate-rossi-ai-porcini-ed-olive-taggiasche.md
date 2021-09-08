@@ -1,6 +1,6 @@
 ---
 templateKey: recipe-post
-title: Gnocchi di patate rossi ai porcini ed olive taggiasche
+title: Gnocchi di patate rossi ai funghi porcini ed olive taggiasche
 date: 2021-09-08T13:55:03.445Z
 difficulty: 2
 time: 1h 30min
