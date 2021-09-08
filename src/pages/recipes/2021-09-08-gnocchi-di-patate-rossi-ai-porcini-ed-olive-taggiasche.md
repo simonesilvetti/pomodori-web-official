@@ -4,7 +4,7 @@ title: Gnocchi di patate rossi ai porcini ed olive taggiasche
 date: 2021-09-08T13:55:03.445Z
 difficulty: 2
 time: 1h 30min
-description: xxx
+description: La nostra versione rossa degli gnocchi alla boscaiola.
 featuredimage: /img/gnocchifunghi.png
 dose: 3 porzioni
 ingredientsSections:
@@ -50,4 +50,4 @@ tags:
   - olive
 blogger: Katia
 ---
-xxx
+La nostra versione rossa degli gnocchi alla boscaiola.
