@@ -34,7 +34,7 @@ card:
   - vegano
 tags:
   - dolci
-  - biscottu
+  - biscotti
   - farina di cocco
   - cioccolato fondente
   - vegano
