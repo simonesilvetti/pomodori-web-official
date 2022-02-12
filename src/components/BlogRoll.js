@@ -1,6 +1,7 @@
-import React from 'react'
+import { graphql, Link, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import React from 'react'
+import BlogTitle, { isInfoodPost } from './blog/BlogTitle'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
@@ -14,7 +15,7 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-4" key={post.id}>
               <article
-                className={`blog-list-item tile post is-child box ${post.frontmatter.featuredpost ? 'is-featured' : ''
+                className={`blog-list-item tile ${isInfoodPost(post.frontmatter.tags) ? "" : "post"} is-child box ${post.frontmatter.featuredpost ? 'is-featured' : ''
                   }`}
               >
                 <header>
@@ -33,7 +34,7 @@ class BlogRoll extends React.Component {
                       className="title has-text-black is-size-3"
                       to={post.fields.slug}
                     >
-                      {post.frontmatter.title}
+                      <BlogTitle title={post.frontmatter.title} tags={post.frontmatter.tags} />
                     </Link>
                     <br />
                     <span className="subtitle is-size-4">
@@ -83,6 +84,7 @@ export default () => (
               frontmatter {
                 title
                 description
+                tags
                 templateKey
                 date(formatString: "DD MMMM YYYY", locale: "it")
                 blogger
